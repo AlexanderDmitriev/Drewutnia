@@ -10,7 +10,7 @@ export const NavigationList = styled.ul`
   padding-left: 22px;
   padding-right: 20px;
   list-style: none;
-  cursor: pointer;
+  margin: 0;
   @media screen and (min-width: 768px) {
     padding-left: 32px;
     padding-right: 32px;
@@ -18,5 +18,26 @@ export const NavigationList = styled.ul`
   @media screen and (min-width: 1280px) {
     padding-left: 16px;
     padding-right: 16px;
+  }
+`;
+
+export const NavigationItem = styled.li`
+  font-family: 'Abril Fatface', cursive;
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 0.03em;
+  color: grey;
+  cursor: pointer;
+  border-color: transparent;
+  padding: 6px 22px;
+
+  transition-property: color, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: linear;
+
+  &:hover,
+  &:focus {
+    color: red;
+    box-shadow: 1px 1px 5px var(--company-color);
   }
 `;

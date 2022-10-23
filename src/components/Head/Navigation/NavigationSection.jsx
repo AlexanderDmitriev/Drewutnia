@@ -1,14 +1,14 @@
-import { NavigationList } from './NavigationSection.styled';
+import { NavigationList, NavigationItem } from './NavigationSection.styled';
 
 const Navigation = () => {
   return (
     <NavigationList>
-      <li>MENU </li>
-      <li>EVENTS </li>
-      <li>FEEDBACKS </li>
-      <li>GALLERY </li>
-      <li>HOW TO FIND US</li>
-      <li>MAKE ORDER</li>
+      <NavigationItem>Menu </NavigationItem>
+      <NavigationItem>Wydarzenia </NavigationItem> {/* EVENTS */}
+      <NavigationItem>Opinie </NavigationItem> {/* FEEDBACKS */}
+      <NavigationItem>Galeria </NavigationItem> {/* GALLERY */}
+      <NavigationItem>jak nas znaleźć </NavigationItem> {/* HOW TO FIND US */}
+      <NavigationItem>Sprawdź</NavigationItem> {/*  MAKE ORDER */}
     </NavigationList>
   );
 };
