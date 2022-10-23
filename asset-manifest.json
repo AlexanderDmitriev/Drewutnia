@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Drewutnia/static/css/main.7acaea2f.css",
-    "main.js": "/Drewutnia/static/js/main.54a3c79a.js",
+    "main.css": "/Drewutnia/static/css/main.93eb751a.css",
+    "main.js": "/Drewutnia/static/js/main.90691e93.js",
     "index.html": "/Drewutnia/index.html",
-    "main.7acaea2f.css.map": "/Drewutnia/static/css/main.7acaea2f.css.map",
-    "main.54a3c79a.js.map": "/Drewutnia/static/js/main.54a3c79a.js.map"
+    "main.93eb751a.css.map": "/Drewutnia/static/css/main.93eb751a.css.map",
+    "main.90691e93.js.map": "/Drewutnia/static/js/main.90691e93.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.54a3c79a.js"
+    "static/css/main.93eb751a.css",
+    "static/js/main.90691e93.js"
   ]
 }
