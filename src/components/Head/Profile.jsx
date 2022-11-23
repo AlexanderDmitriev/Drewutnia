@@ -1,11 +1,23 @@
+import { NavigationItem } from '../Head/Navigation/NavigationSection.styled';
+import styled from 'styled-components';
+
+const UserMenuItem = styled(NavigationItem)`
+  font-size: 14px;
+`;
+
+const UserMenuList = styled.ul`
+  display: flex;
+  list-style: none;
+`;
+
 const Profile = () => {
   return (
     <>
-      <ul>
-        <li>Sign In </li>
-        <li>Log in </li>
-        <li>Log out</li>
-      </ul>
+      <UserMenuList>
+        <UserMenuItem> Załóż konto</UserMenuItem> {/* SIGN IN */}
+        <UserMenuItem>Zalogować się </UserMenuItem> {/* LOG IN */}
+        {/* <UserMenuItem>Wyloguj</UserMenuItem> */} {/* LOG OUT */}
+      </UserMenuList>
     </>
   );
 };

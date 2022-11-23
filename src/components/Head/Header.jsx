@@ -1,15 +1,25 @@
 import Navigation from './Navigation/NavigationSection';
 import Profile from './Profile';
-import {LanguegeButton} from './Header.styled';
+import ThemeButton from './ThemeButton';
+import { AdditionalNavigation, LanguegeButton, Logo, UserMenu } from './Header.styled';
+import logo from '../../images/logo.jpg';
 
 const Header = () => {
   return (
     <>
-      <button type="button">Logo</button>
-      <button type="button">Theme</button>
+      <AdditionalNavigation>
+          <a href="logo">
+            <span>
+              <Logo src={logo} alt="Drewutnia" />
+            </span>
+          </a>
+          <UserMenu>
+          <Profile />
+          <ThemeButton/>
+          <LanguegeButton />
+        </UserMenu>
+      </AdditionalNavigation>
       <Navigation />
-      <LanguegeButton/>
-      <Profile />
     </>
   );
 };
