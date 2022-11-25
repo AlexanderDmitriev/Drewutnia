@@ -4,7 +4,6 @@ export const NavigationList = styled.ul`
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 14px;
   padding-bottom: 13px;
   box-shadow: 0px 2px 3px rgba(9, 30, 63, 0.1);
   padding-left: 22px;
@@ -26,7 +25,7 @@ export const NavigationItem = styled.li`
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 0.03em;
-  color: grey;
+  color: #fff;
   cursor: pointer;
   border-color: transparent;
   padding: 6px 22px;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const UserMenuItem = styled(NavigationItem)`
   font-size: 14px;
+  color: #fff;
 `;
 
 const UserMenuList = styled.ul`

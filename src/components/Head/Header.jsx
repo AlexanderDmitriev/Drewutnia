@@ -3,10 +3,18 @@ import Profile from './Profile';
 import ThemeButton from './ThemeButton';
 import { AdditionalNavigation, LanguegeButton, Logo, UserMenu } from './Header.styled';
 import logo from '../../images/logo.jpg';
+import back from '../../images/back.jpg'
+import styled from 'styled-components';
+
+const Container = styled.div`
+ margin: 0 auto;
+ background-image: url(${back});
+ padding: 15px;
+`;
 
 const Header = () => {
   return (
-    <>
+    <Container>
       <AdditionalNavigation>
           <a href="logo">
             <span>
@@ -20,7 +28,7 @@ const Header = () => {
         </UserMenu>
       </AdditionalNavigation>
       <Navigation />
-    </>
+    </Container>
   );
 };
 
