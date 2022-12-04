@@ -1,6 +1,7 @@
 import { NavigationList, NavigationItem } from './NavigationSection.styled';
 
 const Navigation = () => {
+
   return (
     <NavigationList>
       <NavigationItem>Menu </NavigationItem>

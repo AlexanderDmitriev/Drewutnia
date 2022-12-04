@@ -1,18 +1,19 @@
 import styled from 'styled-components';
 
 export const NavigationList = styled.ul`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   padding-bottom: 13px;
-  box-shadow: 0px 2px 3px rgba(9, 30, 63, 0.1);
   padding-left: 22px;
   padding-right: 20px;
   list-style: none;
   margin: 0;
+  display: block;
   @media screen and (min-width: 768px) {
     padding-left: 32px;
     padding-right: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 3px rgba(9, 30, 63, 0.1);
   }
   @media screen and (min-width: 1280px) {
     padding-left: 16px;
@@ -27,8 +28,11 @@ export const NavigationItem = styled.li`
   letter-spacing: 0.03em;
   color: #fff;
   cursor: pointer;
-  border-color: transparent;
   padding: 6px 22px;
+  @media screen and (min-width: 768px) {
+    
+    
+  }
 
   transition-property: color, box-shadow;
   transition-duration: 250ms;
