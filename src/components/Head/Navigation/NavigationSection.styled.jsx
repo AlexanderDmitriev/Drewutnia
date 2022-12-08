@@ -14,6 +14,7 @@ export const NavigationList = styled.ul`
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 2px 3px rgba(9, 30, 63, 0.1);
+    
   }
   @media screen and (min-width: 1280px) {
     padding-left: 16px;

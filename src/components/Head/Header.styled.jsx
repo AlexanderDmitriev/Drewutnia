@@ -10,11 +10,18 @@ export const AdditionalNavigation = styled.div`
   & :not(:last-child) {
     margin-right: 8px;
   }
+  /* @media screen and (min-width: 768px){
+    position: fixed;
+    top: 20px;
+    left: 15px;
+    right: 5rem;
+  } */
 `;
 
 export const UserMenu = styled.div`
 display: flex;
     align-items: center;
+    padding-right: 65px;
 `;
 
 export const Logo = styled.img`
