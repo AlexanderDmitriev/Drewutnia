@@ -1,59 +1,37 @@
 import styled from 'styled-components';
-import Flag from 'react-world-flags';
 import Select from 'react-select';
-import React, { useState } from 'react';
+import back from '../../images/back.jpg';
 
 export const AdditionalNavigation = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  & :not(:last-child) {
-    margin-right: 8px;
-  }
-  /* @media screen and (min-width: 768px){
-    position: fixed;
-    top: 20px;
-    left: 15px;
-    right: 5rem;
-  } */
 `;
 
 export const UserMenu = styled.div`
-display: flex;
-    align-items: center;
-    padding-right: 65px;
+  display: flex;
+  align-items: center;
+  padding-right: 65px;
 `;
 
 export const Logo = styled.img`
   height: 75px;
 `;
 
-const SelectLanguege = styled(Select)`
+export const SelectLanguege = styled(Select)`
   width: 100px;
   height: 50px;
+  @media screen and (max-width: 768px) {
+    margin-left: auto;
+  }
 `;
 
-export const LanguegeButton = () => {
-  const [selectedOption, setSelectedOption] = useState(null);
-
-  const options = [
-    { value: 'pl', label: <Flag code={'PL'} height="25" width="40" /> },
-    { value: 'en', label: <Flag code={'US'} height="25" width="40" /> },
-    { value: 'ua', label: <Flag code={'UA'} height="25" width="40" /> },
-    { value: 'ru', label: <Flag code={'RU'} height="25" width="40" /> },
-  ];
-
-  return (
-    <>
-      <SelectLanguege
-        defaultValue={
-          selectedOption |
-          { value: 'pl', label: <Flag code={'PL'} height="25" width="40"/> }
-        }
-        onChange={setSelectedOption}
-        options={options}
-        placeholder={<Flag code={'PL'} height="25" width="40"/>}
-      />
-    </>
-  );
-};
+export const HeaderContainer = styled.div`
+  margin: 0 auto;
+  background-image: url(${back});
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+`;

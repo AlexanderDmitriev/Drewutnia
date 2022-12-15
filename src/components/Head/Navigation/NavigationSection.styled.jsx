@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const NavigationList = styled.ul`
-  padding-bottom: 13px;
   padding-left: 22px;
   padding-right: 20px;
   list-style: none;
@@ -14,7 +13,6 @@ export const NavigationList = styled.ul`
     align-items: center;
     justify-content: space-between;
     box-shadow: 0px 2px 3px rgba(9, 30, 63, 0.1);
-    
   }
   @media screen and (min-width: 1280px) {
     padding-left: 16px;
@@ -30,9 +28,8 @@ export const NavigationItem = styled.li`
   color: #fff;
   cursor: pointer;
   padding: 6px 22px;
-  @media screen and (min-width: 768px) {
-    
-    
+  @media screen and (min-width: 768px) and (max-width: 968px) {
+    font-size: 12px;
   }
 
   transition-property: color, box-shadow;
