@@ -1,8 +1,8 @@
 import Navigation from './Navigation/NavigationSection';
-import Profile from './ProfileSection/Profile';
-import ThemeButton from './ThemeChange/ThemeButton';
-import { AdditionalNavigation, Logo, UserMenu, HeaderContainer } from './Header.styled';
-import { LanguegeButton } from './LanguegeButton';
+/* import Profile from './ProfileSection/Profile';
+import ThemeButton from './ThemeChange/ThemeButton'; */
+import { AdditionalNavigation, Logo, /* UserMenu, */ HeaderContainer } from './Header.styled';
+/* import { LanguegeButton } from './LanguegeButton'; */
 import logo from '../../images/logo.jpg';
 import Burger from './Navigation/Burger/Burger';
 import Menu from './Navigation/Menu/Menu';
@@ -13,14 +13,14 @@ import { useOnClickOutside } from './Navigation/Burger/hooks';
 const Header = () => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
   const [isOpen, setIsOpen] = useState(false);
-  const [isDarkTheme, setIsDarkTheme] = useState(false);
+  /* const [isDarkTheme, setIsDarkTheme] = useState(false); */
 
   const node = useRef();
   useOnClickOutside(node, () => setIsOpen(false));
 
-  const handleChangeTheme = () => {
+/*   const handleChangeTheme = () => {
     setIsDarkTheme(!isDarkTheme);
-  };
+  }; */
 
   return (
     <HeaderContainer>
@@ -30,20 +30,20 @@ const Header = () => {
             <Logo src={logo} alt="Drewutnia" />
           </span>
         </a>
-        <UserMenu>
+        {/* <UserMenu>
           <Profile />
           <ThemeButton
             isDarkTheme={isDarkTheme}
             handleChangeTheme={handleChangeTheme}
           />
           {isTab && <LanguegeButton />}
-        </UserMenu>
+        </UserMenu> */}
       </AdditionalNavigation>
       {isTab ? (
         <Navigation />
       ) : (
         <>
-          <LanguegeButton />
+          {/* <LanguegeButton /> */}
           <div ref={node}>
             <Burger open={isOpen} setOpen={setIsOpen} />
             <Menu open={isOpen} setOpen={setIsOpen} />
