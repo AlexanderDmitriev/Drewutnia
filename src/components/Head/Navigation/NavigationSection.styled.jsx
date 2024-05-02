@@ -38,7 +38,7 @@ export const NavigationItem = styled.li`
 
   &:hover,
   &:focus {
-    color: red;
+    color: #ff8400;
     box-shadow: 1px 1px 5px var(--company-color);
   }
 `;
