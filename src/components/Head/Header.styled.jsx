@@ -14,14 +14,6 @@ export const UserMenu = styled.div`
   padding-right: 65px;
 `;
 
-export const Logo = styled.img`
-  height: 60px;
-  transition: 0.25s linear;
-  :hover {
-    transform: scale(1.05);
-  }
-`;
-
 export const SelectLanguege = styled(Select)`
   width: 100px;
   height: 50px;

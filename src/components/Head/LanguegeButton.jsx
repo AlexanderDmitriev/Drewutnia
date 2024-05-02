@@ -9,7 +9,6 @@ export const LanguegeButton = () => {
       { value: 'pl', label: <Flag code={'PL'} height="25" width="40" /> },
       { value: 'en', label: <Flag code={'US'} height="25" width="40" /> },
       { value: 'ua', label: <Flag code={'UA'} height="25" width="40" /> },
-      { value: 'ru', label: <Flag code={'RU'} height="25" width="40" /> },
     ];
   
     return (

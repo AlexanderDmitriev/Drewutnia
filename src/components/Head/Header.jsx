@@ -3,15 +3,13 @@ import Navigation from './Navigation/NavigationSection';
 import ThemeButton from './ThemeChange/ThemeButton'; */
 import {
   AdditionalNavigation,
-  Logo,
-  /* UserMenu, */ HeaderContainer,
+  HeaderContainer,
   AdressContainer,
   Adress,
   Facebook,
   Instagram,
 } from './Header.styled';
-/* import { LanguegeButton } from './LanguegeButton'; */
-import logo from '../../images/logo.jpg';
+import { Logo } from '../shared';
 import Burger from './Navigation/Burger/Burger';
 import Menu from './Navigation/Menu/Menu';
 import React, { useState, useRef } from 'react';
@@ -36,11 +34,7 @@ const Header = () => {
     <HeaderContainer>
       <AdressContainer>
         <div>
-          <a href="logo">
-            <span>
-              <Logo src={logo} alt="Drewutnia" />
-            </span>
-          </a>
+          <Logo />
           <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
           <div>
             <a
