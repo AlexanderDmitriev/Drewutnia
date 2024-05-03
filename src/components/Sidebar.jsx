@@ -16,7 +16,7 @@ const SidebarContainer = styled.aside`
   float: right;
   padding: 0 40px;
   right: 0;
-  top: 131px;
+  top: 139px;
   position: fixed;
 `;
 

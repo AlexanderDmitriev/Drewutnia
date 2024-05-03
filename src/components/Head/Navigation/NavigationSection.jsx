@@ -1,17 +1,32 @@
 import { NavigationList, NavigationItem } from './NavigationSection.styled';
 
 const Navigation = () => {
-
   return (
-    <NavigationList>
-      <NavigationItem>Strona Główna </NavigationItem>
-      <NavigationItem>Nasze Speciały </NavigationItem> {/* EVENTS */}
-      <NavigationItem>Aktualności </NavigationItem> {/* GAMES */}
-      <NavigationItem>Rezerwacje </NavigationItem> {/* FEEDBACKS */}
-      <NavigationItem>Galeria </NavigationItem> {/* GALLERY */}
-      <NavigationItem>Kontakt </NavigationItem> {/* HOW TO FIND US */}
-      <NavigationItem>Opinie</NavigationItem> {/*  MAKE ORDER */}
-    </NavigationList>
+    <nav>
+      <NavigationList>
+        <li>
+          <NavigationItem to="/">Strona Główna</NavigationItem>
+        </li>
+        <li>
+          <NavigationItem>Nasze Speciały</NavigationItem>
+        </li>
+        <li>
+          <NavigationItem>Aktualności</NavigationItem>
+        </li>
+        <li>
+          <NavigationItem>Rezerwacje</NavigationItem>
+        </li>
+        <li>
+          <NavigationItem>Galeria</NavigationItem>
+        </li>
+        <li>
+          <NavigationItem>Kontakt</NavigationItem>
+        </li>
+        <li>
+          <NavigationItem>Opinie</NavigationItem>
+        </li>
+      </NavigationList>
+    </nav>
   );
 };
 

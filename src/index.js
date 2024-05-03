@@ -4,9 +4,10 @@ import { BrowserRouter } from 'react-router-dom';
 import { App } from './components/App';
 import './index.css';
 
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/Drewutnia">
       <App />
     </BrowserRouter>
   </React.StrictMode>

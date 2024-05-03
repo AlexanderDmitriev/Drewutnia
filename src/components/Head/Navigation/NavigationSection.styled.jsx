@@ -1,14 +1,12 @@
 import styled from 'styled-components';
+import { NavLink } from 'react-router-dom';
 
 export const NavigationList = styled.ul`
-  padding-left: 22px;
-  padding-right: 20px;
+  padding: 10px;
   list-style: none;
   margin: 0;
   display: block;
   @media screen and (min-width: 768px) {
-    padding-left: 32px;
-    padding-right: 32px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -20,13 +18,14 @@ export const NavigationList = styled.ul`
   }
 `;
 
-export const NavigationItem = styled.li`
+export const NavigationItem = styled(NavLink)`
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 0.03em;
-  color: #fff;
+  color: #f0e7e7;
   cursor: pointer;
+  text-decoration: none;
   padding: 6px 22px;
   @media screen and (min-width: 768px) and (max-width: 968px) {
     font-size: 12px;

@@ -2,9 +2,11 @@ import styled from '@emotion/styled';
 import back from '../../images/background.jpg';
 
 const TempContainer = styled.div`
-  width: 100vw;
+  width: 70%;
+  float: left;
   height: 100vh;
-  padding: 60px;
+  margin-top: 139px;
+  padding: 60px 20px;
   background-image: url(${back});
   background-size:contain ;
   background-repeat: round;

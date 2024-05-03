@@ -5,3 +5,4 @@ export {LabelSmall} from './LabelSmall';
 export {LabelLarge} from './LabelLarge';
 export {LabelTitle} from './LabelTitle';
 export {Logo} from './Logo';
+export {Photo} from './Photo';

@@ -22,13 +22,14 @@ export const SelectLanguege = styled(Select)`
   }
 `;
 
-export const HeaderContainer = styled.div`
+export const HeaderContainer = styled.header`
   margin: 0 auto;
   background-color: #202020;
   position: fixed;
   top: 0;
   left: 0px;
   width: 100vw;
+  z-index: 200;
 `;
 
 export const AdressContainer = styled.div`
@@ -58,13 +59,13 @@ export const AdressContainer = styled.div`
 
 export const Adress = styled.p`
   text-align: left;
-  color: #fff;
+  color: #f0e7e7;
   font-size: 14px;
   font-weight: 600;
   padding: 0 5px;
   ::before {
     content: url(${locationLogo});
-    fill: #fff;
+    fill: #f0e7e7;
   }
   transition: 0.25s linear;
   :hover {

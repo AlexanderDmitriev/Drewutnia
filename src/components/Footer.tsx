@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 
 const CustomFooter = styled.footer`
   width: 100vw;
-  padding: 20px 0;
+  padding: 10px;
   background-color: #202020;
 
 `;
@@ -12,7 +12,8 @@ const FooterText = styled.p`
   color: #f0e7e7;
   font-size: 14px;
   font-weight: 600;
-  padding:  5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
   margin: 0;
 `;
 
