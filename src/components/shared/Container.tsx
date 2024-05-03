@@ -5,8 +5,7 @@ const TempContainer = styled.div`
   width: 70%;
   float: left;
   height: 100vh;
-  margin-top: 139px;
-  padding: 60px 20px;
+  padding: 120px 20px;
   background-image: url(${back});
   background-size:contain ;
   background-repeat: round;

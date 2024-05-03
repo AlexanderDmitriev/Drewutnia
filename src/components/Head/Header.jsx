@@ -1,22 +1,11 @@
 import Navigation from './Navigation/NavigationSection';
-/* import Profile from './ProfileSection/Profile';
-import ThemeButton from './ThemeChange/ThemeButton'; */
-import {
-  AdditionalNavigation,
-  HeaderContainer,
-  AdressContainer,
-  Adress,
-  Facebook,
-  Instagram,
-} from './Header.styled';
-import { Logo } from '../shared';
+import { HeaderContainer, AdressContainer, Adress } from './Header.styled';
+import { Logo, Instagram, Facebook } from '../shared';
 import Burger from './Navigation/Burger/Burger';
 import Menu from './Navigation/Menu/Menu';
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { useOnClickOutside } from './Navigation/Burger/hooks';
-import facebook from '../../images/facebook2.svg';
-import instagram from '../../images/instagram2.svg';
 
 const Header = () => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
@@ -37,37 +26,21 @@ const Header = () => {
           <Logo />
           <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
           <div>
-            <a
-              href="https://www.facebook.com/Pub.Drewutnia"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <span>
-                <Facebook src={facebook} alt="facebook" />
-              </span>
-            </a>
-            <a
-              href="https://www.instagram.com/explore/locations/747190841/pub-drewutnia/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <span>
-                <Instagram src={instagram} alt="instagram" />
-              </span>
-            </a>
+            <Facebook />
+            <Instagram />
           </div>
         </div>
       </AdressContainer>
-      <AdditionalNavigation>
-        {/* <UserMenu>
+      {/* <AdditionalNavigation>
+         <UserMenu>
           <Profile />
           <ThemeButton
             isDarkTheme={isDarkTheme}
             handleChangeTheme={handleChangeTheme}
           />
           {isTab && <LanguegeButton />}
-        </UserMenu> */}
-      </AdditionalNavigation>
+        </UserMenu> 
+      </AdditionalNavigation> */}
       {isTab ? (
         <Navigation />
       ) : (

@@ -25,11 +25,8 @@ export const SelectLanguege = styled(Select)`
 export const HeaderContainer = styled.header`
   margin: 0 auto;
   background-color: #202020;
-  position: fixed;
-  top: 0;
-  left: 0px;
+  position: absolute;
   width: 100vw;
-  z-index: 200;
 `;
 
 export const AdressContainer = styled.div`
@@ -37,13 +34,17 @@ export const AdressContainer = styled.div`
   height: 68px;
   margin: 0 auto;
   background-color: #ff8400;
-  margin-bottom: 10px;
   padding: 5px 10px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   div {
+    margin-right: 40px;
+    @media screen and (min-width: 768px) {
+      justify-content: space-between;
+      margin-right: 0;
+    }
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
   }
   ::after {
     content: '';
@@ -58,9 +59,10 @@ export const AdressContainer = styled.div`
 `;
 
 export const Adress = styled.p`
+  display: none;
   text-align: left;
   color: #f0e7e7;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   padding: 0 5px;
   ::before {
@@ -71,28 +73,10 @@ export const Adress = styled.p`
   :hover {
     transform: scale(1.05);
   }
-`;
-
-export const Facebook = styled.img`
-  width: 48px;
-  height: 48px;
-  background-color: #1877f2;
-  border-radius: 50%;
-  margin: 0 10px;
-  transition: 0.25s linear;
-  :hover {
-    transform: scale(1.05);
+  @media screen and (min-width: 480px) {
+    display: block;
+    font-size: 14px;
   }
 `;
 
-export const Instagram = styled.img`
-  width: 48px;
-  height: 48px;
-  background-color: #e4405f;
-  border-radius: 25%;
-  margin: 0 10px;
-  transition: 0.25s linear;
-  :hover {
-    transform: scale(1.05);
-  }
-`;
+

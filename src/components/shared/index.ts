@@ -6,3 +6,7 @@ export {LabelLarge} from './LabelLarge';
 export {LabelTitle} from './LabelTitle';
 export {Logo} from './Logo';
 export {Photo} from './Photo';
+export {NavigationItem} from './NavigationItem';
+export {NavigationList} from './NavigationList';
+export {Instagram} from './Instagram';
+export {Facebook} from './Facebook';
