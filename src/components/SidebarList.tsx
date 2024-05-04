@@ -1,12 +1,5 @@
 import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
-import ListItemAvatar from '@mui/material/ListItemAvatar';
-import Avatar from '@mui/material/Avatar';
-import SportsBarOutlinedIcon from '@mui/icons-material/SportsBarOutlined';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
-import BrunchDiningOutlinedIcon from '@mui/icons-material/BrunchDiningOutlined';
-import NightlifeOutlinedIcon from '@mui/icons-material/NightlifeOutlined';
+import { PartyItem } from './shared';
 import styled from '@emotion/styled';
 
 const CustomList = styled(List)`
@@ -17,56 +10,34 @@ const CustomList = styled(List)`
   border-radius: 15px;
 `;
 
-const CustomListItem = styled(ListItem)`
-  padding: 0;
-`;
-
 export const SidebarList = () => {
   return (
     <CustomList>
-      <CustomListItem>
-        <ListItemAvatar>
-          <Avatar>
-            <SportsBarOutlinedIcon />
-          </Avatar>
-        </ListItemAvatar>
-        <ListItemText primary="Wieczór Piwny" secondary="27-02-2014" />
-      </CustomListItem>
-      <CustomListItem>
-        <ListItemAvatar>
-          <Avatar>
-            <SportsBarOutlinedIcon />
-          </Avatar>
-        </ListItemAvatar>
-        <ListItemText primary="Wesołe godzinki !" secondary="26-02-2014" />
-      </CustomListItem>
-      <CustomListItem>
-        <ListItemAvatar>
-          <Avatar>
-            <FavoriteBorderOutlinedIcon />
-          </Avatar>
-        </ListItemAvatar>
-        <ListItemText
-          primary="Walentynkowa niespodzianka"
-          secondary="14-02-2014"
-        />
-      </CustomListItem>
-      <CustomListItem>
-        <ListItemAvatar>
-          <Avatar>
-            <BrunchDiningOutlinedIcon />
-          </Avatar>
-        </ListItemAvatar>
-        <ListItemText primary="Sylwester" secondary="01-01-2014" />
-      </CustomListItem>
-      <CustomListItem>
-        <ListItemAvatar>
-          <Avatar>
-            <NightlifeOutlinedIcon />
-          </Avatar>
-        </ListItemAvatar>
-        <ListItemText primary="Taneczny piątek" secondary="18-10-2013" />
-      </CustomListItem>
+      <PartyItem
+        partyType="beer"
+        nameParty="Wieczór Piwny"
+        dateParty="27-02-2014"
+      />
+      <PartyItem
+        partyType="beer"
+        nameParty="Wesołe godzinki !"
+        dateParty="26-02-2014"
+      />
+      <PartyItem
+        partyType="love"
+        nameParty="Walentynkowa niespodzianka"
+        dateParty="14-02-2014"
+      />
+      <PartyItem
+        partyType="holiday"
+        nameParty="Sylwester"
+        dateParty="01-01-2014"
+      />
+      <PartyItem
+        partyType="music"
+        nameParty="Taneczny piątek"
+        dateParty="18-10-2013"
+      />
     </CustomList>
   );
 };

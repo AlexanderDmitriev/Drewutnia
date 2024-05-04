@@ -1,8 +1,10 @@
 import styled from '@emotion/styled';
 
 const CustomFooter = styled.footer`
+clear:both;
+display: flex;
   width: 100vw;
-  padding: 10px;
+  padding: 5px 15px;
   background-color: #202020;
 
 `;
@@ -12,8 +14,7 @@ const FooterText = styled.p`
   color: #f0e7e7;
   font-size: 14px;
   font-weight: 600;
-  padding-bottom: 5px;
-  padding-left: 15px;
+  padding: 5px 15px;
   margin: 0;
 `;
 

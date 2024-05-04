@@ -26,15 +26,16 @@ export const HeaderContainer = styled.header`
   margin: 0 auto;
   background-color: #202020;
   position: absolute;
+  top: 0;
   width: 100vw;
 `;
 
 export const AdressContainer = styled.div`
   width: 95vw;
-  height: 68px;
+  height: 95px;
   margin: 0 auto;
   background-color: #ff8400;
-  padding: 5px 10px;
+  padding: 30px 10px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   div {
@@ -73,7 +74,7 @@ export const Adress = styled.p`
   :hover {
     transform: scale(1.05);
   }
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: 500px) {
     display: block;
     font-size: 14px;
   }

@@ -1,12 +1,15 @@
 import styled from '@emotion/styled';
 import sidebarBackground from '../images/beer2.jpg';
 import sidebarBorder from '../images/wood.webp';
-import { SearchInput } from './SearchInput';
-import {SidebarList} from './SidebarList';
+import { SearchInput } from './shared';
+import { SidebarList } from './SidebarList';
 
 const SidebarContainer = styled.aside`
+  position: absolute;
+  right: 0;
+  top: 153px;
   width: 30%;
-  height: 100vh;
+  height: 100%;
   background-image: url(${sidebarBackground});
   background-color: #f0e7e7;
   background-size: contain;
@@ -14,10 +17,7 @@ const SidebarContainer = styled.aside`
   border-image: url(${sidebarBorder}) 27 / 0 0 0 15px / 0 30px 0 4px;
   overflow: auto;
   float: right;
-  padding: 0 40px;
-  right: 0;
-  top: 129px;
-  position: fixed;
+  padding: 20px;
 `;
 
 const SidebarTitle = styled.h2`
@@ -52,7 +52,7 @@ export const Sidebar = () => {
         bieżąco.
       </SidebarText>
       <SidebarTitle>Historię</SidebarTitle>
-      <SidebarList/>
+      <SidebarList />
       <SearchInput />
     </SidebarContainer>
   );

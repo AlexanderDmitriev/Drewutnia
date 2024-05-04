@@ -10,8 +10,11 @@ export const NavigationItem = styled(NavLink)`
   cursor: pointer;
   text-decoration: none;
   padding: 6px 12px;
-  @media screen and (min-width: 768px) and (max-width: 968px) {
+  @media screen and (min-width: 768px) {
     font-size: 12px;
+  }
+  @media screen and (min-width: 968px) {
+    font-size: 16px;
   }
   transition-property: color, box-shadow;
   transition-duration: 250ms;
