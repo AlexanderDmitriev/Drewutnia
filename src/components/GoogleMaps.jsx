@@ -1,15 +1,24 @@
 import React from 'react';
+import styled from '@emotion/styled';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
+console.log(process.env.REACT_APP_GOOGLE_API_KEY);
+
+const MapContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
 const containerStyle = {
-  width: '400px',
-  height: '400px',
+  width: `${document.documentElement.scrollWidth * 0.55}px`,
+  height: `${document.documentElement.scrollWidth * 0.55}px`,
 };
 
 const center = {
   lat: 50.08338115501329,
   lng: 19.925720780400592,
-}; 
+};
 
 export const GoogleMaps = () => {
   const { isLoaded } = useJsApiLoader({
@@ -29,18 +38,19 @@ export const GoogleMaps = () => {
   }, []);
 
   return isLoaded ? (
-    <GoogleMap
-      mapContainerStyle={containerStyle}
-      center={center}
-      zoom={4}
-      onLoad={onLoad}
-      onUnmount={onUnmount}
-      map={map}
-    >
-      {/* Child components, such as markers, info windows, etc. */}
-      <></>
-    </GoogleMap>
+    <MapContainer>
+      <GoogleMap
+        mapContainerStyle={containerStyle}
+        center={center}
+        zoom={4}
+        onLoad={onLoad}
+        onUnmount={onUnmount}
+        map={map}
+      >
+        <p>test</p>
+      </GoogleMap>
+    </MapContainer>
   ) : (
-    <></>
+    <p>Loading...</p>
   );
 };
