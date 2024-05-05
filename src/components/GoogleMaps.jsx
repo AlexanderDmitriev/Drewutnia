@@ -35,6 +35,7 @@ export const GoogleMaps = () => {
       zoom={4}
       onLoad={onLoad}
       onUnmount={onUnmount}
+      map={map}
     >
       {/* Child components, such as markers, info windows, etc. */}
       <></>
