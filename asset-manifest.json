@@ -1,19 +1,27 @@
 {
   "files": {
-    "main.css": "/Drewutnia/static/css/main.3e2f24da.css",
-    "main.js": "/Drewutnia/static/js/main.beae3b80.js",
+    "main.css": "/Drewutnia/static/css/main.6da2ef4f.css",
+    "main.js": "/Drewutnia/static/js/main.3fecf184.js",
     "static/media/background.jpg": "/Drewutnia/static/media/background.2a551420a075b3e1ae28.jpg",
     "static/media/beer2.jpg": "/Drewutnia/static/media/beer2.e4d3f622e6ee2c19a528.jpg",
+    "static/media/home3.jpg": "/Drewutnia/static/media/home3.8427ed468e86df592c15.jpg",
+    "static/media/home2.jpg": "/Drewutnia/static/media/home2.268d358b778e3ebe872e.jpg",
+    "static/media/home4.jpg": "/Drewutnia/static/media/home4.f6d60b4092d1c5ad5947.jpg",
+    "static/media/home7.jpg": "/Drewutnia/static/media/home7.5eaec70e82946935d2d4.jpg",
+    "static/media/home8.jpg": "/Drewutnia/static/media/home8.08f2e8944bc02f96061e.jpg",
+    "static/media/home5.jpg": "/Drewutnia/static/media/home5.83f10d6441df34f8edd7.jpg",
+    "static/media/home1.jpg": "/Drewutnia/static/media/home1.5f566e323c870f268213.jpg",
+    "static/media/home6.jpg": "/Drewutnia/static/media/home6.97039ce211073bbb3e26.jpg",
     "static/media/wood.webp": "/Drewutnia/static/media/wood.571b93c8efa06b758a6f.webp",
     "static/media/instagram2.svg": "/Drewutnia/static/media/instagram2.c3b3979eb694c5fc907c8d2031df8212.svg",
     "index.html": "/Drewutnia/index.html",
     "static/media/location2.svg": "/Drewutnia/static/media/location2.6f1ea0253099d7b1f8e10923ac5e08fe.svg",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
-    "main.3e2f24da.css.map": "/Drewutnia/static/css/main.3e2f24da.css.map",
-    "main.beae3b80.js.map": "/Drewutnia/static/js/main.beae3b80.js.map"
+    "main.6da2ef4f.css.map": "/Drewutnia/static/css/main.6da2ef4f.css.map",
+    "main.3fecf184.js.map": "/Drewutnia/static/js/main.3fecf184.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e2f24da.css",
-    "static/js/main.beae3b80.js"
+    "static/css/main.6da2ef4f.css",
+    "static/js/main.3fecf184.js"
   ]
 }
