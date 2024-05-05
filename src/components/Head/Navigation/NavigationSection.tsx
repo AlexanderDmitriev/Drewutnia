@@ -20,7 +20,7 @@ const Navigation = () => {
           <NavigationItem to="/">Galeria</NavigationItem>
         </li>
         <li>
-          <NavigationItem to="/">Kontakt</NavigationItem>
+          <NavigationItem to="/contacts">Kontakt</NavigationItem>
         </li>
         <li>
           <NavigationItem to="/">Opinie</NavigationItem>

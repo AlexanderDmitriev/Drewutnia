@@ -1,15 +1,13 @@
 import styled from '@emotion/styled';
 import back from '../../images/background.jpg';
 
-const TempContainer = styled.div`
-
-  width: 70%;
-  float: left;
+const TempContainer = styled.section`
+  width: 100%;
   height: 100%;
-  padding: 120px 20px 20px 20px;
   background-image: url(${back});
   background-size:contain ;
   background-repeat: round;
+
 `;
 
 export const Container = ({ children }: React.PropsWithChildren<any>) => {

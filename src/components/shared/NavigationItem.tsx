@@ -11,7 +11,7 @@ export const NavigationItem = styled(NavLink)`
   text-decoration: none;
   padding: 6px 12px;
   @media screen and (min-width: 768px) {
-    font-size: 12px;
+    font-size: 14px;
   }
   @media screen and (min-width: 968px) {
     font-size: 16px;

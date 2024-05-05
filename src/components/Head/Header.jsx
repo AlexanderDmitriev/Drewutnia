@@ -1,5 +1,11 @@
 import Navigation from './Navigation/NavigationSection';
-import { HeaderContainer, AdressContainer, Adress } from './Header.styled';
+import {
+  HeaderContainer,
+  AdressContainer,
+  ContactsSection,
+  Adress,
+  Phone,
+} from './Header.styled';
 import { Logo, Instagram, Facebook } from '../shared';
 import Burger from './Navigation/Burger/Burger';
 import Menu from './Navigation/Menu/Menu';
@@ -20,18 +26,23 @@ const Header = () => {
   }; */
 
   return (
-    <HeaderContainer>
-      <AdressContainer>
-        <div>
-          <Logo />
-          <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
+    <header>
+      <HeaderContainer>
+        <AdressContainer>
           <div>
-            <Facebook />
-            <Instagram />
+            <Logo />
+            <ContactsSection>
+              <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
+              <Phone>(+48) 603-956-037</Phone>
+            </ContactsSection>
+
+            <div>
+              <Facebook />
+              <Instagram />
+            </div>
           </div>
-        </div>
-      </AdressContainer>
-      {/* <AdditionalNavigation>
+        </AdressContainer>
+        {/* <AdditionalNavigation>
          <UserMenu>
           <Profile />
           <ThemeButton
@@ -41,18 +52,19 @@ const Header = () => {
           {isTab && <LanguegeButton />}
         </UserMenu> 
       </AdditionalNavigation> */}
-      {isTab ? (
-        <Navigation />
-      ) : (
-        <>
-          {/* <LanguegeButton /> */}
-          <div ref={node}>
-            <Burger open={isOpen} setOpen={setIsOpen} />
-            <Menu open={isOpen} setOpen={setIsOpen} />
-          </div>
-        </>
-      )}
-    </HeaderContainer>
+        {isTab ? (
+          <Navigation />
+        ) : (
+          <>
+            {/* <LanguegeButton /> */}
+            <div ref={node}>
+              <Burger open={isOpen} setOpen={setIsOpen} />
+              <Menu open={isOpen} setOpen={setIsOpen} />
+            </div>
+          </>
+        )}
+      </HeaderContainer>
+    </header>
   );
 };
 

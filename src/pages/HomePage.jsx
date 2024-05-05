@@ -1,4 +1,5 @@
 import { LabelLarge } from '../components/shared';
+import { HomePageGallery } from '../components/HomePageGallery';
 
 export const HomePage = () => {
   return (
@@ -10,37 +11,26 @@ export const HomePage = () => {
         towarzystwie. Oferujemy również szeroki wybór innych alkoholi. Nasi
         barmani zadbają o Twoje dobre samopoczucie.
       </LabelLarge>
+      <HomePageGallery />
       <LabelLarge>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-        voluptatibus vero sapiente, adipisci error doloribus atque minima
-        asperiores vitae blanditiis? Magnam non exercitationem eum velit, ipsa
-        odit mollitia officia tempore dolorem id, illum, blanditiis quia sit.
-        Modi esse optio ipsa. Ipsum suscipit vel quidem sunt minima!
-        Consequatur, repudiandae facilis? Quidem.
+        Proponujemy miłe spędzanie czasu ze znajomymi lub rodziną w naszym
+        ogródku. Możesz zaznać trochę zieleni i słońca w środku miasta.
+        Zapraszamy na kiełbaskę z ogniska lub z grilla, którą możesz przyrządzić
+        tak jak lubisz. Nie przejmuj się pogodą – ogródek jest zadaszony. Można
+        się schronić przed deszczem oraz ogrzać przy ognisku w chłodniejsze dni.
       </LabelLarge>
       <LabelLarge>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-        voluptatibus vero sapiente, adipisci error doloribus atque minima
-        asperiores vitae blanditiis? Magnam non exercitationem eum velit, ipsa
-        odit mollitia officia tempore dolorem id, illum, blanditiis quia sit.
-        Modi esse optio ipsa. Ipsum suscipit vel quidem sunt minima!
-        Consequatur, repudiandae facilis? Quidem.
+        Słyniemy ze znakomitej kuchni – sprawdź nasze specjały.
       </LabelLarge>
       <LabelLarge>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-        voluptatibus vero sapiente, adipisci error doloribus atque minima
-        asperiores vitae blanditiis? Magnam non exercitationem eum velit, ipsa
-        odit mollitia officia tempore dolorem id, illum, blanditiis quia sit.
-        Modi esse optio ipsa. Ipsum suscipit vel quidem sunt minima!
-        Consequatur, repudiandae facilis? Quidem.
+        Ponadto oferujemy dostęp do Wi-Fi, piłkarzyki oraz darta. Przed lokalem
+        znajduje się duży bezpłatny parking do dyspozycji dla naszych Gości.
+        Każdego dnia czekają na Ciebie ciekawe promocje! U nas na pewno
+        znajdziesz coś dla siebie. Zapoznaj się także z naszą ofertą rezerwacji
+        lokalu.
       </LabelLarge>
       <LabelLarge>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Non
-        voluptatibus vero sapiente, adipisci error doloribus atque minima
-        asperiores vitae blanditiis? Magnam non exercitationem eum velit, ipsa
-        odit mollitia officia tempore dolorem id, illum, blanditiis quia sit.
-        Modi esse optio ipsa. Ipsum suscipit vel quidem sunt minima!
-        Consequatur, repudiandae facilis? Quidem.
+      Zapraszamy codziennie od 15:00 do 23:00.
       </LabelLarge>
     </>
   );

@@ -1,4 +1,5 @@
 export {Container} from './Container';
+export {ContentContainer} from './ContentContainer';
 export {Burger} from './Burger';
 export {Button} from './Button';
 export {LabelSmall} from './LabelSmall';
