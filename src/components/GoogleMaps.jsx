@@ -2,8 +2,6 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { GoogleMap, useJsApiLoader } from '@react-google-maps/api';
 
-console.log(process.env.REACT_APP_GOOGLE_API_KEY);
-
 const MapContainer = styled.div`
   display: flex;
   align-items: center;
@@ -23,7 +21,7 @@ const center = {
 export const GoogleMaps = () => {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: 'AIzaSyAijxYZI1a7gdtm-Z98u8nXHKGDtCJ1p-8',
+    googleMapsApiKey: process.env.REACT_APP_GOOGLE_API_KEY,
   });
   const [map, setMap] = React.useState(null);
 

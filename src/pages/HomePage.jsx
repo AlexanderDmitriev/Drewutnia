@@ -1,5 +1,6 @@
 import { LabelLarge } from '../components/shared';
 import { HomePageGallery } from '../components/HomePageGallery';
+import { homeImagesArray } from '../images/homePageImages/home'; 
 
 export const HomePage = () => {
   return (
@@ -11,7 +12,7 @@ export const HomePage = () => {
         towarzystwie. Oferujemy również szeroki wybór innych alkoholi. Nasi
         barmani zadbają o Twoje dobre samopoczucie.
       </LabelLarge>
-      <HomePageGallery />
+      <HomePageGallery  pictures={homeImagesArray}/>
       <LabelLarge>
         Proponujemy miłe spędzanie czasu ze znajomymi lub rodziną w naszym
         ogródku. Możesz zaznać trochę zieleni i słońca w środku miasta.

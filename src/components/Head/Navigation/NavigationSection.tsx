@@ -8,16 +8,16 @@ const Navigation = () => {
           <NavigationItem to="/">Strona Główna</NavigationItem>
         </li>
         <li>
-          <NavigationItem to="/">Nasze Speciały</NavigationItem>
+          <NavigationItem to="/menu">Nasze Speciały</NavigationItem>
         </li>
         <li>
-          <NavigationItem to="/">Aktualności</NavigationItem>
+          <NavigationItem to="/events">Aktualności</NavigationItem>
         </li>
         <li>
-          <NavigationItem to="/">Rezerwacje</NavigationItem>
+          <NavigationItem to="/reserve">Rezerwacje</NavigationItem>
         </li>
         <li>
-          <NavigationItem to="/">Galeria</NavigationItem>
+          <NavigationItem to="/gallery">Galeria</NavigationItem>
         </li>
         <li>
           <NavigationItem to="/contacts">Kontakt</NavigationItem>
