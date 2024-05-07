@@ -17,6 +17,8 @@ export const MenuPage = () => {
         </AccordionSummary>
         <AccordionDetails>
           <DishesItem/>
+          <DishesItem/>
+          <DishesItem/>
         </AccordionDetails>
       </Accordion>
       <Accordion>

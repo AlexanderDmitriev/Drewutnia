@@ -4,9 +4,12 @@ import reserve2 from '../images/reserve2.jpg';
 import styled from '@emotion/styled';
 
 const FlexContainer = styled.div`
-  display: flex;
+  display: block;
   margin-bottom: 10px;
   align-items: flex-start;
+  @media screen and (min-width: 768px) {
+    display: flex;
+  }
 `;
 
 const Images = styled.img`
@@ -18,7 +21,6 @@ export const ReservePage = () => {
   return (
     <>
       <FlexContainer>
-        
         <LabelSmall>
           U nas masz możliwość zorganizowania niezapomnianych przyjęć
           okolicznościowych: imienin, urodzin, imprez integracyjnych i
