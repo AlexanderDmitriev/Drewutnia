@@ -1,6 +1,6 @@
-import dish from '../images/dish.png';
 import { LabelLarge, LabelSmall } from './shared';
 import styled from '@emotion/styled';
+import { IDishesType } from './Interfaces/IDishesType';
 
 const Item = styled.li`
   list-style: none;
@@ -14,15 +14,15 @@ const Image = styled.img`
   width: 33%;
 `;
 
-export const DishesItem = () => {
+export const DishesItem = ({ image, name, about, price }: IDishesType) => {
   return (
     <Item>
-      <Image src={dish} alt="" />
+      <Image src={image} alt="" />
       <div>
-        <LabelLarge>Name</LabelLarge>
-        <LabelSmall>About</LabelSmall>
+        <LabelLarge>{name}</LabelLarge>
+        <LabelSmall>{about}</LabelSmall>
         <LabelLarge>
-          <span>Price:</span> 10 zł
+          <span>Price:</span> {price}
         </LabelLarge>
       </div>
     </Item>

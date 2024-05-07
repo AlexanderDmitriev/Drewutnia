@@ -2,7 +2,14 @@ import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
-import {DishesItem} from '../components/DishesItem';
+import { DishesItem } from '../components/DishesItem';
+import {
+  dishesAlcochol,
+  dishesAlcocholless,
+  dishesSomethingToEat,
+  dishesSneck,
+  dishesOthers,
+} from '../components/dishes';
 
 export const MenuPage = () => {
   return (
@@ -15,10 +22,19 @@ export const MenuPage = () => {
         >
           Napoje alkoholowe
         </AccordionSummary>
+
         <AccordionDetails>
-          <DishesItem/>
-          <DishesItem/>
-          <DishesItem/>
+          <ul>
+            {dishesAlcochol.map(dish => (
+              <DishesItem
+                key={dish.id}
+                image={dish.image}
+                name={dish.name}
+                about={dish.about}
+                price={dish.price}
+              />
+            ))}
+          </ul>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -30,8 +46,17 @@ export const MenuPage = () => {
           Napoje bezalkoholowe
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <ul>
+            {dishesAlcocholless.map(dish => (
+              <DishesItem
+                key={dish.id}
+                image={dish.image}
+                name={dish.name}
+                about={dish.about}
+                price={dish.price}
+              />
+            ))}
+          </ul>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -43,8 +68,17 @@ export const MenuPage = () => {
           Dania gotowe
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <ul>
+            {dishesSomethingToEat.map(dish => (
+              <DishesItem
+                key={dish.id}
+                image={dish.image}
+                name={dish.name}
+                about={dish.about}
+                price={dish.price}
+              />
+            ))}
+          </ul>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -56,8 +90,17 @@ export const MenuPage = () => {
           Sneki
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <ul>
+            {dishesSneck.map(dish => (
+              <DishesItem
+                key={dish.id}
+                image={dish.image}
+                name={dish.name}
+                about={dish.about}
+                price={dish.price}
+              />
+            ))}
+          </ul>
         </AccordionDetails>
       </Accordion>
       <Accordion>
@@ -69,8 +112,17 @@ export const MenuPage = () => {
           Różne
         </AccordionSummary>
         <AccordionDetails>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-          malesuada lacus ex, sit amet blandit leo lobortis eget.
+          <ul>
+            {dishesOthers.map(dish => (
+              <DishesItem
+                key={dish.id}
+                image={dish.image}
+                name={dish.name}
+                about={dish.about}
+                price={dish.price}
+              />
+            ))}
+          </ul>
         </AccordionDetails>
       </Accordion>
     </div>
