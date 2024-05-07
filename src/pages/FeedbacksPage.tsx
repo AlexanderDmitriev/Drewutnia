@@ -9,6 +9,7 @@ import Skeleton from '@mui/material/Skeleton';
 import PermIdentityOutlinedIcon from '@mui/icons-material/PermIdentityOutlined';
 import styled from '@emotion/styled';
 import { Stars } from '../components/Stars';
+import { feedbacks } from '../components/feedbacks';
 
 const Item = styled.div`
   display: block;
@@ -25,10 +26,13 @@ const Item = styled.div`
 
 interface MediaProps {
   loading?: boolean;
+  name?: string;
+  date?: string;
+  about?: string;
 }
 
 function Media(props: MediaProps) {
-  const { loading = false } = props;
+  const { loading = false, name, date, about } = props;
 
   return (
     <Card sx={{ maxWidth: 345, m: 2 }}>
@@ -63,14 +67,14 @@ function Media(props: MediaProps) {
               style={{ marginBottom: 6 }}
             />
           ) : (
-            'Ted'
+            `${name}`
           )
         }
         subheader={
           loading ? (
             <Skeleton animation="wave" height={10} width="40%" />
           ) : (
-            'był naszym gościem 07-05-2024'
+            `był naszym gościem ${date}`
           )
         }
       />
@@ -86,9 +90,7 @@ function Media(props: MediaProps) {
           </React.Fragment>
         ) : (
           <Typography variant="body2" color="text.secondary" component="p">
-            {
-              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. '
-            }
+            {`${about}`}
           </Typography>
         )}
       </CardContent>
@@ -99,9 +101,14 @@ function Media(props: MediaProps) {
 export const FeedbacksPage = () => {
   return (
     <Item>
-      <Media />
-      <Media />
-      <Media />
+      {feedbacks.map(feed => (
+        <Media
+          key={feed.id}
+          name={feed.name}
+          date={feed.date}
+          about={feed.about}
+        />
+      ))}
       <Media loading />
     </Item>
   );
