@@ -13,6 +13,7 @@ import {ContactsPage} from '../pages/ContactsPage';
 import {GalleryPage} from '../pages/GalleryPage';
 import {GalleryDetailsPage} from '../pages/GalleryDetailsPage';
 import {ReservePage} from '../pages/ReservePage';
+import {FeedbacksPage} from '../pages/FeedbacksPage';
 
 export const App = () => {
   return (
@@ -30,6 +31,7 @@ export const App = () => {
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/gallery/:galleryId" element={<GalleryDetailsPage />} />
             <Route path="/contacts" element={<ContactsPage />} />
+            <Route path="/feedback" element={<FeedbacksPage />} />
           </Routes>
         </ContentContainer>
         <Footer />  

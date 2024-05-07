@@ -23,7 +23,7 @@ const Navigation = () => {
           <NavigationItem to="/contacts">Kontakt</NavigationItem>
         </li>
         <li>
-          <NavigationItem to="/">Opinie</NavigationItem>
+          <NavigationItem to="/feedback">Opinie</NavigationItem>
         </li>
       </NavigationList>
     </nav>
