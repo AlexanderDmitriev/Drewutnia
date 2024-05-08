@@ -12,6 +12,7 @@ import Menu from './Navigation/Menu/Menu';
 import { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { useOnClickOutside } from './Navigation/Burger/hooks';
+/* import { BurgerMenu } from '../Hamburger'; */
 
 const Header = () => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
@@ -35,7 +36,7 @@ const Header = () => {
               <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
               <Phone>(+48) 603-956-037</Phone>
             </ContactsSection>
-
+            {/* <BurgerMenu /> */}
             <div>
               <Facebook />
               <Instagram />

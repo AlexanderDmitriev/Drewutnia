@@ -5,6 +5,9 @@ export const NavigationList = styled.ul`
   list-style: none;
   margin: 5px 0;
   display: block;
+  li {
+    margin-bottom: 10px;
+  }
   @media screen and (min-width: 768px) {
     display: flex;
     align-items: center;

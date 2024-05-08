@@ -1,16 +1,19 @@
 import styled from 'styled-components';
 
-export const StyledMenu = styled.nav`
+export const StyledMenu = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   background:  #3723a3;/* ${({ theme }) => theme.primaryLight} */;
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   text-align: left;
+  align-items: center;
   padding: 2rem;
   position: absolute;
-  top: 0;
+  top: 70px;
   left: 0;
+  z-index: 1000;
   transition: transform 0.3s ease-in-out;
   transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
   

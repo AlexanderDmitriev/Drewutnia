@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 export const NavigationItem = styled(NavLink)`
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 38px;
   letter-spacing: 0.03em;
   color: #f0e7e7;
   cursor: pointer;
