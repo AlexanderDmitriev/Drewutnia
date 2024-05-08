@@ -3,9 +3,9 @@ import { StyledMenu } from './Menu.styled';
 import Navigation from '../NavigationSection';
 import { bool } from 'prop-types';
 
-const Menu = ({ open }) => {
+const Menu = ({ open,setOpen }) => {
   return (
-    <StyledMenu open={open}>
+    <StyledMenu open={open} onClick={() => setOpen(!open)}>
       <Navigation/>
     </StyledMenu>
   );
