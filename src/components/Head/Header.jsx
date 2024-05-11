@@ -4,9 +4,10 @@ import {
   AdressContainer,
   ContactsSection,
   Adress,
-  Phone,
 } from './Header.styled';
-import { Logo, Instagram, Facebook } from '../shared';
+import { Logo, HeaderLabel } from '../shared';
+import {Instagram} from '../Instagram';
+import {Facebook} from '../Facebook';
 import Burger from './Navigation/Burger/Burger';
 import Menu from './Navigation/Menu/Menu';
 import { useState, useRef } from 'react';
@@ -34,7 +35,7 @@ const Header = () => {
             <Logo />
             <ContactsSection>
               <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
-              <Phone>(+48) 603-956-037</Phone>
+              <HeaderLabel>(+48) 603-956-037</HeaderLabel>
             </ContactsSection>
             {/* <BurgerMenu /> */}
             <div>

@@ -1,20 +1,9 @@
 import styled from '@emotion/styled';
-import instagram from '../../images/instagram2.svg';
+import instagram from '../images/instagram2.svg';
+import {SocialsLink} from './shared';
 
-const Link = styled.img`
-  width: 32px;
-  height: 32px;
+const Link = styled(SocialsLink)`
   background-color: #e4405f;
-  border-radius: 25%;
-  margin: 0 10px;
-  transition: 0.25s linear;
-  :hover {
-    transform: scale(1.05);
-  }
-  @media screen and (min-width: 768px) {
-    width: 48px;
-    height: 48px;
-  }
 `;
 
 export const Instagram = () => {

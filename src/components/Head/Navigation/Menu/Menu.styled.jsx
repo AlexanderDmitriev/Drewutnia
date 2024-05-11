@@ -11,7 +11,7 @@ export const StyledMenu = styled.div`
   align-items: center;
   padding: 2rem;
   position: absolute;
-  top: 70px;
+  top: 85px;
   left: 0;
   z-index: 1000;
   transition: transform 0.3s ease-in-out;

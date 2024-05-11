@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 import logo from '../../images/logo.jpg';
 
 const LogoDrewutnia = styled.img`
-  height: 60px;
+  height: 75px;
+  border-radius: 10px;
   transition: 0.25s linear;
   :hover {
     transform: scale(1.05);
