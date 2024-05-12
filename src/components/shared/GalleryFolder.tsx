@@ -2,7 +2,7 @@ import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import styled from '@emotion/styled';
-import {IGalleryType} from './Interfaces/IGalleryType';
+import {IGalleryType} from '../Interfaces/IGalleryType';
 
 const maxWidth = `${document.documentElement.scrollWidth * 0.4}px`;
 

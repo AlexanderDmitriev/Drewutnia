@@ -1,29 +1,29 @@
-import { NavigationItem, NavigationList } from '../../shared';
+import { NavigationLabel, NavigationList } from '../../shared';
 
 const Navigation = () => {
   return (
     <nav>
       <NavigationList>
         <li>
-          <NavigationItem to="/">Strona Główna</NavigationItem>
+          <NavigationLabel to="/" >Strona Główna</NavigationLabel>
         </li>
         <li>
-          <NavigationItem to="/menu">Nasze Speciały</NavigationItem>
+          <NavigationLabel to="/menu">Nasze Speciały</NavigationLabel>
         </li>
         <li>
-          <NavigationItem to="/events">Aktualności</NavigationItem>
+          <NavigationLabel to="/events">Aktualności</NavigationLabel>
         </li>
         <li>
-          <NavigationItem to="/reserve">Rezerwacje</NavigationItem>
+          <NavigationLabel to="/reserve">Rezerwacje</NavigationLabel>
         </li>
         <li>
-          <NavigationItem to="/gallery">Galeria</NavigationItem>
+          <NavigationLabel to="/gallery">Galeria</NavigationLabel>
         </li>
         <li>
-          <NavigationItem to="/contacts">Kontakt</NavigationItem>
+          <NavigationLabel to="/contacts">Kontakt</NavigationLabel>
         </li>
         <li>
-          <NavigationItem to="/feedback">Opinie</NavigationItem>
+          <NavigationLabel to="/feedback">Opinie</NavigationLabel>
         </li>
       </NavigationList>
     </nav>

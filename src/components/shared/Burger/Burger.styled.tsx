@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import {IBurger} from '../../Interfaces/IBurger';
 
 export const StyledBurger = styled.button`
   position: absolute;
@@ -28,7 +29,7 @@ export const StyledBurger = styled.button`
     position: relative;
     transform-origin: 1px;
     :first-of-type {
-      transform: ${({ open }) => (open ? 'rotate(45deg)' : 'rotate(0)')};
+      transform: ${({ open }:IBurger) => (open ? 'rotate(45deg)' : 'rotate(0)')};
     }
     :nth-of-type(2) {
       opacity: ${({ open }) => (open ? '0' : '1')};

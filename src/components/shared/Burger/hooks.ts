@@ -1,8 +1,11 @@
-import { useEffect } from 'react';
+import { MutableRefObject, useEffect } from 'react';
 
-export const useOnClickOutside = (ref, handler) => {
+export const useOnClickOutside = (
+  ref: MutableRefObject<any>,
+  handler: Function
+) => {
   useEffect(() => {
-    const listener = event => {
+    const listener = (event: MouseEvent | TouchEvent) => {
       if (!ref.current || ref.current.contains(event.target)) {
         return;
       }
@@ -12,7 +15,5 @@ export const useOnClickOutside = (ref, handler) => {
     return () => {
       document.removeEventListener('mousedown', listener);
     };
-  },
-  [ref, handler],
-  );
+  }, [ref, handler]);
 };

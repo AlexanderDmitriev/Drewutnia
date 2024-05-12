@@ -7,6 +7,7 @@ export const NavigationList = styled.ul`
   display: block;
   li {
     margin-bottom: 10px;
+    text-align: center;
   }
   @media screen and (min-width: 768px) {
     display: flex;

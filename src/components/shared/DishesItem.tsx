@@ -1,6 +1,6 @@
-import { LabelLarge, LabelSmall } from './shared';
+import { LabelLarge, LabelSmall } from '.';
 import styled from '@emotion/styled';
-import { IDishesType } from './Interfaces/IDishesType';
+import { IDishesType } from '../Interfaces/IDishesType';
 
 const Item = styled.li`
   list-style: none;
@@ -12,6 +12,7 @@ const Item = styled.li`
 
 const Image = styled.img`
   width: 33%;
+  height: 33%;
 `;
 
 export const DishesItem = ({ image, name, about, price }: IDishesType) => {

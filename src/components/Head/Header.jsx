@@ -1,19 +1,12 @@
 import Navigation from './Navigation/NavigationSection';
-import {
-  HeaderContainer,
-  AdressContainer,
-  ContactsSection,
-  Adress,
-} from './Header.styled';
-import { Logo, HeaderLabel } from '../shared';
-import {Instagram} from '../Instagram';
-import {Facebook} from '../Facebook';
-import Burger from './Navigation/Burger/Burger';
+import { HeaderContainer, ContactsSection, Adress } from './Header.styled';
+import { Logo, HeaderLabel, HeaderBlocks, Burger } from '../shared';
+import { Instagram } from '../Instagram';
+import { Facebook } from '../Facebook';
 import Menu from './Navigation/Menu/Menu';
 import { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { useOnClickOutside } from './Navigation/Burger/hooks';
-/* import { BurgerMenu } from '../Hamburger'; */
+import { useOnClickOutside } from '../shared/Burger/hooks';
 
 const Header = () => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
@@ -30,30 +23,27 @@ const Header = () => {
   return (
     <header>
       <HeaderContainer>
-        <AdressContainer>
+        <HeaderBlocks>
           <div>
             <Logo />
             <ContactsSection>
               <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
               <HeaderLabel>(+48) 603-956-037</HeaderLabel>
             </ContactsSection>
-            {/* <BurgerMenu /> */}
             <div>
               <Facebook />
               <Instagram />
             </div>
           </div>
-        </AdressContainer>
-        {/* <AdditionalNavigation>
-         <UserMenu>
+        </HeaderBlocks>
+        {/* <div>
           <Profile />
           <ThemeButton
             isDarkTheme={isDarkTheme}
             handleChangeTheme={handleChangeTheme}
           />
           {isTab && <LanguegeButton />}
-        </UserMenu> 
-      </AdditionalNavigation> */}
+      </div> */}
         {isTab ? (
           <Navigation />
         ) : (

@@ -5,7 +5,7 @@ export const imagesFormatter = (pictires: any[]) => {
         original: `${String(picture)}`,
         thumbnail: `${String(picture)}`,
         lazyLoad: true,
-        originalHeight: 480,
+        originalHeight: 780,
       })
     );
     return array;
