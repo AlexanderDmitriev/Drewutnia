@@ -12,13 +12,19 @@ const GalleryList = styled.li`
   }
 `;
 
-export const GalleryPage = () => {
+
+
+export const GalleryPage = ({setLastGallery}) => {
     const navigate = useNavigate();
+    const clickOnFolderHandler = (folder) => {
+      setLastGallery(folder);
+      navigate(`/gallery/${folder.id}`);
+    };
   return (
     <Box sx={{ flexGrow: 1, overflow: 'hidden', px: 3 }}>
       <ul>
         {data.map(folder => (
-          <GalleryList key={folder.id} onClick={()=>navigate(`/gallery/${folder.id}`)}>
+          <GalleryList key={folder.id} onClick={()=>clickOnFolderHandler(folder)}>
             <GalleryFolder
               title={folder.title}
               message={folder.message}
