@@ -10,8 +10,7 @@ import {EventsPage} from '../pages/EventsPage';
 import {ContactsPage} from '../pages/ContactsPage';
 import {GalleryPage} from '../pages/GalleryPage';
 import {GalleryDetailsPage} from '../pages/GalleryDetailsPage';
-import { FeedbacksPage } from '../pages/FeedbacksPage';
-import {ReservePage} from '../pages/Reservation/ReservePage';
+import {ReservePage,FeedbacksPage,NotFoundPage} from '../pages';
 import { useState,useEffect } from 'react';
 
 export const App = () => {
@@ -39,6 +38,7 @@ export const App = () => {
             <Route path="/gallery/:galleryId" element={<GalleryDetailsPage lastGallery={lastGallery}/>}/>
             <Route path="/contacts" element={<ContactsPage />} />
             <Route path="/feedback" element={<FeedbacksPage  />}/>
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </ContentContainer>
         <Footer />  

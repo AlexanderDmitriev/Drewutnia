@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { feedbacks } from '../components/testData/feedbacks';
 import {FeedbackItem} from '../components/shared/FeedbackItem';
 
-const Item = styled.div`
+const Item = styled.ul`
   display: block;
   margin: 0 auto;
   :not(:last-child) {
@@ -24,10 +24,10 @@ export const FeedbacksPage = () => {
           name={feed.name}
           date={feed.date}
           about={feed.about}
-          rating={5}
+          rating={feed.rating}
         />
       ))}
-      <FeedbackItem loading />
+      {/* <FeedbackItem loading /> */}
     </Item>
   );
 };
