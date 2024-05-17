@@ -1,5 +1,5 @@
 import { ReactImageGalleryItem } from "react-image-gallery";
-import { IGalleryType } from "./Interfaces/IGalleryType";
+import { IGalleryType } from "../../Interfaces/IGalleryType";
 
 export const imagesFormatter = (pictires: IGalleryType[]):ReactImageGalleryItem[] => {
     const array: ReactImageGalleryItem[] = [];

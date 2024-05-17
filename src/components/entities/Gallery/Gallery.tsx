@@ -1,7 +1,7 @@
 import ImageGallery from 'react-image-gallery';
 import { useMediaQuery } from 'react-responsive';
-import { GalleryContainer } from '../shared';
-import { imagesFormatter } from '../imagesFormatter';
+import { GalleryContainer } from '../../shared';
+import { imagesFormatter } from './imagesFormatter';
 
 export const Gallery: React.FunctionComponent = ({ pictures }: any) => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });

@@ -40,7 +40,7 @@ export const GoogleMaps = () => {
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
-        zoom={4}
+        zoom={15}
         onLoad={onLoad}
         onUnmount={onUnmount}
         map={map}

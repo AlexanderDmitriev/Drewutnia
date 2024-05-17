@@ -1,5 +1,5 @@
 import List from '@mui/material/List';
-import { PartyItem } from './shared';
+import { PartyItem } from '../shared';
 import styled from '@emotion/styled';
 
 const CustomList = styled(List)`

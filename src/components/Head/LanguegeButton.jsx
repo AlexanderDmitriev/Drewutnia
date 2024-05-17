@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Flag from 'react-world-flags';
-import {SelectLanguege} from './Header.styled';
+import {SelectLanguege} from '../widgets/Header/Header.styled';
 
 export const LanguegeButton = () => {
     const [selectedOption, setSelectedOption] = useState(null);

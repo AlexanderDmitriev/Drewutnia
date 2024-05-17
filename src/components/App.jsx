@@ -3,9 +3,7 @@ import { theme } from './theme';
 import { GlobalStyles } from './global';
 import { Route, Routes } from 'react-router-dom';
 import { Container, ContentContainer } from './shared';
-import Header from './Head/Header';
-import { Sidebar } from './Sidebar';
-import { Footer } from './Footer';
+import {Header,Sidebar,Footer} from './widgets';
 import { HomePage } from '../pages/HomePage';
 import {MenuPage} from '../pages/MenuPage';
 import {EventsPage} from '../pages/EventsPage';
@@ -13,7 +11,7 @@ import {ContactsPage} from '../pages/ContactsPage';
 import {GalleryPage} from '../pages/GalleryPage';
 import {GalleryDetailsPage} from '../pages/GalleryDetailsPage';
 import { FeedbacksPage } from '../pages/FeedbacksPage';
-import {ReservePage} from '../pages/ReservePage';
+import {ReservePage} from '../pages/Reservation/ReservePage';
 import { useState,useEffect } from 'react';
 
 export const App = () => {

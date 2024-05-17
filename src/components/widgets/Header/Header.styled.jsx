@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import Select from 'react-select';
-import locationLogo from '../../images/location2.svg';
-import { HeaderLabel } from '../shared';
+import locationLogo from '../../../images/location2.svg';
+import { HeaderLabel } from '../../shared';
 
 export const SelectLanguege = styled(Select)`
   width: 100px;

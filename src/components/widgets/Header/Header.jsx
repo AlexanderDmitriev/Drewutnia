@@ -1,11 +1,11 @@
 import { HeaderContainer, ContactsSection, Adress } from './Header.styled';
-import { Logo, HeaderLabel, HeaderBlocks, Burger } from '../shared';
-import { BurgerMenu, Navigation, Instagram, Facebook } from '../entities';
+import { Logo, HeaderLabel, HeaderBlocks, Burger } from '../../shared';
+import { BurgerMenu, Navigation, Instagram, Facebook } from '../../entities';
 import { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
-import { useOnClickOutside } from '../shared/Burger/hooks';
+import { useOnClickOutside } from '../../shared/Burger/hooks';
 
-const Header = () => {
+export const Header = () => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
   const [isOpen, setIsOpen] = useState(false);
   /* const [isDarkTheme, setIsDarkTheme] = useState(false); */
@@ -57,4 +57,3 @@ const Header = () => {
   );
 };
 
-export default Header;

@@ -1,21 +1,7 @@
-import { LabelSmall, LabelLarge } from '../components/shared';
-import reserve1 from '../images/reserve1.jpg';
-import reserve2 from '../images/reserve2.jpg';
-import styled from '@emotion/styled';
-
-const FlexContainer = styled.div`
-  display: block;
-  margin-bottom: 10px;
-  align-items: flex-start;
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
-`;
-
-const Images = styled.img`
-  border-radius: 15px;
-  margin: 5px;
-`;
+import { LabelSmall, LabelLarge } from '../../components/shared';
+import reserve1 from '../../images/reserve1.jpg';
+import reserve2 from '../../images/reserve2.jpg';
+import {FlexContainer,Images} from './ReservePage.styled';
 
 export const ReservePage = () => {
   return (

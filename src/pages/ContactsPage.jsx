@@ -1,5 +1,5 @@
 import { LabelLarge } from '../components/shared';
-import {GoogleMaps} from '../components/GoogleMaps';
+import {GoogleMaps} from '../components/widgets';
 
 export const ContactsPage = () => {
   return (
