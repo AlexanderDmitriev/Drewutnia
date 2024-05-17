@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import facebook from '../images/facebook2.svg';
-import {SocialsLink} from './shared';
+import facebook from '../../images/facebook2.svg';
+import {SocialsLink} from '../shared';
 
 const Link = styled(SocialsLink)`
   background-color: #1877f2;

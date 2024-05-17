@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
-import instagram from '../images/instagram2.svg';
-import {SocialsLink} from './shared';
+import instagram from '../../images/instagram2.svg';
+import {SocialsLink} from '../shared';
 
 const Link = styled(SocialsLink)`
   background-color: #e4405f;

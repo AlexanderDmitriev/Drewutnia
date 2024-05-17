@@ -1,6 +1,6 @@
 import { NavigationLabel, NavigationList } from '../shared';
 
-const Navigation = () => {
+export const Navigation = () => {
   return (
     <nav>
       <NavigationList>
@@ -29,5 +29,3 @@ const Navigation = () => {
     </nav>
   );
 };
-
-export default Navigation;

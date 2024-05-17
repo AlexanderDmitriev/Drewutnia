@@ -1,5 +1,5 @@
 import { LabelLarge } from '../components/shared';
-import { Gallery } from '../components/entities/Gallery';
+import { Gallery } from '../components/entities';
 import { homeImagesArray } from '../images/homePageImages/home'; 
 
 export const HomePage = () => {

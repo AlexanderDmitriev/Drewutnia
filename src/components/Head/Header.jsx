@@ -1,9 +1,6 @@
-import Navigation from '../entities/NavigationSection';
 import { HeaderContainer, ContactsSection, Adress } from './Header.styled';
 import { Logo, HeaderLabel, HeaderBlocks, Burger } from '../shared';
-import { Instagram } from '../Instagram';
-import { Facebook } from '../Facebook';
-import Menu from '../entities/BurgerMenu/BurgerMenu';
+import { BurgerMenu, Navigation, Instagram, Facebook } from '../entities';
 import { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { useOnClickOutside } from '../shared/Burger/hooks';
@@ -51,7 +48,7 @@ const Header = () => {
             {/* <LanguegeButton /> */}
             <div ref={node}>
               <Burger open={isOpen} setOpen={setIsOpen} />
-              <Menu open={isOpen} setOpen={setIsOpen} />
+              <BurgerMenu open={isOpen} setOpen={setIsOpen} />
             </div>
           </>
         )}

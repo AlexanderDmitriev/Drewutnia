@@ -1,4 +1,4 @@
-import { Gallery } from '../components/entities/Gallery';
+import { Gallery } from '../components/entities';
 
 export const GalleryDetailsPage = ({lastGallery}) => {
   //const { galleryId } = useParams();

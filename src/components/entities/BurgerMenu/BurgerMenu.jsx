@@ -1,8 +1,8 @@
 import { StyledMenu } from './BurgerMenu.styled';
-import Navigation from '../NavigationSection';
+import {Navigation} from '../NavigationSection';
 import { bool } from 'prop-types';
 
-const Menu = ({ open,setOpen }) => {
+export const BurgerMenu = ({ open,setOpen }) => {
   return (
     <StyledMenu open={open} onClick={() => setOpen(!open)}>
       <Navigation/>
@@ -10,8 +10,7 @@ const Menu = ({ open,setOpen }) => {
   );
 };
 
-Menu.propTypes = {
+BurgerMenu.propTypes = {
   open: bool.isRequired,
 };
 
-export default Menu;
