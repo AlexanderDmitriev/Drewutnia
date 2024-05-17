@@ -1,9 +1,9 @@
-import Navigation from './Navigation/NavigationSection';
+import Navigation from '../entities/NavigationSection';
 import { HeaderContainer, ContactsSection, Adress } from './Header.styled';
 import { Logo, HeaderLabel, HeaderBlocks, Burger } from '../shared';
 import { Instagram } from '../Instagram';
 import { Facebook } from '../Facebook';
-import Menu from './Navigation/Menu/Menu';
+import Menu from '../entities/BurgerMenu/BurgerMenu';
 import { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { useOnClickOutside } from '../shared/Burger/hooks';

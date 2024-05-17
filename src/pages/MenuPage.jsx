@@ -3,7 +3,7 @@ import {
   dishesAlcochol,
   dishesSomethingToEat,
   dishesSneck,
-} from '../components/dishes';
+} from '../components/testData/dishes';
 
 export const MenuPage = () => {
   return (

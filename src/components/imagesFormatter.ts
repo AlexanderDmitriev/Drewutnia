@@ -1,10 +1,13 @@
-export const imagesFormatter = (pictires: any[]) => {
-    const array: any = [];
+import { ReactImageGalleryItem } from "react-image-gallery";
+import { IGalleryType } from "./Interfaces/IGalleryType";
+
+export const imagesFormatter = (pictires: IGalleryType[]):ReactImageGalleryItem[] => {
+    const array: ReactImageGalleryItem[] = [];
     pictires.map(picture =>
       array.push({
         original: `${String(picture)}`,
         thumbnail: `${String(picture)}`,
-        lazyLoad: true,
+        loading: "lazy",
         originalHeight: 780,
       })
     );

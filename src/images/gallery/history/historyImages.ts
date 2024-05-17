@@ -13,7 +13,7 @@ import pic12 from './PICT0853.jpg';
 import pic13 from './PICT1019.jpg';
 import pic14 from './PICT2552.jpg';
 
-export const historyImagesArray = [
+export const historyImagesArray:string[] = [
   pic1,
   pic2,
   pic3,

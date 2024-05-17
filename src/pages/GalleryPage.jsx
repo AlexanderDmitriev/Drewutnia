@@ -2,7 +2,7 @@ import Box from '@mui/material/Box';
 import { GalleryFolder } from '../components/shared/GalleryFolder';
 import styled from '@emotion/styled';
 import { useNavigate } from "react-router-dom";
-import {data} from '../components/data';
+import {data} from '../components/testData/data';
 
 
 const GalleryList = styled.li`
@@ -11,8 +11,6 @@ const GalleryList = styled.li`
     padding-bottom: 15px;
   }
 `;
-
-
 
 export const GalleryPage = ({setLastGallery}) => {
     const navigate = useNavigate();

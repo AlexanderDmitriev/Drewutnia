@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { feedbacks } from '../components/feedbacks';
+import { feedbacks } from '../components/testData/feedbacks';
 import {FeedbackItem} from '../components/shared/FeedbackItem';
 
 const Item = styled.div`

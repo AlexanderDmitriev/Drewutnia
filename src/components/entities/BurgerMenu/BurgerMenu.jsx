@@ -1,5 +1,4 @@
-import React from 'react';
-import { StyledMenu } from './Menu.styled';
+import { StyledMenu } from './BurgerMenu.styled';
 import Navigation from '../NavigationSection';
 import { bool } from 'prop-types';
 

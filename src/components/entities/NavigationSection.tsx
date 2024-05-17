@@ -1,4 +1,4 @@
-import { NavigationLabel, NavigationList } from '../../shared';
+import { NavigationLabel, NavigationList } from '../shared';
 
 const Navigation = () => {
   return (

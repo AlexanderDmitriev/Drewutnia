@@ -1,5 +1,5 @@
 import Hamburger from 'hamburger-react';
-import Menu from './Head/Navigation/Menu/Menu';
+import Menu from './entities/BurgerMenu/BurgerMenu';
 import { useState } from 'react';
 
 export const BurgerMenu = () => {

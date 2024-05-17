@@ -18,3 +18,4 @@ export {PartyItem} from './PartyItem';
 export {FeedbackItem} from './FeedbackItem';
 export {DishesItem} from './DishesItem';
 export {DishesSummary} from './DishesSummary';
+export {GalleryContainer} from './GalleryContainer';
