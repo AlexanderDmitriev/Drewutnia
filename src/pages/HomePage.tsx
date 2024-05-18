@@ -24,7 +24,7 @@ export const HomePage = () => {
         Słyniemy ze znakomitej kuchni – sprawdź nasze specjały.
       </LabelLarge>
       <LabelLarge>
-        Ponadto oferujemy dostęp do Wi-Fi, piłkarzyki oraz darta. Przed lokalem
+        Ponadto oferujemy piłkarzyki oraz darta. Przed lokalem
         znajduje się duży bezpłatny parking do dyspozycji dla naszych Gości.
         Każdego dnia czekają na Ciebie ciekawe promocje! U nas na pewno
         znajdziesz coś dla siebie. Zapoznaj się także z naszą ofertą rezerwacji

@@ -3,6 +3,7 @@ import { CustomText } from './CustomText';
 
 export const LabelLarge = styled(CustomText)`
   font-size: 16px;
+  text-indent: 3%;
   @media screen and (min-width: 480px) {
     font-size: 18px;
   }

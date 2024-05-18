@@ -4,3 +4,5 @@ export type IGalleryType = {
   message: string;
   gallery: string[];
 };
+
+export type ILastGallery= {lastGallery:IGalleryType};
