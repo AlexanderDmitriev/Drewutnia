@@ -3,6 +3,7 @@ import { GalleryFolder } from '../components/shared/GalleryFolder';
 import styled from '@emotion/styled';
 import { useNavigate } from "react-router-dom";
 import {data} from '../components/testData/data';
+import {IGalleryType} from '../components/Interfaces/IGalleryType';
 
 
 const GalleryList = styled.li`
@@ -12,9 +13,9 @@ const GalleryList = styled.li`
   }
 `;
 
-export const GalleryPage = ({setLastGallery}) => {
+export const GalleryPage = ({setLastGallery}:any) => {
     const navigate = useNavigate();
-    const clickOnFolderHandler = (folder) => {
+    const clickOnFolderHandler = (folder:IGalleryType) => {
       setLastGallery(folder);
       navigate(`/gallery/${folder.id}`);
     };

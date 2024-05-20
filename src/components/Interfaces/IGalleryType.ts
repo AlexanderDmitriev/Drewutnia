@@ -1,5 +1,5 @@
 export type IGalleryType = {
-  id: string;
+  id?: string;
   title: string;
   message: string;
   gallery: string[];

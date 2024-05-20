@@ -1,21 +1,21 @@
+import { useState, useEffect } from 'react';
+import { Route, Routes } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
 import { GlobalStyles } from './global';
-import { Route, Routes } from 'react-router-dom';
 import { Container, ContentContainer } from './shared';
 import { Header, Sidebar, Footer } from './widgets';
-import { ContactsPage } from '../pages/ContactsPage';
-import { GalleryPage } from '../pages/GalleryPage';
 import {
   HomePage,
   MenuPage,
   EventsPage,
   ReservePage,
   FeedbacksPage,
+  GalleryPage,
   GalleryDetailsPage,
+  ContactsPage,
   NotFoundPage,
 } from '../pages';
-import { useState, useEffect } from 'react';
 
 export const App = () => {
   const [lastGallery, setLastGallery] = useState(
