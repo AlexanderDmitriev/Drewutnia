@@ -1,4 +1,6 @@
 import dish from '../../images/dish.png';
+import burn from '../../images/menu/napoje/BURN_ENERGY_DRINK-logo-6A5EB18610-seeklogo.com.png';
+import cappy from '../../images/menu/napoje/cappy.jpg'
 import { v4 as uuidv4 } from 'uuid';
 
 export const napoje = [
@@ -116,7 +118,7 @@ export const napoje = [
       },
       {
         id: uuidv4(),
-        image: `${dish}`,
+        image: `${cappy}`,
         name: 'Sok Cappy (pomarancz, jabłuko, greypfrut)',
         about:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
@@ -140,7 +142,7 @@ export const napoje = [
       },
       {
         id: uuidv4(),
-        image: `${dish}`,
+        image: `${burn}`,
         name: 'Burn napoj energenyczny',
         about:
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
