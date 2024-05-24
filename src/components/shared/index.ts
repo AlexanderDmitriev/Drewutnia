@@ -9,7 +9,7 @@ export {Button} from './Button';
 export {LabelSmall} from './LabelSmall';
 export {LabelLarge} from './LabelLarge';
 export {LabelTitle} from './LabelTitle';
-export {Photo} from './Picture';
+export {Picture} from './Picture';
 export {SearchInput} from './SearchInput';
 export {NavigationLabel} from './NavigationLabel';
 export {NavigationList} from './NavigationList';
