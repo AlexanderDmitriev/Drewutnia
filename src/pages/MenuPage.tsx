@@ -1,9 +1,7 @@
 import { DishesSummary } from '../components/shared';
-import {
-  dishesSomethingToEat,
-  dishesSneck,
-} from '../components/testData/dishes';
+import { dishesSomethingToEat } from '../components/testData/dishes';
 import { napoje } from '../components/testData/napoje';
+import { sneki } from '../components/testData/sneki';
 
 export const MenuPage = () => {
   return (
@@ -13,7 +11,7 @@ export const MenuPage = () => {
         title={'Dania gotowe'}
         dishesList={dishesSomethingToEat}
       ></DishesSummary>
-      <DishesSummary title={'Sneki'} dishesList={dishesSneck}></DishesSummary>
+      <DishesSummary title={'Sneki'} dishesList={sneki}></DishesSummary>
     </div>
   );
 };
