@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const HeaderBlocks = styled.div`
+export const HeaderBlocks = styled.nav`
   width: 95vw;
   height: 85px;
   margin: 0 auto;

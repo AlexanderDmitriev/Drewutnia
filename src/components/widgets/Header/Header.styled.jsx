@@ -11,7 +11,7 @@ export const SelectLanguege = styled(Select)`
   }
 `;
 
-export const HeaderContainer = styled.section`
+export const HeaderContainer = styled.header`
   margin: 0 auto;
   background-color: #202020;
   width: 100vw;

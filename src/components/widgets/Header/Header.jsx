@@ -18,7 +18,6 @@ export const Header = () => {
   }; */
 
   return (
-    <header>
       <HeaderContainer>
         <HeaderBlocks>
           <div>
@@ -53,7 +52,6 @@ export const Header = () => {
           </>
         )}
       </HeaderContainer>
-    </header>
   );
 };
 

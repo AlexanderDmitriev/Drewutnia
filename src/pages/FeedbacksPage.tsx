@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import { feedbacks } from '../components/testData/feedbacks';
 import {FeedbackItem} from '../components/shared/FeedbackItem';
+import {HiddenTitle} from '../components/shared';
 
 const Item = styled.ul`
   display: block;
@@ -17,7 +18,9 @@ const Item = styled.ul`
 
 export const FeedbacksPage = () => {
   return (
-    <Item>
+    <section>
+      <HiddenTitle>Feedback</HiddenTitle>
+      <Item>
       {feedbacks.map(feed => (
         <FeedbackItem
           key={feed.id}
@@ -29,5 +32,7 @@ export const FeedbacksPage = () => {
       ))}
       {/* <FeedbackItem loading /> */}
     </Item>
+    </section>
+    
   );
 };

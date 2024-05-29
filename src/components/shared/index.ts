@@ -19,3 +19,4 @@ export {FeedbackItem} from './FeedbackItem';
 export {DishesItem} from './DishesItem';
 export {DishesSummary} from './DishesSummary';
 export {GalleryContainer} from './GalleryContainer';
+export {HiddenTitle} from './HiddenTitle';

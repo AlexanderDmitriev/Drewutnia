@@ -1,10 +1,11 @@
-import { LabelLarge } from '../components/shared';
+import { LabelLarge,HiddenTitle } from '../components/shared';
 import { Gallery } from '../components/entities';
 import { homeImagesArray } from '../images/homePageImages/home'; 
 
 export const HomePage = () => {
   return (
-    <>
+    <section>
+      <HiddenTitle>Home</HiddenTitle>
       <LabelLarge>
         Ciekawy wystrój, dobra muzyka, bogato wyposażony bar sprawiają, że PUB
         Drewutnia to miejsce o niezwykłym klimacie – doskonałe na chwilę relaksu
@@ -33,6 +34,6 @@ export const HomePage = () => {
       <LabelLarge>
       Zapraszamy codziennie od 15:00 do 23:00.
       </LabelLarge>
-    </>
+    </section>
   );
 };

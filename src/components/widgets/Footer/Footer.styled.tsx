@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const CustomFooter = styled.footer`
 clear:both;
 display: flex;
-  width: 100vw;
+  width: 100%;
   padding: 5px 15px;
   background-color: #202020;
 

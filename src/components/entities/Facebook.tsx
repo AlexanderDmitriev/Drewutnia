@@ -15,7 +15,7 @@ export const Facebook = () => {
       rel="noreferrer noopener"
     >
       <span>
-        <Link src={String(facebook)} alt="instagram" />
+        <Link src={String(facebook)} alt="facebook" />
       </span>
     </a>
   );

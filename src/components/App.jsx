@@ -31,25 +31,27 @@ export const App = () => {
       <Container>
         <Header />
         <Sidebar />
-        <ContentContainer>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
-            <Route path="/menu" element={<MenuPage />} />
-            <Route path="/events" element={<EventsPage />} />
-            <Route path="/reserve" element={<ReservePage />} />
-            <Route
-              path="/gallery"
-              element={<GalleryPage setLastGallery={setLastGallery} />}
-            />
-            <Route
-              path="/gallery/:galleryId"
-              element={<GalleryDetailsPage lastGallery={lastGallery} />}
-            />
-            <Route path="/contacts" element={<ContactsPage />} />
-            <Route path="/feedback" element={<FeedbacksPage />} />
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </ContentContainer>
+        <main>
+          <ContentContainer>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/menu" element={<MenuPage />} />
+              <Route path="/events" element={<EventsPage />} />
+              <Route path="/reserve" element={<ReservePage />} />
+              <Route
+                path="/gallery"
+                element={<GalleryPage setLastGallery={setLastGallery} />}
+              />
+              <Route
+                path="/gallery/:galleryId"
+                element={<GalleryDetailsPage lastGallery={lastGallery} />}
+              />
+              <Route path="/contacts" element={<ContactsPage />} />
+              <Route path="/feedback" element={<FeedbacksPage />} />
+              <Route path="*" element={<NotFoundPage />} />
+            </Routes>
+          </ContentContainer>
+        </main>
         <Footer />
       </Container>
     </ThemeProvider>

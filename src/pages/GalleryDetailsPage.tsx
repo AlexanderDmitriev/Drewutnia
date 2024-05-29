@@ -1,6 +1,7 @@
 import { Gallery } from '../components/entities';
 import { ILastGallery } from '../components/Interfaces/IGalleryType';
 import { NotFoundPage } from './NotFoundPage';
+import { HiddenTitle } from '../components/shared';
 
 export const GalleryDetailsPage = ({ lastGallery }: ILastGallery) => {
   //const { galleryId } = useParams();
@@ -8,7 +9,10 @@ export const GalleryDetailsPage = ({ lastGallery }: ILastGallery) => {
   return (
     <>
       {lastGallery ? (
-        <Gallery pictures={lastGallery.gallery} />
+        <section>
+          <HiddenTitle>{lastGallery.title}</HiddenTitle>
+          <Gallery pictures={lastGallery.gallery} />
+        </section>
       ) : (
         <NotFoundPage />
       )}

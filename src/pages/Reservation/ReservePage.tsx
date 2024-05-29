@@ -13,10 +13,10 @@ export const ReservePage = () => {
           promocyjnych, wieczorów panieńskich i kawalerskich itd. PUB Drewutnia
           posiada dużą salę z antresolą oraz nastrojowy zadaszony ogródek.
         </LabelSmall>
-        <Images src={reserve2} alt="" />
+        <Images src={reserve2} alt="welcome" />
       </FlexContainer>
       <FlexContainer>
-        <Images src={reserve1} alt="" />
+        <Images src={reserve1} alt="welcome" />
         <div>
           <LabelSmall>
             <span>Rezerwacja miejsc - </span> Chciałbyś umówić się u nas ze
