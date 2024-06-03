@@ -24,7 +24,7 @@ export const Header = () => {
             <Logo />
             <ContactsSection>
               <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
-              <HeaderLabel>(+48) 603-956-037</HeaderLabel>
+              <HeaderLabel href="tel:+48603956037">(+48) 603-956-037</HeaderLabel>
             </ContactsSection>
             <div>
               <Facebook />

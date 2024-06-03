@@ -1,6 +1,6 @@
 import styled from '@emotion/styled';
 
-export const HeaderLabel = styled.p`
+export const HeaderLabel = styled.a`
   display: none;
   text-align: center;
   color: #f0e7e7;
