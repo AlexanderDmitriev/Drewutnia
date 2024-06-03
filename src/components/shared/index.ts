@@ -14,6 +14,7 @@ export {SearchInput} from './SearchInput';
 export {NavigationLabel} from './NavigationLabel';
 export {NavigationList} from './NavigationList';
 export {SocialsLink} from './SocialsLink';
+export { SocialsLinkSVG } from './SocialsLinkSVG';
 export {PartyItem} from './PartyItem';
 export {FeedbackItem} from './FeedbackItem';
 export {DishesItem} from './DishesItem';
