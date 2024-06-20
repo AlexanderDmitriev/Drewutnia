@@ -9,11 +9,6 @@ const Item = styled.ul`
   :not(:last-child) {
     padding-bottom: 15px;
   }
-  @media screen and (min-width: 768px) {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
 `;
 
 export const FeedbacksPage = () => {

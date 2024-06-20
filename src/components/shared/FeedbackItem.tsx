@@ -15,7 +15,7 @@ export const FeedbackItem = (props: IMediaProps) => {
 
   return (
     <li>
-      <Card sx={{ maxWidth: 345, maxHeight: 345, m: 2 }}>
+      <Card sx={{ maxHeight: 345, m: 2 }}>
         <CardHeader
           avatar={
             loading ? (
@@ -69,12 +69,7 @@ export const FeedbackItem = (props: IMediaProps) => {
               <Skeleton animation="wave" height={10} width="80%" />
             </React.Fragment>
           ) : (
-            <Typography
-              variant="body2"
-              color="text.secondary"
-              component="p"
-              sx={{ maxHeight: 200, overflow: 'auto' }}
-            >
+            <Typography variant="body2" color="text.secondary" component="p">
               {`${about}`}
             </Typography>
           )}

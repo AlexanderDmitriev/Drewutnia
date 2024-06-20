@@ -24,121 +24,121 @@ export const napoje = [
     {
       id: uuidv4(),
       image: `${holba}`,
-      name: 'Piwo Holba',
+      name: 'Piwo Holba 0,5L',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
-      price: '10zł',
+        'Klasyczne czeskie piwo z delikatnym smakiem. Ono warzy się na wodie z jaskin krasowych, dlatego jest niekwaśnym, w odróżnieniu od większości gatunków jasnego piwa. Browarnia Holba z Morawii pracuje od 1974 roku i jest jednym z największych producentów z Czechów. ',
+      price: '15zł',
     },
     {
       id: uuidv4(),
       image: `${zywiec}`,
-      name: 'Piwo Żywiec',
+      name: 'Piwo Żywiec 0,5L',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
-      price: '10zł',
+        'Lager, pochodzący z jednoimiennego miasta. Prozore, złociste piwo z przyjemną pianą. Czysty słabosłodny smak i dobra filtracja obdarze przyjemność po ciężkiemu dniu. ',
+      price: '15zł',
     },
     {
       id: uuidv4(),
       image: `${kozel}`,
-      name: 'Piwo Kozel (ciemne lub jasne)',
+      name: 'Piwo Kozel 0,5L (ciemne lub jasne)',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
-      price: '10zł',
+        'wyprodukowane w Polsce po licencji czeskie piwo utrzymuje 150-letnie traducji i smak gorzko-aromatycznego żatieckiego chmielu Premiant',
+      price: '15zł',
     },
     {
         id: uuidv4(),
         image: `${warka}`,
-        name: 'Piwo Warka Strong',
+        name: 'Piwo Warka Strong 0,5L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'mocny lager (6,3%), który charakteryzuje się bogatym słodowo-chmielowym smakiem i bursztynową barwą. Warka Strong to jest piwo o doskonałej jakości dla miłośników głębokiego smaku.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${litovel}`,
-        name: 'Piwo Litovel (cytrynowe, miodowe, przeniczne)',
+        name: 'Piwo Litovel 0,5L (cytrynowe, miodowe lub przeniczne)',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Czeski lager od browarni, historia której liczące już 700 lat. Ugotowany w tradycijnyj sposób, charakterystychny bogatym, nasyconym smakiem z nutkami bogiemskiego solodu i chmelu. A dziękując wytrzymałości w przeciągu 6 tygodnów piwo nabywa bogaty charakter.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${ksiazece}`,
-        name: 'Piwo Książece (porter, ipa, złote)',
+        name: 'Piwo Książece 0,5L (porter, ipa lub złote)',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'kolekcja specjalności od mistrzów browarnych z Tyskie Browary Książęce. Róźnorodne piwo dla wszystkich poszukujących bogatego i głębokiego smaku.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${lech}`,
-        name: 'Piwo Lech 0,0',
+        name: 'Piwo Lech 0,0  0,5L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'bezalkoholowy lager w róźnych smakach dla fanów piwnej goryczki. Idealny na gorące dni lub do posiłków.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${heineken}`,
-        name: 'Piwo Heineken 0,0',
+        name: 'Piwo Heineken 0,0 0,5L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          '100% piwa, 0% alkoholu. Doskonałe piwo z naturalnym rzeźwym smakiem, dziękując tradycjam, rodząca się aż od 1873 roku.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${desperados}`,
-        name: 'Piwo Desperados',
+        name: 'Piwo Desperados 0,4L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Aromatyzowane piwo o smaku tequilii, znane w 35 krajach światu. Piwo zadziwia originalnoścu i charakterom. Smak balansuje między lokkoścu lagera, ekzotiką cytrusa i tequilią.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${corona}`,
-        name: 'Piwo Corona Extra',
+        name: 'Piwo Corona Extra 0,355L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Jasny lager, będący jednym z najbardziej sprzedawanych brendów piwa w świacie. Ono podbija świat osobliwym lekkim smakiem i poczuciem tropicznej świeżości. Piwo dobre harmonizuje z barbekiu, pizzą lub rybą grillowanej.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${pilsner}`,
-        name: 'Piwo Pilsner Urqruell',
+        name: 'Piwo Pilsner Urqruell 0,5L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Jasne czeskie piwo dolnej fermentacji. Smak Pilsner Urquell jest trochę ciężczym i więcej chmelowym, niż u większości lagerów. Osobliwościami receptury są gatunek chmelu Saaz (rostę tylko w Bohemii) i trzechgotowalne zacieranie słodowe na otwartym ogniu.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${hardmade}`,
-        name: 'Hardmade',
+        name: 'Hardmade 0,4L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Piwo inspirowane rytmem miasta oraz wolnościu i relaksem. Rozmaite letni smaki dla twojej indywidualności.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${caJack}`,
-        name: 'Kapitan Jack',
+        name: 'Capitan Jack 0,4L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Zaskakujące piwo, które zaprasza do pirackich przygód. Ma jedny w swoim rodzaju smak z nutę karibskiego ruma. Najlepej pić zimnym z kapką cytryny.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${tarczyn}`,
-        name: 'Sok Tarczyn (pomidor, czarna porzeczka)',
+        name: 'Sok Tarczyn 0,3L (pomidor lub czarna porzeczka)',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Stuprocentowe soki z polskich owoców. Wyprodukowane za nowoczesnymi technologijami. Doskonały naturalny skład i świeżość.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${cappy}`,
-        name: 'Sok Cappy (pomarancz, jabłuko, greypfrut)',
+        name: 'Sok Cappy 0,25L (pomarancz, jabłuko lub greypfrut)',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Wysokojakociowe soki z wyjtkowym smakiem. Źrodlo witaminów, esencja dorzałych owoców w charakterystyczną butelkę.',
         price: '10zł',
       },
       {
@@ -146,7 +146,7 @@ export const napoje = [
         image: `${cocaCola}`,
         name: 'Coca-cola 0,5L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Legendarna cola. Pyszna i orzeźwiająca o klasycznem smaku. Odświeży pod czas upału i dodaje sił. Polecamy z liodem. ',
         price: '10zł',
       },
       {
@@ -154,23 +154,23 @@ export const napoje = [
         image: `${sprite}`,
         name: 'Sprite 0,5L',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Napój dla aktywnych i kreatywnych ludzi. Ma przyjemny rzeżwy smak cytryny i limonki. Polecamy do koktelów i z liodem.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${burn}`,
-        name: 'Burn napoj energenyczny',
+        name: 'Burn 0,25L napoj energenyczny',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Unikalny napój energetyczny z łagodnym przyjemnym smakiem. Kofeina, tauryna + guarana uwolną energiję, zmniejszą zmęczenie i obudzę w tobie ogień.',
         price: '10zł',
       },
       {
         id: uuidv4(),
         image: `${kropla}`,
-        name: 'Woda Kropla Beskidu (gazowana lub niegazowana)',
+        name: 'Woda Kropla Beskidu 0,33L (gazowana lub niegazowana)',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Naturalna czysta woda mineralna z serca Beskidów. Doskonały wybór dla ugaszenia pragnenia. Niskomineralizowana woda powstrzymuje apetyt i poprawia trawienie.',
         price: '10zł',
       },
   ];

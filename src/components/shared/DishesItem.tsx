@@ -15,17 +15,22 @@ const Image = styled.img`
   height: 33%;
 `;
 
+const Content = styled.div`
+  width: 65%;
+  padding-left: 10px;
+`;
+
 export const DishesItem = ({ image, name, about, price }: IDishesType) => {
   return (
     <Item>
       <Image src={image} alt="" />
-      <div>
+      <Content>
         <LabelLarge>{name}</LabelLarge>
         <LabelSmall>{about}</LabelSmall>
-        <LabelLarge>
+        {/* <LabelLarge>
           <span>Price:</span> {price}
-        </LabelLarge>
-      </div>
+        </LabelLarge> */}
+      </Content>
     </Item>
   );
 };
