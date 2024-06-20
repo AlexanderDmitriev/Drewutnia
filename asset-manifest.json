@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.6da2ef4f.css",
-    "main.js": "/Drewutnia/static/js/main.b59601e5.js",
+    "main.js": "/Drewutnia/static/js/main.d1d2af6d.js",
     "static/media/background.jpg": "/Drewutnia/static/media/background.2a551420a075b3e1ae28.jpg",
     "static/media/coffee.jpg": "/Drewutnia/static/media/coffee.77703d7fd90f9d8260a2.jpg",
     "static/media/DSCN0089.jpg": "/Drewutnia/static/media/DSCN0089.6055ad2cf3441080fb74.jpg",
@@ -85,10 +85,10 @@
     "static/media/location2.svg": "/Drewutnia/static/media/location2.6f1ea0253099d7b1f8e10923ac5e08fe.svg",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.6da2ef4f.css.map": "/Drewutnia/static/css/main.6da2ef4f.css.map",
-    "main.b59601e5.js.map": "/Drewutnia/static/js/main.b59601e5.js.map"
+    "main.d1d2af6d.js.map": "/Drewutnia/static/js/main.d1d2af6d.js.map"
   },
   "entrypoints": [
     "static/css/main.6da2ef4f.css",
-    "static/js/main.b59601e5.js"
+    "static/js/main.d1d2af6d.js"
   ]
 }
