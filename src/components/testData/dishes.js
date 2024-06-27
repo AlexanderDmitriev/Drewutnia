@@ -2,7 +2,10 @@ import dish from '../../images/dish.png';
 import kielbasa from '../../images/menu/dania/kielbasa.jpg';
 import kaszanka from '../../images/menu/dania/kaszanka.jpg'
 import pierogi from '../../images/menu/dania/pierogi.jpg';
+import zapiekanka from '../../images/menu/dania/zapiekanka.jpg';
+import sledz from '../../images/menu/dania/Śledz z cebulką.jpg';
 import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
+import smalec from '../../images/menu/dania/smalec.jpg';
 import coffee from '../../images/menu/dania/coffee.jpg';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -25,31 +28,31 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${zapiekanka}`,
       name: 'Zapiekanka',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Kultowy polski przysmak, który stał naprawde narodowym. Bagietka, ser, pieczarki i ketchup. Bardzo prostę, ale i bardzo pysznę. Odwiedzający nasz kraj nazywają ją polish grill sandwich (polską grilowaną kanapką) i mają także swoje ulubione lokalizacje. Doskonałe dla ugaszenia głodu.',
       price: '10zł',
     },
     {
       id: uuidv4(),
       image: `${pierogi}`,
-      name: 'Pierogi (mięso, ziemniaki, kapusta)',
+      name: 'Pierogi (mięso, ziemniaki lub kapusta)',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Jedno z najbardziej popularnych polskich dań.Trudno znaleźć kogoś, kto by ich nie lubił. Zrobione z cienkiego, elastycznego i dobrze zlepiającego się ciasta. Oferujemy pierogi z mięsem, ziemniakami lub z kapustą. Przy serwie dodajemy trochę smalca i tajnego składnika dla pyszności i waszej przyjemności.',
       price: '10zł',
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${sledz}`,
       name: 'Śledz z cebulką',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Wolisz coś tradycyjnego i pysznego? Polecamy takie pikantne danie jak śledzie z cebulą. Dobrze przygotowany śledź w oleju jest miękki, delikatny i rozpływający się w ustach.',
       price: '10zł',
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${smalec}`,
       name: 'Smalec z ogórkiem',
       about:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
@@ -91,6 +94,14 @@ import { v4 as uuidv4 } from 'uuid';
       id: uuidv4(),
       image: `${kawaParzona}`,
       name: 'Kawa parzona',
+      about:
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+      price: '10zł',
+    },
+    {
+      id: uuidv4(),
+      image: `${dish}`,
+      name: 'Frytki',
       about:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
       price: '10zł',
