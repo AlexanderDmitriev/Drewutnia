@@ -1,4 +1,4 @@
-import dish from '../../images/dish.png';
+//import dish from '../../images/dish.png';
 import kielbasa from '../../images/menu/dania/kielbasa.jpg';
 import kaszanka from '../../images/menu/dania/kaszanka.jpg'
 import pierogi from '../../images/menu/dania/pierogi.jpg';
@@ -10,6 +10,7 @@ import popcorn from '../../images/menu/dania/Popcorn.jpg'
 import lody from '../../images/menu/dania/lody.jpg';
 import kawaFreeze from '../../images/menu/dania/KawaMrozona.jpeg';
 import coffee from '../../images/menu/dania/coffee.jpg';
+import frytki from '../../images/menu/dania/Frytki.webp';
 import { v4 as uuidv4 } from 'uuid';
 
   export const dishesSomethingToEat = [
@@ -82,13 +83,13 @@ import { v4 as uuidv4 } from 'uuid';
       image: `${kawaFreeze}`,
       name: 'Kawa mrożona',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Kawa podawana na zimno z dodatkiem lodu. Dzięki temu przynosi orzeźwienie w upalne dni, a jednocześnie dobrze gasi pragnienie.',
       price: '10zł',
     },
     {
       id: uuidv4(),
       image: `${coffee}`,
-      name: 'Kawa (late, capucino, espresso)',
+      name: 'Kawa (late, capucino lub espresso)',
       about:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
       price: '10zł',
@@ -98,15 +99,15 @@ import { v4 as uuidv4 } from 'uuid';
       image: `${kawaParzona}`,
       name: 'Kawa parzona',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Najpopularniejszy używek z wyjątkowym aromatem oraz smakiem. Również jest źródłem kofeiny dla człowieka. Kawa posiada właściwości pobudzające i orzeźwiające, poprawiając koncentrację. ',
       price: '10zł',
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${frytki}`,
       name: 'Frytki',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Chyba jest najpopularnejszej potrawą ziemniaczaną. Smażone na głębokim tłuszczu ziemniaki z dodatkiem solu i ketczupu. Fritki są chrupiące zewnątrz i miękkie w środku, również mają apetyczny złoty kolor',
       price: '10zł',
     },
   ];
