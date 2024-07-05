@@ -6,6 +6,9 @@ import zapiekanka from '../../images/menu/dania/zapiekanka.jpg';
 import sledz from '../../images/menu/dania/Śledz z cebulką.jpg';
 import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
 import smalec from '../../images/menu/dania/smalec.jpg';
+import popcorn from '../../images/menu/dania/Popcorn.jpg'
+import lody from '../../images/menu/dania/lody.jpg';
+import kawaFreeze from '../../images/menu/dania/KawaMrozona.jpeg';
 import coffee from '../../images/menu/dania/coffee.jpg';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -55,29 +58,29 @@ import { v4 as uuidv4 } from 'uuid';
       image: `${smalec}`,
       name: 'Smalec z ogórkiem',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Ugotowany z tłuszcza pochodzenia zwierzęcego ze skwarami z dodatkiem małosolnych ogórków  na świeżym chlebem.',
       price: '10zł',
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${popcorn}`,
       name: 'Popkorn',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Fajna przekazka z prażonej kukurydzy do meczu lub do dobrej rozmowy o filmach. Równierz to jest doskonałe źródło błonnika.',
       price: '10zł',
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${lody}`,
       name: 'Lody',
       about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        'Lody to jeden z ulubionych deserów wielu ludzi. Żimny smakołek to co ciebie potrzebne pod czas upału lub prosto tak, żeby sprawić przyjemność sobie.',
       price: '10zł',
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
-      name: 'Kawa mrorzona',
+      image: `${kawaFreeze}`,
+      name: 'Kawa mrożona',
       about:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
       price: '10zł',
