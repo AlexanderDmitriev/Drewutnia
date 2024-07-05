@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.6da2ef4f.css",
-    "main.js": "/Drewutnia/static/js/main.51686d54.js",
+    "main.js": "/Drewutnia/static/js/main.9ca7ea9a.js",
     "static/media/background.jpg": "/Drewutnia/static/media/background.2a551420a075b3e1ae28.jpg",
     "static/media/coffee.jpg": "/Drewutnia/static/media/coffee.77703d7fd90f9d8260a2.jpg",
     "static/media/DSCN0089.jpg": "/Drewutnia/static/media/DSCN0089.6055ad2cf3441080fb74.jpg",
@@ -45,6 +45,7 @@
     "static/media/432439034___n.jpg": "/Drewutnia/static/media/432439034_17918432993892782_320558870138485120_n.a4df194e12898fc9f68c.jpg",
     "static/media/432447155___n.jpg": "/Drewutnia/static/media/432447155_17918432975892782_7772441314808044699_n.dbc3ee3fb086f22c89af.jpg",
     "static/media/hardmade.jpg": "/Drewutnia/static/media/hardmade.cab9c648aefefa20d0c5.jpg",
+    "static/media/chipsy.jpg": "/Drewutnia/static/media/chipsy.3c949f4759cf8c34b562.jpg",
     "static/media/photo_2024-05-21_16-26-20.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-20.0ed19ebb3a07eef5bbff.jpg",
     "static/media/smalec.jpg": "/Drewutnia/static/media/smalec.bc892537096de792a0dc.jpg",
     "static/media/photo_2024-05-21_16-26-19.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-19.fd8bcfa8658ef231f6ca.jpg",
@@ -87,17 +88,16 @@
     "static/media/KawaMrozona.jpeg": "/Drewutnia/static/media/KawaMrozona.67ee8f748a8edf420879.jpeg",
     "static/media/cappy.jpg": "/Drewutnia/static/media/cappy.fa6e65b130deceb94a0a.jpg",
     "static/media/heineken.png": "/Drewutnia/static/media/heineken.d2ef815c036d2803e0cc.png",
-    "static/media/dish.png": "/Drewutnia/static/media/dish.27e671dfaa3ad80f7966.png",
     "static/media/kozel.png": "/Drewutnia/static/media/kozel.c19ccf3dd994d5fa2567.png",
     "static/media/instagram2.svg": "/Drewutnia/static/media/instagram2.c3b3979eb694c5fc907c8d2031df8212.svg",
     "index.html": "/Drewutnia/index.html",
     "static/media/location2.svg": "/Drewutnia/static/media/location2.6f1ea0253099d7b1f8e10923ac5e08fe.svg",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.6da2ef4f.css.map": "/Drewutnia/static/css/main.6da2ef4f.css.map",
-    "main.51686d54.js.map": "/Drewutnia/static/js/main.51686d54.js.map"
+    "main.9ca7ea9a.js.map": "/Drewutnia/static/js/main.9ca7ea9a.js.map"
   },
   "entrypoints": [
     "static/css/main.6da2ef4f.css",
-    "static/js/main.51686d54.js"
+    "static/js/main.9ca7ea9a.js"
   ]
 }
