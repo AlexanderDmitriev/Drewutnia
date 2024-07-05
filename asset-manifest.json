@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.6da2ef4f.css",
-    "main.js": "/Drewutnia/static/js/main.ec6796f7.js",
+    "main.js": "/Drewutnia/static/js/main.533e986e.js",
     "static/media/background.jpg": "/Drewutnia/static/media/background.2a551420a075b3e1ae28.jpg",
     "static/media/coffee.jpg": "/Drewutnia/static/media/coffee.77703d7fd90f9d8260a2.jpg",
     "static/media/DSCN0089.jpg": "/Drewutnia/static/media/DSCN0089.6055ad2cf3441080fb74.jpg",
@@ -31,6 +31,7 @@
     "static/media/home8.jpg": "/Drewutnia/static/media/home8.8de6d5e13bdaf749b9ed.jpg",
     "static/media/photo_2024-05-21_16-26-22.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-22.9a7e337ccefaffced1b1.jpg",
     "static/media/354453287_753309323160579__n.jpg": "/Drewutnia/static/media/354453287_753309323160579_2589836898931819664_n.3a56ace438d041f22db7.jpg",
+    "static/media/Popcorn.jpg": "/Drewutnia/static/media/Popcorn.92a83c7f0b8916694186.jpg",
     "static/media/427614228_880513550440155__n.jpg": "/Drewutnia/static/media/427614228_880513550440155_7773368725902619245_n.dfaf6d8bd24561ac0707.jpg",
     "static/media/photo_2024-05-21_16-26-24.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-24.42552f6935f43c96c5cc.jpg",
     "static/media/photo_2024-05-21_16-26-23.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-23.da4359f9a7403ab29ad4.jpg",
@@ -77,10 +78,12 @@
     "static/media/6.jpg": "/Drewutnia/static/media/6.1354ab09377c17984eb4.jpg",
     "static/media/PICT0853.jpg": "/Drewutnia/static/media/PICT0853.69b1c04e5789de1b725e.jpg",
     "static/media/ksiazece-logo.png": "/Drewutnia/static/media/ksiazece-logo.075c68ba003d1212e735.png",
+    "static/media/lody.jpg": "/Drewutnia/static/media/lody.55c7d8d92ea4be2cc93e.jpg",
     "static/media/Corona-Extra-Logo.png": "/Drewutnia/static/media/Corona-Extra-Logo.a43ae44672687db33a93.png",
     "static/media/PICT1019.jpg": "/Drewutnia/static/media/PICT1019.b6f8a2edaee83f56f40e.jpg",
     "static/media/felix-orzeszki-ziemne-smazone-i-solone-140-g.jpg": "/Drewutnia/static/media/felix-orzeszki-ziemne-smazone-i-solone-140-g.4d8a28e1d69ed8a2fd14.jpg",
     "static/media/reserve1.jpg": "/Drewutnia/static/media/reserve1.931acdf309a90c5434ed.jpg",
+    "static/media/KawaMrozona.jpeg": "/Drewutnia/static/media/KawaMrozona.67ee8f748a8edf420879.jpeg",
     "static/media/cappy.jpg": "/Drewutnia/static/media/cappy.fa6e65b130deceb94a0a.jpg",
     "static/media/heineken.png": "/Drewutnia/static/media/heineken.d2ef815c036d2803e0cc.png",
     "static/media/dish.png": "/Drewutnia/static/media/dish.27e671dfaa3ad80f7966.png",
@@ -90,10 +93,10 @@
     "static/media/location2.svg": "/Drewutnia/static/media/location2.6f1ea0253099d7b1f8e10923ac5e08fe.svg",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.6da2ef4f.css.map": "/Drewutnia/static/css/main.6da2ef4f.css.map",
-    "main.ec6796f7.js.map": "/Drewutnia/static/js/main.ec6796f7.js.map"
+    "main.533e986e.js.map": "/Drewutnia/static/js/main.533e986e.js.map"
   },
   "entrypoints": [
     "static/css/main.6da2ef4f.css",
-    "static/js/main.ec6796f7.js"
+    "static/js/main.533e986e.js"
   ]
 }
