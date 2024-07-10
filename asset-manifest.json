@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.6da2ef4f.css",
-    "main.js": "/Drewutnia/static/js/main.9ca7ea9a.js",
+    "main.js": "/Drewutnia/static/js/main.234231f1.js",
     "static/media/background.jpg": "/Drewutnia/static/media/background.2a551420a075b3e1ae28.jpg",
     "static/media/coffee.jpg": "/Drewutnia/static/media/coffee.77703d7fd90f9d8260a2.jpg",
     "static/media/DSCN0089.jpg": "/Drewutnia/static/media/DSCN0089.6055ad2cf3441080fb74.jpg",
@@ -11,7 +11,6 @@
     "static/media/PICT0435.jpg": "/Drewutnia/static/media/PICT0435.0a9103bfaa20970849d4.jpg",
     "static/media/pierogi.jpg": "/Drewutnia/static/media/pierogi.f311582b8542dfb27e4c.jpg",
     "static/media/336658058_773366264436668__n.jpg": "/Drewutnia/static/media/336658058_773366264436668_6009059773660962482_n.02a3b4f280f86e1b8b23.jpg",
-    "static/media/zapiekanka.jpg": "/Drewutnia/static/media/zapiekanka.91cd75c51020c30b1d69.jpg",
     "static/media/captain-jack.png": "/Drewutnia/static/media/captain-jack.37383d8b63b28617a11b.png",
     "static/media/354594962_753309316493913__n.jpg": "/Drewutnia/static/media/354594962_753309316493913_9032373034302796243_n.9f23bf69158de6803259.jpg",
     "static/media/336485365___n.jpg": "/Drewutnia/static/media/336485365_1207824093187586_2439858067704043689_n.e984e54df26b31e4ab04.jpg",
@@ -38,8 +37,10 @@
     "static/media/427871640_880513597106817__n.jpg": "/Drewutnia/static/media/427871640_880513597106817_417899855182421037_n.6958b339af1bfc2fcdee.jpg",
     "static/media/home5.jpg": "/Drewutnia/static/media/home5.3c1fb3db43eb2e00bf9b.jpg",
     "static/media/home1.jpg": "/Drewutnia/static/media/home1.5432ea1cb2f176a36fb4.jpg",
+    "static/media/kielbasa.jpg": "/Drewutnia/static/media/kielbasa.2e19b6fac334b700ec23.jpg",
     "static/media/home6.jpg": "/Drewutnia/static/media/home6.cefcdfc6b0850266edbc.jpg",
     "static/media/428051599_880513533773490__n.jpg": "/Drewutnia/static/media/428051599_880513533773490_973888374116031541_n.df8acc6835bcdc10dcbc.jpg",
+    "static/media/zapiekanka.jpg": "/Drewutnia/static/media/zapiekanka.68f25d1b964ba68585af.jpg",
     "static/media/427867679_880513567106820__n.jpg": "/Drewutnia/static/media/427867679_880513567106820_6415765987670782831_n.e684db6fa0a0e33dbf73.jpg",
     "static/media/photo_2024-05-21_16-26-21.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-21.9782861b57533bec95b3.jpg",
     "static/media/432439034___n.jpg": "/Drewutnia/static/media/432439034_17918432993892782_320558870138485120_n.a4df194e12898fc9f68c.jpg",
@@ -49,6 +50,7 @@
     "static/media/photo_2024-05-21_16-26-20.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-20.0ed19ebb3a07eef5bbff.jpg",
     "static/media/smalec.jpg": "/Drewutnia/static/media/smalec.bc892537096de792a0dc.jpg",
     "static/media/photo_2024-05-21_16-26-19.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-19.fd8bcfa8658ef231f6ca.jpg",
+    "static/media/Śledz z cebulką.jpg": "/Drewutnia/static/media/Śledz z cebulką.d2944762962d0b782825.jpg",
     "static/media/433603828___n.jpg": "/Drewutnia/static/media/433603828_17918432984892782_488615682909672366_n.127bad4e2eb2aa85ccc9.jpg",
     "static/media/photo_2024-05-21_16-26-27 (2).jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-27 (2).f359c057fa13cc85e868.jpg",
     "static/media/paszuki-klasyczne.png": "/Drewutnia/static/media/paszuki-klasyczne.ee191478a4f868ffb891.png",
@@ -64,9 +66,7 @@
     "static/media/kroplabeskidu-logo.png": "/Drewutnia/static/media/kroplabeskidu-logo.9a18c59a0038fc65aee5.png",
     "static/media/3.jpg": "/Drewutnia/static/media/3.31e7c82a45de92543995.jpg",
     "static/media/404.jpg": "/Drewutnia/static/media/404.2b6b49546edad371475a.jpg",
-    "static/media/kielbasa.jpg": "/Drewutnia/static/media/kielbasa.e838c4be7ba5d95ced07.jpg",
     "static/media/tarczyn.jpg": "/Drewutnia/static/media/tarczyn.1ba53ead99396512acdf.jpg",
-    "static/media/Śledz z cebulką.jpg": "/Drewutnia/static/media/Śledz z cebulką.98b7c63629e773213a6e.jpg",
     "static/media/IMG_4338.jpg": "/Drewutnia/static/media/IMG_4338.5d7236809dd7d54abe88.jpg",
     "static/media/reserve2.jpg": "/Drewutnia/static/media/reserve2.aeced47456a3b4b8eb74.jpg",
     "static/media/PICT2552.jpg": "/Drewutnia/static/media/PICT2552.ea3e1b7cd1e862ebb0a4.jpg",
@@ -94,10 +94,10 @@
     "static/media/location2.svg": "/Drewutnia/static/media/location2.6f1ea0253099d7b1f8e10923ac5e08fe.svg",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.6da2ef4f.css.map": "/Drewutnia/static/css/main.6da2ef4f.css.map",
-    "main.9ca7ea9a.js.map": "/Drewutnia/static/js/main.9ca7ea9a.js.map"
+    "main.234231f1.js.map": "/Drewutnia/static/js/main.234231f1.js.map"
   },
   "entrypoints": [
     "static/css/main.6da2ef4f.css",
-    "static/js/main.9ca7ea9a.js"
+    "static/js/main.234231f1.js"
   ]
 }
