@@ -3,8 +3,8 @@ import styled from '@emotion/styled';
 const TempContainer = styled.div`
   width: 100%;
   margin: 0 auto;
-  min-height: 100%;
-  padding: 15px;
+  min-height: 84vh;
+  padding: 15px 0;
   @media screen and (min-width: 480px) {
     width: 479px;
   }

@@ -9,7 +9,7 @@ export const CustomText = styled.p`
   background-color: rgba(240, 231, 231, 0.75);
   border-radius: 15px;
   padding: 5px 15px;
-  margin-bottom: 10px;
+  margin: 10px;
   span {
     font-weight: 600;
   }

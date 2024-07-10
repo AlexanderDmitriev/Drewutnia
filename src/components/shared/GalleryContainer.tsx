@@ -5,12 +5,20 @@ export const GalleryContainer = styled.div`
   margin: 0 auto;
   width: 360px;
   display: contents;
-  @media screen and (min-width: 480px) {
-    min-height: 600px;
-    width: 360px;
-  }
-  @media screen and (min-width: 768px) {
-    min-height: 500px;
-    min-width: 518px;
+  margin: 0 auto;
+  .image-gallery {
+    width: 100vw;
+    @media screen and (min-width: 480px) {
+      min-height: 600px;
+      width: 360px;
+    }
+    @media screen and (min-width: 768px) {
+      min-height: 500px;
+      min-width: 518px;
+    }
+    @media screen and (min-width: 1024px) {
+      min-height: 768px;
+      min-width: 768px;
+    }
   }
 `;

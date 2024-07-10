@@ -4,7 +4,7 @@ import Typography from '@mui/material/Typography';
 import styled from '@emotion/styled';
 import {IGalleryType} from '../Interfaces/IGalleryType';
 
-const maxWidth = `${document.documentElement.scrollWidth * 0.4}px`;
+const maxWidth = `${document.documentElement.scrollWidth * 0.75}px`;
 
 const Folder = styled(Paper)`
   background-color: #f0e7e7;
