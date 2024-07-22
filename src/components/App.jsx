@@ -16,6 +16,9 @@ import {
   ContactsPage,
   NotFoundPage,
 } from '../pages';
+import { useTranslation } from 'react-i18next';
+import './utils/i18next';
+import { useSelector } from 'react-redux';
 
 export const App = () => {
   const [lastGallery, setLastGallery] = useState(
@@ -25,11 +28,18 @@ export const App = () => {
     window.localStorage.setItem('lastGallery', JSON.stringify(lastGallery));
   }, [lastGallery]);
 
+  const { t, i18n } = useTranslation();
+  const getLocale = state => state.locale.currentLocale;
+  const currentLocale = useSelector(getLocale);
+  useEffect(() => {
+    window.localStorage.setItem('locale', JSON.stringify(currentLocale));
+  }, [currentLocale]);
+
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       <Container>
-        <Header />
+        <Header t={t} i18n={i18n} />
         <Sidebar />
         <main>
           <ContentContainer>

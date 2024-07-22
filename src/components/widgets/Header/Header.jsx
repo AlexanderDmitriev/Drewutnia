@@ -4,8 +4,9 @@ import { BurgerMenu, Navigation, Instagram, Facebook } from '../../entities';
 import { useState, useRef } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { useOnClickOutside } from '../../shared/Burger/hooks';
+//import { LanguageToggle } from '../LanguegeToggle/LanguageToggle';
 
-export const Header = () => {
+export const Header = ({ i18n }) => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
   const [isOpen, setIsOpen] = useState(false);
   /* const [isDarkTheme, setIsDarkTheme] = useState(false); */
@@ -18,21 +19,22 @@ export const Header = () => {
   }; */
 
   return (
-      <HeaderContainer>
-        <HeaderBlocks>
+    <HeaderContainer>
+      <HeaderBlocks>
+        <div>
+          <Logo />
+          <ContactsSection>
+            <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
+            <HeaderLabel href="tel:+48603956037">(+48) 603-956-037</HeaderLabel>
+          </ContactsSection>
           <div>
-            <Logo />
-            <ContactsSection>
-              <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
-              <HeaderLabel href="tel:+48603956037">(+48) 603-956-037</HeaderLabel>
-            </ContactsSection>
-            <div>
-              <Facebook />
-              <Instagram />
-            </div>
+           {/*  <LanguageToggle i18n={i18n} /> */}
+            <Facebook />
+            <Instagram />
           </div>
-        </HeaderBlocks>
-        {/* <div>
+        </div>
+      </HeaderBlocks>
+      {/* <div>
           <Profile />
           <ThemeButton
             isDarkTheme={isDarkTheme}
@@ -40,18 +42,17 @@ export const Header = () => {
           />
           {isTab && <LanguegeButton />}
       </div> */}
-        {isTab ? (
-          <Navigation />
-        ) : (
-          <>
-            {/* <LanguegeButton /> */}
-            <div ref={node}>
-              <Burger open={isOpen} setOpen={setIsOpen} />
-              <BurgerMenu open={isOpen} setOpen={setIsOpen} />
-            </div>
-          </>
-        )}
-      </HeaderContainer>
+      {isTab ? (
+        <Navigation />
+      ) : (
+        <>
+          {/* <LanguegeButton /> */}
+          <div ref={node}>
+            <Burger open={isOpen} setOpen={setIsOpen} />
+            <BurgerMenu open={isOpen} setOpen={setIsOpen} />
+          </div>
+        </>
+      )}
+    </HeaderContainer>
   );
 };
-
