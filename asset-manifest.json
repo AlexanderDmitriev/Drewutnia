@@ -1,15 +1,12 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.6da2ef4f.css",
-    "main.js": "/Drewutnia/static/js/main.08be42c8.js",
+    "main.js": "/Drewutnia/static/js/main.af4ba24f.js",
     "static/media/background.jpg": "/Drewutnia/static/media/background.2a551420a075b3e1ae28.jpg",
-    "static/media/coffee.jpg": "/Drewutnia/static/media/coffee.77703d7fd90f9d8260a2.jpg",
     "static/media/DSCN0089.jpg": "/Drewutnia/static/media/DSCN0089.6055ad2cf3441080fb74.jpg",
     "static/media/DSCN0140.jpg": "/Drewutnia/static/media/DSCN0140.c565a03e608991012fce.jpg",
     "static/media/beer2.jpg": "/Drewutnia/static/media/beer2.e4d3f622e6ee2c19a528.jpg",
-    "static/media/kawaParzona.jpg": "/Drewutnia/static/media/kawaParzona.664ca9b83ccbd3122aef.jpg",
     "static/media/PICT0435.jpg": "/Drewutnia/static/media/PICT0435.0a9103bfaa20970849d4.jpg",
-    "static/media/pierogi.jpg": "/Drewutnia/static/media/pierogi.f311582b8542dfb27e4c.jpg",
     "static/media/336658058_773366264436668__n.jpg": "/Drewutnia/static/media/336658058_773366264436668_6009059773660962482_n.02a3b4f280f86e1b8b23.jpg",
     "static/media/captain-jack.png": "/Drewutnia/static/media/captain-jack.37383d8b63b28617a11b.png",
     "static/media/354594962_753309316493913__n.jpg": "/Drewutnia/static/media/354594962_753309316493913_9032373034302796243_n.9f23bf69158de6803259.jpg",
@@ -48,7 +45,6 @@
     "static/media/hardmade.jpg": "/Drewutnia/static/media/hardmade.cab9c648aefefa20d0c5.jpg",
     "static/media/chipsy.jpg": "/Drewutnia/static/media/chipsy.3c949f4759cf8c34b562.jpg",
     "static/media/photo_2024-05-21_16-26-20.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-20.0ed19ebb3a07eef5bbff.jpg",
-    "static/media/smalec.jpg": "/Drewutnia/static/media/smalec.bc892537096de792a0dc.jpg",
     "static/media/photo_2024-05-21_16-26-19.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-19.fd8bcfa8658ef231f6ca.jpg",
     "static/media/Śledz z cebulką.jpg": "/Drewutnia/static/media/Śledz z cebulką.d2944762962d0b782825.jpg",
     "static/media/433603828___n.jpg": "/Drewutnia/static/media/433603828_17918432984892782_488615682909672366_n.127bad4e2eb2aa85ccc9.jpg",
@@ -58,7 +54,6 @@
     "static/media/photo_2024-05-21_16-26-28.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-28.03f2a05380885a5a6147.jpg",
     "static/media/photo_2024-05-21_16-26-27.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-27.1deab2440c6906af80e9.jpg",
     "static/media/coca-cola-emblem.jpg": "/Drewutnia/static/media/coca-cola-emblem.a702eedf0b66509ff778.jpg",
-    "static/media/kaszanka.jpg": "/Drewutnia/static/media/kaszanka.189ea3047d1ebfc38f78.jpg",
     "static/media/photo_2024-05-21_16-26-25.jpg": "/Drewutnia/static/media/photo_2024-05-21_16-26-25.27400de2bafa7a128bed.jpg",
     "static/media/lech.jpg": "/Drewutnia/static/media/lech.ebc43ca6f2f66509223d.jpg",
     "static/media/4.jpg": "/Drewutnia/static/media/4.e80d52677d95299f9dcb.jpg",
@@ -84,20 +79,20 @@
     "static/media/PICT1019.jpg": "/Drewutnia/static/media/PICT1019.b6f8a2edaee83f56f40e.jpg",
     "static/media/felix-orzeszki-ziemne-smazone-i-solone-140-g.jpg": "/Drewutnia/static/media/felix-orzeszki-ziemne-smazone-i-solone-140-g.4d8a28e1d69ed8a2fd14.jpg",
     "static/media/reserve1.jpg": "/Drewutnia/static/media/reserve1.931acdf309a90c5434ed.jpg",
-    "static/media/Frytki.webp": "/Drewutnia/static/media/Frytki.56cff61135dc4c516e89.webp",
-    "static/media/KawaMrozona.jpeg": "/Drewutnia/static/media/KawaMrozona.67ee8f748a8edf420879.jpeg",
     "static/media/cappy.jpg": "/Drewutnia/static/media/cappy.fa6e65b130deceb94a0a.jpg",
     "static/media/heineken.png": "/Drewutnia/static/media/heineken.d2ef815c036d2803e0cc.png",
+    "static/media/dish.png": "/Drewutnia/static/media/dish.27e671dfaa3ad80f7966.png",
     "static/media/kozel.png": "/Drewutnia/static/media/kozel.c19ccf3dd994d5fa2567.png",
     "static/media/instagram2.svg": "/Drewutnia/static/media/instagram2.c3b3979eb694c5fc907c8d2031df8212.svg",
     "index.html": "/Drewutnia/index.html",
     "static/media/location2.svg": "/Drewutnia/static/media/location2.6f1ea0253099d7b1f8e10923ac5e08fe.svg",
+    "static/media/getFetch.cjs": "/Drewutnia/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.6da2ef4f.css.map": "/Drewutnia/static/css/main.6da2ef4f.css.map",
-    "main.08be42c8.js.map": "/Drewutnia/static/js/main.08be42c8.js.map"
+    "main.af4ba24f.js.map": "/Drewutnia/static/js/main.af4ba24f.js.map"
   },
   "entrypoints": [
     "static/css/main.6da2ef4f.css",
-    "static/js/main.08be42c8.js"
+    "static/js/main.af4ba24f.js"
   ]
 }
