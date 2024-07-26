@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { LanguageSelect } from './LanguageSelect';
-import { changeLanguege } from '../../../redux/store';
+import { changeLanguege } from '../../../redux/localeSlice';
 
 export const LanguageToggle = ({ i18n }) => {
   const [selectedOption, setSelectedOption] = useState({

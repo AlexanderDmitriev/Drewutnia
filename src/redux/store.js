@@ -1,27 +1,28 @@
-import { configureStore, createSlice } from '@reduxjs/toolkit';
+import { configureStore } from '@reduxjs/toolkit';
+/* import {
+  persistStore,
+  FLUSH,
+  REHYDRATE,
+  PAUSE,
+  PERSIST,
+  PURGE,
+  REGISTER,
+} from 'redux-persist'; */
+import { changeLanguege } from './localeSlice';
 
-const initialState = {
-    currentLocale: JSON.parse(window.localStorage.getItem('locale')) ?? {
-      value: 'pl',
-      label: 'PL',
-    },
-  };
 
-  const localeSlice = createSlice({
-    name: 'locale',
-    initialState,
-    reducers: {
-      changeLanguege(state, action) {
-        state.currentLocale = {
-          value: action.payload.value,
-          label: action.payload.label,
-        };
+
+export const store = configureStore({
+  reducer: { [changeLanguege]:changeLanguege.reducer },
+  /* middleware: getDefaultMiddleware => [
+    ...getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    },
-  });
+    }),
+    changeLanguege.middleware,
+  ], */
+});
 
-  export const store = configureStore({
-    reducer: { locale: localeSlice.reducer },
-  });
 
-  export const { changeLanguege } = localeSlice.actions;
+//export const persistor = persistStore(store);

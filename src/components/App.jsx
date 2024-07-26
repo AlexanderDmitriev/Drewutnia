@@ -18,7 +18,7 @@ import {
 } from '../pages';
 import { useTranslation } from 'react-i18next';
 import './utils/i18next';
-import { useSelector } from 'react-redux';
+//import { useSelector } from 'react-redux';
 
 export const App = () => {
   const [lastGallery, setLastGallery] = useState(
@@ -29,11 +29,12 @@ export const App = () => {
   }, [lastGallery]);
 
   const { t, i18n } = useTranslation();
-  const getLocale = state => state.locale.currentLocale;
-  const currentLocale = useSelector(getLocale);
-  useEffect(() => {
-    window.localStorage.setItem('locale', JSON.stringify(currentLocale));
-  }, [currentLocale]);
+  /* const getLocale = state => state.locale.currentLocale;
+  const currentLocale = useSelector(getLocale); */
+  
+  /* useEffect(() => {
+    window.localStorage.setItem('locale', JSON.stringify(currentLocale.value));
+  }, [currentLocale]); */
 
   return (
     <ThemeProvider theme={theme}>

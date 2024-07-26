@@ -6,7 +6,7 @@ import { useMediaQuery } from 'react-responsive';
 import { useOnClickOutside } from '../../shared/Burger/hooks';
 //import { LanguageToggle } from '../LanguegeToggle/LanguageToggle';
 
-export const Header = ({ i18n }) => {
+export const Header = () => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
   const [isOpen, setIsOpen] = useState(false);
   /* const [isDarkTheme, setIsDarkTheme] = useState(false); */
@@ -28,7 +28,7 @@ export const Header = ({ i18n }) => {
             <HeaderLabel href="tel:+48603956037">(+48) 603-956-037</HeaderLabel>
           </ContactsSection>
           <div>
-           {/*  <LanguageToggle i18n={i18n} /> */}
+            {/* <LanguageToggle i18n={i18n} /> */}
             <Facebook />
             <Instagram />
           </div>

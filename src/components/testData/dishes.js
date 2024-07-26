@@ -1,16 +1,16 @@
-import dish from '../../images/dish.png';
+//import dish from '../../images/dish.png';
 import kielbasa from '../../images/menu/dania/kielbasa.jpg';
-//import kaszanka from '../../images/menu/dania/kaszanka.jpg'
-//import pierogi from '../../images/menu/dania/pierogi.jpg';
+import kaszanka from '../../images/menu/dania/kaszanka.jpg'
+import pierogi from '../../images/menu/dania/pierogi.jpg';
 import zapiekanka from '../../images/menu/dania/zapiekanka.jpg';
 import sledz from '../../images/menu/dania/Śledz z cebulką.jpg';
-//import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
-//import smalec from '../../images/menu/dania/smalec.jpg';
+import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
+import smalec from '../../images/menu/dania/smalec.jpg';
 import popcorn from '../../images/menu/dania/Popcorn.jpg'
 import lody from '../../images/menu/dania/lody.jpg';
-//import kawaFreeze from '../../images/menu/dania/KawaMrozona.jpeg';
-//import coffee from '../../images/menu/dania/coffee.jpg';
-//import frytki from '../../images/menu/dania/Frytki.webp';
+import kawaFreeze from '../../images/menu/dania/kawaFreeze.jpg';
+import coffee from '../../images/menu/dania/coffee.jpg';
+import frytki from '../../images/menu/dania/frytki.jpg';
 import { v4 as uuidv4 } from 'uuid';
 
   export const dishesSomethingToEat = [
@@ -24,7 +24,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${kaszanka}`,
       name: 'Kaszanka z cebulką',
       about:
         'Znana i uwielbiana w całym kraju kaszanka. Idealny i prosty posiłek, który serdecznie przyrządzony na patelni z cabulą. Szybka i pyszna kolacja po ciężkim dniu. Mianowicie: kaszy gryczanej, krwi wieprzowej oraz  podrobów takich jak wątróbka, płuca czy ozór. Smakuje jak w domu. Smacznego!',
@@ -40,7 +40,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${pierogi}`,
       name: 'Pierogi (mięso, ziemniaki lub kapusta)',
       about:
         'Jedno z najbardziej popularnych polskich dań.Trudno znaleźć kogoś, kto by ich nie lubił. Zrobione z cienkiego, elastycznego i dobrze zlepiającego się ciasta. Oferujemy pierogi z mięsem, ziemniakami lub z kapustą. Przy serwie dodajemy trochę smalca i tajnego składnika dla pyszności i waszej przyjemności.',
@@ -56,7 +56,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${smalec}`,
       name: 'Smalec z ogórkiem',
       about:
         'Ugotowany z tłuszcza pochodzenia zwierzęcego ze skwarami z dodatkiem małosolnych ogórków  na świeżym chlebem.',
@@ -80,7 +80,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${kawaFreeze}`,
       name: 'Kawa mrożona',
       about:
         'Kawa podawana na zimno z dodatkiem lodu. Dzięki temu przynosi orzeźwienie w upalne dni, a jednocześnie dobrze gasi pragnienie.',
@@ -88,7 +88,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${coffee}`,
       name: 'Kawa (late, capucino lub espresso)',
       about:
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
@@ -96,7 +96,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${kawaParzona}`,
       name: 'Kawa parzona',
       about:
         'Najpopularniejszy używek z wyjątkowym aromatem oraz smakiem. Również jest źródłem kofeiny dla człowieka. Kawa posiada właściwości pobudzające i orzeźwiające, poprawiając koncentrację. ',
@@ -104,7 +104,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${dish}`,
+      image: `${frytki}`,
       name: 'Frytki',
       about:
         'Chyba jest najpopularnejszej potrawą ziemniaczaną. Smażone na głębokim tłuszczu ziemniaki z dodatkiem solu i ketczupu. Fritki są chrupiące zewnątrz i miękkie w środku, również mają apetyczny złoty kolor',

@@ -5,7 +5,7 @@ export const Navigation = () => {
     <nav>
       <NavigationList>
         <li>
-          <NavigationLabel to="/" >Strona Główna</NavigationLabel>
+          <NavigationLabel to="/" > Strona Główna</NavigationLabel>
         </li>
         <li>
           <NavigationLabel to="/menu">Nasze Speciały</NavigationLabel>
