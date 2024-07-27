@@ -21,3 +21,4 @@ export {DishesItem} from './DishesItem';
 export {DishesSummary} from './DishesSummary';
 export {GalleryContainer} from './GalleryContainer';
 export {HiddenTitle} from './HiddenTitle';
+export {TextContainer} from './TextContainer';

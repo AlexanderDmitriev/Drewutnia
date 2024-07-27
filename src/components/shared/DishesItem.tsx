@@ -1,4 +1,4 @@
-import { LabelLarge, LabelSmall } from '.';
+import { LabelLarge, LabelSmall,TextContainer } from '.';
 import styled from '@emotion/styled';
 import { IDishesType } from '../Interfaces/IDishesType';
 
@@ -25,11 +25,14 @@ export const DishesItem = ({ image, name, about, price }: IDishesType) => {
     <Item>
       <Image src={image} alt="" />
       <Content>
+        <TextContainer>
         <LabelLarge>{name}</LabelLarge>
         <LabelSmall>{about}</LabelSmall>
-        {/* <LabelLarge>
+        <LabelLarge>
           <span>Price:</span> {price}
-        </LabelLarge> */}
+        </LabelLarge>
+        </TextContainer>
+        
       </Content>
     </Item>
   );

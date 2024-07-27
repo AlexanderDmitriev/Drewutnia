@@ -4,12 +4,8 @@ import kaszanka from '../../images/menu/dania/kaszanka.jpg'
 import pierogi from '../../images/menu/dania/pierogi.jpg';
 import zapiekanka from '../../images/menu/dania/zapiekanka.jpg';
 import sledz from '../../images/menu/dania/Śledz z cebulką.jpg';
-import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
 import smalec from '../../images/menu/dania/smalec.jpg';
-import popcorn from '../../images/menu/dania/Popcorn.jpg'
 import lody from '../../images/menu/dania/lody.jpg';
-import kawaFreeze from '../../images/menu/dania/kawaFreeze.jpg';
-import coffee from '../../images/menu/dania/coffee.jpg';
 import frytki from '../../images/menu/dania/frytki.jpg';
 import { v4 as uuidv4 } from 'uuid';
 
@@ -64,42 +60,10 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${popcorn}`,
-      name: 'Popkorn',
-      about:
-        'Fajna przekazka z prażonej kukurydzy do meczu lub do dobrej rozmowy o filmach. Równierz to jest doskonałe źródło błonnika.',
-      price: '10zł',
-    },
-    {
-      id: uuidv4(),
       image: `${lody}`,
       name: 'Lody',
       about:
         'Lody to jeden z ulubionych deserów wielu ludzi. Żimny smakołek to co ciebie potrzebne pod czas upału lub prosto tak, żeby sprawić przyjemność sobie.',
-      price: '10zł',
-    },
-    {
-      id: uuidv4(),
-      image: `${kawaFreeze}`,
-      name: 'Kawa mrożona',
-      about:
-        'Kawa podawana na zimno z dodatkiem lodu. Dzięki temu przynosi orzeźwienie w upalne dni, a jednocześnie dobrze gasi pragnienie.',
-      price: '10zł',
-    },
-    {
-      id: uuidv4(),
-      image: `${coffee}`,
-      name: 'Kawa (late, capucino lub espresso)',
-      about:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
-      price: '10zł',
-    },
-    {
-      id: uuidv4(),
-      image: `${kawaParzona}`,
-      name: 'Kawa parzona',
-      about:
-        'Najpopularniejszy używek z wyjątkowym aromatem oraz smakiem. Również jest źródłem kofeiny dla człowieka. Kawa posiada właściwości pobudzające i orzeźwiające, poprawiając koncentrację. ',
       price: '10zł',
     },
     {

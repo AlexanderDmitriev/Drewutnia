@@ -9,10 +9,10 @@ export const MenuPage = () => {
       <HiddenTitle>Menu</HiddenTitle>
       <DishesSummary title={`Napoje`} dishesList={napoje}></DishesSummary>
       <DishesSummary
-        title={'Dania gotowe'}
+        title={'Jedzenie'}
         dishesList={dishesSomethingToEat}
       ></DishesSummary>
-      <DishesSummary title={'Sneki'} dishesList={sneki}></DishesSummary>
+      <DishesSummary title={'Przegryzki'} dishesList={sneki}></DishesSummary>
     </section>
   );
 };

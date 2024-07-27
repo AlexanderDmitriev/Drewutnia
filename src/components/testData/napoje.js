@@ -18,6 +18,9 @@ import sprite from '../../images/menu/napoje/sprite-logo-0FD1748C65-seeklogo.com
 import warka from '../../images/menu/napoje/warkaStrong.jpg';
 import zywiec from '../../images/menu/napoje/zywiec_nowelogo_655.png';
 import hardmade from '../../images/menu/napoje/hardmade.jpg';
+import kawaFreeze from '../../images/menu/dania/kawaFreeze.jpg';
+import coffee from '../../images/menu/dania/coffee.jpg';
+import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const napoje = [
@@ -40,7 +43,7 @@ export const napoje = [
     {
       id: uuidv4(),
       image: `${kozel}`,
-      name: 'Piwo Kozel 0,5L (ciemne lub jasne)',
+      name: 'Piwo Kozel 0,5L (ciemne,jasne lub mieszane)',
       about:
         'wyprodukowane w Polsce po licencji czeskie piwo utrzymuje 150-letnie traducji i smak gorzko-aromatycznego żatieckiego chmielu Premiant',
       price: '15zł',
@@ -171,6 +174,30 @@ export const napoje = [
         name: 'Woda Kropla Beskidu 0,33L (gazowana lub niegazowana)',
         about:
           'Naturalna czysta woda mineralna z serca Beskidów. Doskonały wybór dla ugaszenia pragnenia. Niskomineralizowana woda powstrzymuje apetyt i poprawia trawienie.',
+        price: '10zł',
+      },
+      {
+        id: uuidv4(),
+        image: `${kawaFreeze}`,
+        name: 'Kawa mrożona',
+        about:
+          'Kawa podawana na zimno z dodatkiem lodu. Dzięki temu przynosi orzeźwienie w upalne dni, a jednocześnie dobrze gasi pragnienie.',
+        price: '10zł',
+      },
+      {
+        id: uuidv4(),
+        image: `${coffee}`,
+        name: 'Kawa (late, capucino lub espresso)',
+        about:
+          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+        price: '10zł',
+      },
+      {
+        id: uuidv4(),
+        image: `${kawaParzona}`,
+        name: 'Kawa parzona',
+        about:
+          'Najpopularniejszy używek z wyjątkowym aromatem oraz smakiem. Również jest źródłem kofeiny dla człowieka. Kawa posiada właściwości pobudzające i orzeźwiające, poprawiając koncentrację. ',
         price: '10zł',
       },
   ];

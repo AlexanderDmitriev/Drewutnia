@@ -6,10 +6,12 @@ const NavLabel = styled(NavLink)`
   text-transform: uppercase;
   font-size: 38px;
   letter-spacing: 0.03em;
-  color: #f0e7e7;
+  color: #242020;
   cursor: pointer;
   text-decoration: none;
   padding: 6px 12px;
+  text-shadow: 1px 1px black;
+
   @media screen and (min-width: 768px) {
     font-size: 18px;
   }
@@ -34,7 +36,7 @@ export const NavigationLabel = ({ children, to, ...props }: any) => {
   return (
     <NavLabel
       to={to}
-      style={{ color: match ? '#ff8400' : '#f0e7e7' }}
+      style={{ color: match ? '#0fb9b1' : '#242020' }}
       {...props}
     >
       {children}

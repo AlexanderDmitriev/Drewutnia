@@ -14,6 +14,8 @@ export const SidebarContainer = styled.aside`
   float: right;
   padding: 20px;
   display: none;
+  /* position: relative;
+  top: 180px; */
   @media screen and (min-width: 768px) {
     display: block;
     }

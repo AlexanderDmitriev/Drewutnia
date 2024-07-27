@@ -5,6 +5,8 @@ const TempContainer = styled.div`
   margin: 0 auto;
   min-height: 84vh;
   padding: 15px 0;
+  /* position: relative;
+  top: 180px; */
   @media screen and (min-width: 480px) {
     width: 479px;
   }

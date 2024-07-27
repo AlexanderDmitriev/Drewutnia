@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const NavigationList = styled.ul`
-  padding: 15px;
+  //padding: 15px;
   list-style: none;
   margin: 5px 0;
   display: block;

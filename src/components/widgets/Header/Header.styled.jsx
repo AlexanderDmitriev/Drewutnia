@@ -12,8 +12,10 @@ export const SelectLanguege = styled(Select)`
 
 export const HeaderContainer = styled.header`
   margin: 0 auto;
-  background-color: #202020;
+  //background-color: #202020;
   width: 100vw;
+  /* position: fixed;
+  z-index: 1000; */
 `;
 
 export const ContactsSection = styled.span`
@@ -23,8 +25,8 @@ export const ContactsSection = styled.span`
 export const Adress = styled.address`
   display: none;
   text-align: center;
-  color: #f0e7e7;
-  font-size: 12px;
+  color: #242020;
+  font-size: 18px;
   font-weight: 600;
   padding: 0 5px;
   transition: 0.25s linear;
@@ -33,10 +35,18 @@ export const Adress = styled.address`
   }
   @media screen and (min-width: 500px) {
     display: block;
-    font-size: 14px;
+    font-size: 22px;
+  }
+  @media screen and (min-width: 768px) {
+    display: block;
+    font-size: 24px;
+  }
+  @media screen and (min-width: 1024px) {
+    display: block;
+    font-size: 26px;
   }
   ::before {
     content: url(${locationLogo});
-    fill: #f0e7e7;
+    fill: #242020;
   }
 `;
