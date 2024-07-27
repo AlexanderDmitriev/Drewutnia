@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.6da2ef4f.css",
-    "main.js": "/Drewutnia/static/js/main.ad89220d.js",
+    "main.js": "/Drewutnia/static/js/main.57c879a7.js",
     "static/media/background.jpg": "/Drewutnia/static/media/background.2a551420a075b3e1ae28.jpg",
     "static/media/coffee.jpg": "/Drewutnia/static/media/coffee.8a2e0e22f94d077fc185.jpg",
     "static/media/DSCN0089.jpg": "/Drewutnia/static/media/DSCN0089.6055ad2cf3441080fb74.jpg",
@@ -93,14 +93,14 @@
     "static/media/kozel.png": "/Drewutnia/static/media/kozel.c19ccf3dd994d5fa2567.png",
     "static/media/instagram2.svg": "/Drewutnia/static/media/instagram2.c3b3979eb694c5fc907c8d2031df8212.svg",
     "index.html": "/Drewutnia/index.html",
-    "static/media/location2.svg": "/Drewutnia/static/media/location2.6f1ea0253099d7b1f8e10923ac5e08fe.svg",
+    "static/media/location2.svg": "/Drewutnia/static/media/location2.c15a2491d995e014ad97698b2186dc2b.svg",
     "static/media/getFetch.cjs": "/Drewutnia/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.6da2ef4f.css.map": "/Drewutnia/static/css/main.6da2ef4f.css.map",
-    "main.ad89220d.js.map": "/Drewutnia/static/js/main.ad89220d.js.map"
+    "main.57c879a7.js.map": "/Drewutnia/static/js/main.57c879a7.js.map"
   },
   "entrypoints": [
     "static/css/main.6da2ef4f.css",
-    "static/js/main.ad89220d.js"
+    "static/js/main.57c879a7.js"
   ]
 }
