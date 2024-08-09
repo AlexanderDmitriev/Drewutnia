@@ -15,6 +15,10 @@ const CustomListItem = styled(ListItem)`
   padding: 0;
 `;
 
+const SidebarText = styled(ListItemText)`
+  color: rgb(91 56 36);
+`;
+
 const makeAvatar = (partyType: string) => {
   let result = <></>;
   switch (partyType) {
@@ -46,7 +50,7 @@ export const PartyItem = ({ partyType, nameParty, dateParty }: IPatryType) => {
       <ListItemAvatar>
         <Avatar>{makeAvatar(partyType)}</Avatar>
       </ListItemAvatar>
-      <ListItemText primary={nameParty} secondary={dateParty} />
+      <SidebarText primary={nameParty} secondary={dateParty} />
     </CustomListItem>
   );
 };

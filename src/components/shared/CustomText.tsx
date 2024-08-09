@@ -7,7 +7,7 @@ export const CustomText = styled.p`
   line-height: 110%;
   padding: 5px 15px;
   margin: 0px 10px 10px 10px;
-  color: rgb(25, 25, 36);
+  color: rgb(91 56 36);
   span {
     font-weight: 600;
   }

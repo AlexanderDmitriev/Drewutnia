@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
   background-color: #f0e7e7;
   background-size: contain;
   background-repeat: no-repeat;
-  border: 10px solid #ffba00;
+  border: 10px solid #0fb9b1;
     border-radius: 60px;
     margin-right: 15px;
   float: right;

@@ -6,11 +6,18 @@ import { data } from '../components/testData/data';
 import { IGalleryType } from '../components/Interfaces/IGalleryType';
 import { HiddenTitle } from '../components/shared';
 
-const GalleryList = styled.li`
+const GalleryListItem = styled.li`
   list-style: none;
-  :not(:last-child) {
-    padding-bottom: 15px;
-  }
+  //:not(:last-child) {
+    padding-right: 15px;
+  //}
+`;
+
+const GalleryList = styled.ul`
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-items: center;
 `;
 
 export const GalleryPage = ({ setLastGallery }: any) => {
@@ -23,9 +30,9 @@ export const GalleryPage = ({ setLastGallery }: any) => {
     <Box sx={{ flexGrow: 1, overflow: 'hidden', px: 3 }}>
       <section>
         <HiddenTitle>Gallery</HiddenTitle>
-        <ul>
+        <GalleryList>
           {data.map(folder => (
-            <GalleryList
+            <GalleryListItem
               key={folder.id}
               onClick={() => clickOnFolderHandler(folder)}
             >
@@ -34,9 +41,9 @@ export const GalleryPage = ({ setLastGallery }: any) => {
                 message={folder.message}
                 gallery={folder.gallery}
               />
-            </GalleryList>
+            </GalleryListItem>
           ))}
-        </ul>
+        </GalleryList>
       </section>
     </Box>
   );

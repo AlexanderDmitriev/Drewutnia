@@ -11,7 +11,7 @@ export const LabelTitle = styled.h1`
   padding: 5px 15px;
   margin-bottom: 15px;
   color: #f0e7e7;
-  color: rgb(25, 25, 36);
+  color: rgb(91 56 36);
   text-align: start;
   background-color: rgba(240, 231, 231, 0.75);
   border-radius: 15px;

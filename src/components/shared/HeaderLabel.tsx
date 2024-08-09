@@ -3,7 +3,7 @@ import styled from '@emotion/styled';
 export const HeaderLabel = styled.a`
   display: none;
   text-align: center;
-  color: #242020;
+  color: rgb(91 56 36);
   font-size: 18px;
   font-weight: 600;
   padding: 0 5px;
@@ -23,5 +23,4 @@ export const HeaderLabel = styled.a`
     display: block;
     font-size: 26px;
   }
-  
 `;

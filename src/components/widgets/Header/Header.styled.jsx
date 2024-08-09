@@ -25,7 +25,7 @@ export const ContactsSection = styled.span`
 export const Adress = styled.address`
   display: none;
   text-align: center;
-  color: #242020;
+  color: rgb(91 56 36);
   font-size: 18px;
   font-weight: 600;
   padding: 0 5px;
@@ -47,6 +47,6 @@ export const Adress = styled.address`
   }
   ::before {
     content: url(${locationLogo});
-    fill: #242020;
+    fill: rgb(91 56 36);
   }
 `;
