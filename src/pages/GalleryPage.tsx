@@ -9,15 +9,18 @@ import { HiddenTitle } from '../components/shared';
 const GalleryListItem = styled.li`
   list-style: none;
   //:not(:last-child) {
-    padding-right: 15px;
+  padding-right: 15px;
   //}
 `;
 
 const GalleryList = styled.ul`
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  align-items: center;
+  display: block;
+  @media screen and (min-width: 468px) {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+  }
 `;
 
 export const GalleryPage = ({ setLastGallery }: any) => {

@@ -4,6 +4,7 @@ import sidebarBackground from '../../images/beer2.jpg';
 export const SidebarContainer = styled.aside`
   width: 30%;
   height: 100vh;
+  margin-top: 160px;
   background-image: url(${sidebarBackground});
   background-color: #f0e7e7;
   background-size: contain;

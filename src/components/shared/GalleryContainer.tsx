@@ -18,7 +18,7 @@ export const GalleryContainer = styled.div`
     }
     @media screen and (min-width: 1024px) {
       min-height: 768px;
-      min-width: 768px;
+      min-width: 718px;
     }
   }
 `;

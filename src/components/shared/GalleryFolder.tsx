@@ -22,6 +22,7 @@ const Folder = styled(Paper)`
 
 const Picture = styled.img`
   padding-bottom: 10px;
+overflow-y: hidden;
 `;
 
 //const pictureHeight=(document.documentElement.scrollWidth * 0.25*0.58)-25;
