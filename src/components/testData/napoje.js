@@ -54,7 +54,7 @@ export const napoje = [
         name: 'Piwo Warka Strong 0,5L',
         about:
           'mocny lager (6,3%), który charakteryzuje się bogatym słodowo-chmielowym smakiem i bursztynową barwą. Warka Strong to jest piwo o doskonałej jakości dla miłośników głębokiego smaku.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -62,7 +62,7 @@ export const napoje = [
         name: 'Piwo Litovel 0,5L (cytrynowe, miodowe lub przeniczne)',
         about:
           'Czeski lager od browarni, historia której liczące już 700 lat. Ugotowany w tradycijnyj sposób, charakterystychny bogatym, nasyconym smakiem z nutkami bogiemskiego solodu i chmelu. A dziękując wytrzymałości w przeciągu 6 tygodnów piwo nabywa bogaty charakter.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -70,7 +70,7 @@ export const napoje = [
         name: 'Piwo Książece 0,5L (porter, ipa lub złote)',
         about:
           'kolekcja specjalności od mistrzów browarnych z Tyskie Browary Książęce. Róźnorodne piwo dla wszystkich poszukujących bogatego i głębokiego smaku.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -78,7 +78,7 @@ export const napoje = [
         name: 'Piwo Lech 0,0  0,5L',
         about:
           'bezalkoholowy lager w róźnych smakach dla fanów piwnej goryczki. Idealny na gorące dni lub do posiłków.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -86,7 +86,7 @@ export const napoje = [
         name: 'Piwo Heineken 0,0 0,5L',
         about:
           '100% piwa, 0% alkoholu. Doskonałe piwo z naturalnym rzeźwym smakiem, dziękując tradycjam, rodząca się aż od 1873 roku.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -94,7 +94,7 @@ export const napoje = [
         name: 'Piwo Desperados 0,4L',
         about:
           'Aromatyzowane piwo o smaku tequilii, znane w 35 krajach światu. Piwo zadziwia originalnoścu i charakterom. Smak balansuje między lokkoścu lagera, ekzotiką cytrusa i tequilią.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -102,7 +102,7 @@ export const napoje = [
         name: 'Piwo Corona Extra 0,355L',
         about:
           'Jasny lager, będący jednym z najbardziej sprzedawanych brendów piwa w świacie. Ono podbija świat osobliwym lekkim smakiem i poczuciem tropicznej świeżości. Piwo dobre harmonizuje z barbekiu, pizzą lub rybą grillowanej.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -110,7 +110,7 @@ export const napoje = [
         name: 'Piwo Pilsner Urqruell 0,5L',
         about:
           'Jasne czeskie piwo dolnej fermentacji. Smak Pilsner Urquell jest trochę ciężczym i więcej chmelowym, niż u większości lagerów. Osobliwościami receptury są gatunek chmelu Saaz (rostę tylko w Bohemii) i trzechgotowalne zacieranie słodowe na otwartym ogniu.',
-        price: '10zł',
+        price: '20zł',
       },
       {
         id: uuidv4(),
@@ -118,7 +118,7 @@ export const napoje = [
         name: 'Hardmade 0,4L',
         about:
           'Piwo inspirowane rytmem miasta oraz wolnościu i relaksem. Rozmaite letni smaki dla twojej indywidualności.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -126,7 +126,7 @@ export const napoje = [
         name: 'Capitan Jack 0,4L',
         about:
           'Zaskakujące piwo, które zaprasza do pirackich przygód. Ma jedny w swoim rodzaju smak z nutę karibskiego ruma. Najlepej pić zimnym z kapką cytryny.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -134,7 +134,7 @@ export const napoje = [
         name: 'Sok Tarczyn 0,3L (pomidor lub czarna porzeczka)',
         about:
           'Stuprocentowe soki z polskich owoców. Wyprodukowane za nowoczesnymi technologijami. Doskonały naturalny skład i świeżość.',
-        price: '10zł',
+        price: '8zł',
       },
       {
         id: uuidv4(),
@@ -142,7 +142,7 @@ export const napoje = [
         name: 'Sok Cappy 0,25L (pomarancz, jabłuko lub greypfrut)',
         about:
           'Wysokojakociowe soki z wyjtkowym smakiem. Źrodlo witaminów, esencja dorzałych owoców w charakterystyczną butelkę.',
-        price: '10zł',
+        price: '8zł',
       },
       {
         id: uuidv4(),
@@ -150,7 +150,7 @@ export const napoje = [
         name: 'Coca-cola 0,5L',
         about:
           'Legendarna cola. Pyszna i orzeźwiająca o klasycznem smaku. Odświeży pod czas upału i dodaje sił. Polecamy z liodem. ',
-        price: '10zł',
+        price: '8zł',
       },
       {
         id: uuidv4(),
@@ -158,7 +158,7 @@ export const napoje = [
         name: 'Sprite 0,5L',
         about:
           'Napój dla aktywnych i kreatywnych ludzi. Ma przyjemny rzeżwy smak cytryny i limonki. Polecamy do koktelów i z liodem.',
-        price: '10zł',
+        price: '8zł',
       },
       {
         id: uuidv4(),
@@ -166,7 +166,7 @@ export const napoje = [
         name: 'Burn 0,25L napoj energenyczny',
         about:
           'Unikalny napój energetyczny z łagodnym przyjemnym smakiem. Kofeina, tauryna + guarana uwolną energiję, zmniejszą zmęczenie i obudzę w tobie ogień.',
-        price: '10zł',
+        price: '12zł',
       },
       {
         id: uuidv4(),
@@ -174,7 +174,7 @@ export const napoje = [
         name: 'Woda Kropla Beskidu 0,33L (gazowana lub niegazowana)',
         about:
           'Naturalna czysta woda mineralna z serca Beskidów. Doskonały wybór dla ugaszenia pragnenia. Niskomineralizowana woda powstrzymuje apetyt i poprawia trawienie.',
-        price: '10zł',
+        price: '8zł',
       },
       {
         id: uuidv4(),
@@ -182,7 +182,7 @@ export const napoje = [
         name: 'Kawa mrożona',
         about:
           'Kawa podawana na zimno z dodatkiem lodu. Dzięki temu przynosi orzeźwienie w upalne dni, a jednocześnie dobrze gasi pragnienie.',
-        price: '10zł',
+        price: '15zł',
       },
       {
         id: uuidv4(),
@@ -198,6 +198,6 @@ export const napoje = [
         name: 'Kawa parzona',
         about:
           'Najpopularniejszy używek z wyjątkowym aromatem oraz smakiem. Również jest źródłem kofeiny dla człowieka. Kawa posiada właściwości pobudzające i orzeźwiające, poprawiając koncentrację. ',
-        price: '10zł',
+        price: 'zł',
       },
   ];

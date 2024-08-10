@@ -16,7 +16,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Kielbasa z ogniska',
       about:
         'Ugotowana za narodowymi tradycjami kielbasa z grilla jest najlepszą przekąską do piwa. Równierz dobrze przyrządzoną kielbasę oferuje bardzo satysfakcjonujący smak i wyjątkowy aromat.',
-      price: '10zł',
+      price: '20zł',
     },
     {
       id: uuidv4(),
@@ -24,7 +24,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Kaszanka z cebulką',
       about:
         'Znana i uwielbiana w całym kraju kaszanka. Idealny i prosty posiłek, który serdecznie przyrządzony na patelni z cabulą. Szybka i pyszna kolacja po ciężkim dniu. Mianowicie: kaszy gryczanej, krwi wieprzowej oraz  podrobów takich jak wątróbka, płuca czy ozór. Smakuje jak w domu. Smacznego!',
-      price: '10zł',
+      price: '20zł',
     },
     {
       id: uuidv4(),
@@ -32,7 +32,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Zapiekanka',
       about:
         'Kultowy polski przysmak, który stał naprawde narodowym. Bagietka, ser, pieczarki i ketchup. Bardzo prostę, ale i bardzo pysznę. Odwiedzający nasz kraj nazywają ją polish grill sandwich (polską grilowaną kanapką) i mają także swoje ulubione lokalizacje. Doskonałe dla ugaszenia głodu.',
-      price: '10zł',
+      price: '15zł',
     },
     {
       id: uuidv4(),
@@ -40,7 +40,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Pierogi (mięso, ziemniaki lub kapusta)',
       about:
         'Jedno z najbardziej popularnych polskich dań.Trudno znaleźć kogoś, kto by ich nie lubił. Zrobione z cienkiego, elastycznego i dobrze zlepiającego się ciasta. Oferujemy pierogi z mięsem, ziemniakami lub z kapustą. Przy serwie dodajemy trochę smalca i tajnego składnika dla pyszności i waszej przyjemności.',
-      price: '10zł',
+      price: '25zł',
     },
     {
       id: uuidv4(),
@@ -48,7 +48,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Śledz z cebulką',
       about:
         'Wolisz coś tradycyjnego i pysznego? Polecamy takie pikantne danie jak śledzie z cebulą. Dobrze przygotowany śledź w oleju jest miękki, delikatny i rozpływający się w ustach.',
-      price: '10zł',
+      price: '15zł',
     },
     {
       id: uuidv4(),
@@ -64,7 +64,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Lody',
       about:
         'Lody to jeden z ulubionych deserów wielu ludzi. Żimny smakołek to co ciebie potrzebne pod czas upału lub prosto tak, żeby sprawić przyjemność sobie.',
-      price: '10zł',
+      price: '15zł',
     },
     {
       id: uuidv4(),

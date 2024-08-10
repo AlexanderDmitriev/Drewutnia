@@ -14,12 +14,14 @@ const GalleryListItem = styled.li`
 `;
 
 const GalleryList = styled.ul`
+margin: 0 auto;
   display: block;
   @media screen and (min-width: 468px) {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-wrap: wrap;
     align-items: center;
+
   }
 `;
 

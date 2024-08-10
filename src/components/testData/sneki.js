@@ -12,12 +12,12 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Paluszki klasyczne',
       about:
         'Сhrupiąca przekąska z wyrazistym. Jest idealne na każdą okazję jak dla dzieci, tak i dla dorosłych. Produkty Lajkonik wypiekane w Skawinie pod Krakowem.',
-      price: '10zł',
+      price: '5zł',
     },
     {
       id: uuidv4(),
       image: `${chipsy}`,
-      name: 'Chipsy (musztrda, czosnek, paprika, chronowe lub solone)',
+      name: 'Chipsy (musztrda, czosnek, paprika, chronowe lub solone) 100g',
       about:
         'Popularna przekąska w postaci cienkich, osuszonych plastrów ziemniaków z różnymi smakami. Zawsze są dobrym dodatkiem do każdej imprezy czy spotkania towarzyskiego.',
       price: '10zł',
@@ -28,7 +28,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Orzeszki ziemne solone',
       about:
         'Orzeszki ziemne smażone są smaczną przekąską, po którą każdy chętnie sięga. Polecamy do piwa  wszystkim osobom, lubiącym przekąski na słono.',
-      price: '10zł',
+      price: '8zł',
     },
     {
       id: uuidv4(),
@@ -36,7 +36,7 @@ import { v4 as uuidv4 } from 'uuid';
       name: 'Popkorn',
       about:
         'Fajna przekazka z prażonej kukurydzy do meczu lub do dobrej rozmowy o filmach. Równierz to jest doskonałe źródło błonnika.',
-      price: '10zł',
+      price: '8zł',
     },
   ];
 

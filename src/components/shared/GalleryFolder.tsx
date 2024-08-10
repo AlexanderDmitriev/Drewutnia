@@ -4,7 +4,7 @@ import Grid from '@mui/material/Grid';
 import styled from '@emotion/styled';
 import { IGalleryType } from '../Interfaces/IGalleryType';
 
-const maxWidth = `${document.documentElement.scrollWidth * 0.5}px`;
+const maxWidth = `${document.documentElement.scrollWidth * 0.25}px`;
 const maxHeight = `${document.documentElement.scrollWidth * 0.25 * 0.75}px`;
 
 const Folder = styled(Paper)`
@@ -22,10 +22,10 @@ const Folder = styled(Paper)`
 
 const Picture = styled.img`
   padding-bottom: 10px;
-overflow-y: hidden;
+  overflow-y: hidden;
 `;
 
-//const pictureHeight=(document.documentElement.scrollWidth * 0.25*0.58)-25;
+const pictureHeight=(document.documentElement.scrollWidth * 0.3*0.58);
 
 export const GalleryFolder = ({ title, message, gallery }: IGalleryType) => {
   return (
@@ -35,8 +35,8 @@ export const GalleryFolder = ({ title, message, gallery }: IGalleryType) => {
           <Picture
             src={gallery[0]}
             alt={title}
-            width={document.documentElement.scrollWidth * 0.2}
-            //height={pictureHeight}
+            width={document.documentElement.scrollWidth * 0.5}
+            height={pictureHeight}
           />
         </Grid>
         {/* <Grid item xs zeroMinWidth>
