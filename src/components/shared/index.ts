@@ -20,5 +20,6 @@ export {FeedbackItem} from './FeedbackItem';
 export {DishesItem} from './DishesItem';
 export {DishesSummary} from './DishesSummary';
 export {GalleryContainer} from './GalleryContainer';
+export {MenuFolder} from './MenuFolder';
 export {HiddenTitle} from './HiddenTitle';
 export {TextContainer} from './TextContainer';

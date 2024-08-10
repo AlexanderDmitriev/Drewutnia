@@ -1,8 +1,8 @@
-import { DishesSummary, HiddenTitle } from '../components/shared';
+import { useState } from 'react';
+import { DishesSummary, HiddenTitle, MenuFolder } from '../components/shared';
 import { dishesSomethingToEat } from '../components/testData/dishes';
 import { napoje } from '../components/testData/napoje';
 import { sneki } from '../components/testData/sneki';
-import { GalleryFolder } from '../components/shared/GalleryFolder';
 import styled from '@emotion/styled';
 
 const dishesIcon = [dishesSomethingToEat[0].image];
@@ -18,48 +18,64 @@ const GalleryListItem = styled.li`
 
 const GalleryList = styled.ul`
   margin: 0 auto;
-  display: block;
-  @media screen and (min-width: 468px) {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  position: sticky;
+  background-color: #fff;
 `;
 
-const clickOnFolderHandler = () => {};
-
 export const MenuPage = () => {
+  const [openNapoje, setOpenNapoje] = useState(false);
+  const [openEat, setOpenEat] = useState(false);
+  const [openSnek, setOpenSnek] = useState(false);
+
+  const clickOnFolderHandler = () => {
+    setOpenNapoje(!openNapoje);
+  };
+  const clickOnFolderHandlerEat = () => {
+    setOpenEat(!openEat);
+  };
+  const clickOnFolderHandlerSnek = () => {
+    setOpenSnek(!openSnek);
+  };
+
   return (
     <section>
       <HiddenTitle>Menu</HiddenTitle>
-      <DishesSummary title={`Napoje`} dishesList={napoje}></DishesSummary>
-      <DishesSummary
-        title={'Jedzenie'}
-        dishesList={dishesSomethingToEat}
-      ></DishesSummary>
-      <DishesSummary title={'Przegryzki'} dishesList={sneki}></DishesSummary>
-
       <GalleryList>
         <GalleryListItem
           key={napoje[0].id}
           onClick={() => clickOnFolderHandler()}
         >
-          <GalleryFolder title="napoje" message="" gallery={napojeIcon} />
+          <MenuFolder title="Napoje" message="" gallery={napojeIcon} />
         </GalleryListItem>
         <GalleryListItem
           key={dishesSomethingToEat[0].id}
-          onClick={() => clickOnFolderHandler()}
+          onClick={() => clickOnFolderHandlerEat()}
         >
-          <GalleryFolder title="jedzenie" message="" gallery={dishesIcon} />
+          <MenuFolder title="Jedzenie" message="" gallery={dishesIcon} />
         </GalleryListItem>
         <GalleryListItem
           key={sneki[0].id}
-          onClick={() => clickOnFolderHandler()}
+          onClick={() => clickOnFolderHandlerSnek()}
         >
-          <GalleryFolder title="przegryzki" message="" gallery={snekiIcon} />
+          <MenuFolder title="Przegryzki" message="" gallery={snekiIcon} />
         </GalleryListItem>
       </GalleryList>
+      {openNapoje && (
+        <DishesSummary title={`Napoje`} dishesList={napoje}></DishesSummary>
+      )}
+      {openEat && (
+        <DishesSummary
+          title={'Jedzenie'}
+          dishesList={dishesSomethingToEat}
+        ></DishesSummary>
+      )}
+      {openSnek && (
+        <DishesSummary title={'Przegryzki'} dishesList={sneki}></DishesSummary>
+      )}
     </section>
   );
 };
