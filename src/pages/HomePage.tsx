@@ -34,6 +34,7 @@ export const HomePage = () => {
           czekają na Ciebie ciekawe promocje! U nas na pewno znajdziesz coś dla
           siebie. Zapoznaj się także z naszą ofertą rezerwacji lokalu.
         </LabelLarge>
+        <LabelLarge>Pub istnieć od 30 lat.</LabelLarge>
         <LabelLarge>Zapraszamy codziennie od 15:00 do 23:00.</LabelLarge>
       </TextContainer>
     </section>
