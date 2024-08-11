@@ -1,8 +1,8 @@
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-import Typography from '@mui/material/Typography';
 import styled from '@emotion/styled';
 import { IGalleryType } from '../Interfaces/IGalleryType';
+import { LabelSmall } from './LabelSmall';
 
 const maxWidth = `${document.documentElement.scrollWidth * 0.2}px`;
 const maxHeight = `${document.documentElement.scrollWidth * 0.3 * 0.75}px`;
@@ -42,10 +42,7 @@ export const MenuFolder = ({ title, message, gallery }: IGalleryType) => {
             width={document.documentElement.scrollWidth * 0.2}
             height={pictureHeight}
           />
-        </Grid>
-        <Grid item xs zeroMinWidth>
-          <Typography noWrap>{title}</Typography>
-          {/* <Typography noWrap>{message}</Typography> */}
+          <LabelSmall style={{padding:0, margin:0}}>{title}</LabelSmall>
         </Grid>
       </FolderContainer>
     </Folder>

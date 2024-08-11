@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import back from '../../images/background.jpg';
 
 const TempContainer = styled.section`
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   background-image: url(${back});
   background-size:contain ;
