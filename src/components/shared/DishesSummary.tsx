@@ -1,23 +1,30 @@
 import Accordion from '@mui/material/Accordion';
-//import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
-//import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { DishesItem } from './DishesItem';
-import {IDishesArray} from '../Interfaces/IDishesType';
+import { IDishesArray } from '../Interfaces/IDishesType';
+import styled from '@emotion/styled';
 
-export const DishesSummary = (props:any ) => {
-    const {dishesList}:IDishesArray = props;
-    //const {title} = props;
+const MenuList = styled(Accordion)`
+  margin-top: 100px;
+  @media screen and (min-width: 468px) {
+    margin-top: 150px;
+  }
+  @media screen and (min-width: 768px) {
+    margin-top: 170px;
+  }
+  @media screen and (min-width: 968px) {
+    margin-top: 210px;
+  }
+  @media screen and (min-width: 1400px) {
+    margin-top: 260px;
+  }
+`;
+
+export const DishesSummary = (props: any) => {
+  const { dishesList }: IDishesArray = props;
+  //const {title} = props;
   return (
-    <Accordion>
-      {/* <AccordionSummary
-        expandIcon={<ExpandMoreIcon />}
-        aria-controls="panel1-content"
-        id="panel1-header"
-      >
-        {title}
-      </AccordionSummary> */}
-
+    <MenuList>
       <AccordionDetails>
         <ul>
           {dishesList.map(dish => (
@@ -31,6 +38,6 @@ export const DishesSummary = (props:any ) => {
           ))}
         </ul>
       </AccordionDetails>
-    </Accordion>
+    </MenuList>
   );
 };

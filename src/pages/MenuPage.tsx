@@ -22,10 +22,28 @@ const GalleryList = styled.ul`
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  top: 85px;
+  width: 100%;
+  padding-left: 10px;
+  padding-top: 10px;
+  z-index: 1000;
   background-color: #fff;
+  @media screen and (min-width: 468px) {
+    top: 90px;
+  }
+  @media screen and (min-width: 768px) {
+    width: 66.6%;
+    top: 150px;
+  }
+  @media screen and (min-width: 1200px) {
+    top: 150px;
+  }
+  @media screen and (min-width: 1400px) {
+    top: 135px;
+  }
 `;
-
+let lastItem: Number = 0;
 export const MenuPage = () => {
   const [openNapoje, setOpenNapoje] = useState(false);
   const [openEat, setOpenEat] = useState(false);
@@ -33,12 +51,16 @@ export const MenuPage = () => {
 
   const clickOnFolderHandler = () => {
     setOpenNapoje(!openNapoje);
+    lastItem = 1;
+    console.log(lastItem);
   };
   const clickOnFolderHandlerEat = () => {
     setOpenEat(!openEat);
+    lastItem = 2;
   };
   const clickOnFolderHandlerSnek = () => {
     setOpenSnek(!openSnek);
+    lastItem = 3;
   };
 
   return (
@@ -64,16 +86,16 @@ export const MenuPage = () => {
           <MenuFolder title="Przegryzki" message="" gallery={snekiIcon} />
         </GalleryListItem>
       </GalleryList>
-      {openNapoje && (
+      {openNapoje && lastItem === 1 && (
         <DishesSummary title={`Napoje`} dishesList={napoje}></DishesSummary>
       )}
-      {openEat && (
+      {openEat && lastItem === 2 && (
         <DishesSummary
           title={'Jedzenie'}
           dishesList={dishesSomethingToEat}
         ></DishesSummary>
       )}
-      {openSnek && (
+      {openSnek && lastItem === 3 && (
         <DishesSummary title={'Przegryzki'} dishesList={sneki}></DishesSummary>
       )}
     </section>
