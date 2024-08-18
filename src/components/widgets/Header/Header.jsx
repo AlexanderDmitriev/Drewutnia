@@ -6,7 +6,7 @@ import { useMediaQuery } from 'react-responsive';
 import { useOnClickOutside } from '../../shared/Burger/hooks';
 //import { LanguageToggle } from '../LanguegeToggle/LanguageToggle';
 
-export const Header = () => {
+const Header = () => {
   const isTab = useMediaQuery({ query: '(min-width: 768px)' });
   const [isOpen, setIsOpen] = useState(false);
   /* const [isDarkTheme, setIsDarkTheme] = useState(false); */
@@ -56,3 +56,5 @@ export const Header = () => {
     </HeaderContainer>
   );
 };
+
+export default Header;

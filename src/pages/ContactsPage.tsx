@@ -7,7 +7,7 @@ import {
 import { GoogleMaps } from '../components/widgets';
 import front from '../images/front.jpg';
 
-export const ContactsPage = () => {
+const ContactsPage = () => {
   return (
     <section>
       <HiddenTitle>Contacts</HiddenTitle>
@@ -27,3 +27,5 @@ export const ContactsPage = () => {
     </section>
   );
 };
+
+export default ContactsPage;

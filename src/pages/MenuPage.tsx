@@ -44,7 +44,8 @@ const GalleryList = styled.ul`
   }
 `;
 let lastItem: Number = 0;
-export const MenuPage = () => {
+
+const MenuPage = () => {
   const [openNapoje, setOpenNapoje] = useState(false);
   const [openEat, setOpenEat] = useState(false);
   const [openSnek, setOpenSnek] = useState(false);
@@ -101,3 +102,5 @@ export const MenuPage = () => {
     </section>
   );
 };
+
+export default MenuPage;

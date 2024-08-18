@@ -3,7 +3,7 @@ import reserve1 from '../../images/reserve1.jpg';
 import reserve2 from '../../images/reserve2.jpg';
 import { FlexContainer, Images } from './ReservePage.styled';
 
-export const ReservePage = () => {
+const ReservePage = () => {
   return (
     <>
       <FlexContainer>
@@ -39,3 +39,5 @@ export const ReservePage = () => {
     </>
   );
 };
+
+export default ReservePage;

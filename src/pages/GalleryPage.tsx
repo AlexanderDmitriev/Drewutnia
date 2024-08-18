@@ -25,7 +25,7 @@ margin: 0 auto;
   }
 `;
 
-export const GalleryPage = ({ setLastGallery }: any) => {
+const GalleryPage = ({ setLastGallery }: any) => {
   const navigate = useNavigate();
   const clickOnFolderHandler = (folder: IGalleryType) => {
     setLastGallery(folder);
@@ -53,3 +53,5 @@ export const GalleryPage = ({ setLastGallery }: any) => {
     </Box>
   );
 };
+
+export default GalleryPage;

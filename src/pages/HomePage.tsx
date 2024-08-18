@@ -2,7 +2,7 @@ import { LabelLarge, HiddenTitle, TextContainer } from '../components/shared';
 import { Gallery } from '../components/entities';
 import { homeImagesArray } from '../images/homePageImages/home';
 
-export const HomePage = () => {
+ const HomePage = () => {
   return (
     <section>
       <HiddenTitle>Home</HiddenTitle>
@@ -40,3 +40,5 @@ export const HomePage = () => {
     </section>
   );
 };
+
+export default HomePage;

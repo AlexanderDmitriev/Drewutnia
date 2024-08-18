@@ -11,7 +11,7 @@ const Item = styled.ul`
   }
 `;
 
-export const FeedbacksPage = () => {
+const FeedbacksPage = () => {
   return (
     <section>
       <HiddenTitle>Feedback</HiddenTitle>
@@ -31,3 +31,5 @@ export const FeedbacksPage = () => {
     
   );
 };
+
+export default FeedbacksPage;

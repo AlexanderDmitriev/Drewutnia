@@ -7,7 +7,7 @@ import pl from '../locales/pl/translation.json';
 //import ua from '../locales/ua/translation.json';
 
 const resources = {
-  ua: { translation: pl },
+  pl: { translation: pl },
   //en: { translation: en },
   //ua: { translation: ua },
 };

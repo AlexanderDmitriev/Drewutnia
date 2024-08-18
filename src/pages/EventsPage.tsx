@@ -1,6 +1,6 @@
 import { LabelSmall, HiddenTitle, TextContainer } from '../components/shared';
 
-export const EventsPage = () => {
+const EventsPage = () => {
   return (
     <section>
       <HiddenTitle>Events</HiddenTitle>
@@ -13,3 +13,5 @@ export const EventsPage = () => {
     </section>
   );
 };
+
+export default EventsPage;

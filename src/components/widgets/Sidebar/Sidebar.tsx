@@ -3,7 +3,7 @@ import { SidebarList } from '../../entities';
 import {SidebarTitle,SidebarText} from './Sidebar.styled'
 
 
-export const Sidebar = () => {
+const Sidebar = () => {
   return (
     <SidebarContainer>
       <SidebarTitle>Aktualnośći</SidebarTitle>
@@ -17,3 +17,5 @@ export const Sidebar = () => {
     </SidebarContainer>
   );
 };
+
+export default Sidebar;

@@ -1,9 +1,9 @@
 import { Gallery } from '../components/entities';
 import { ILastGallery } from '../components/Interfaces/IGalleryType';
-import { NotFoundPage } from './NotFoundPage';
+import  NotFoundPage  from './NotFoundPage';
 import { HiddenTitle } from '../components/shared';
 
-export const GalleryDetailsPage = ({ lastGallery }: ILastGallery) => {
+const GalleryDetailsPage = ({ lastGallery }: ILastGallery) => {
   //const { galleryId } = useParams();
   //const res = data.find(item => item.id === galleryId);
   return (
@@ -19,3 +19,4 @@ export const GalleryDetailsPage = ({ lastGallery }: ILastGallery) => {
     </>
   );
 };
+export default GalleryDetailsPage;

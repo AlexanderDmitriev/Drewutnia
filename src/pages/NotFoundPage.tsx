@@ -2,7 +2,7 @@ import { LabelLarge,HiddenTitle } from '../components/shared';
 import SentimentVeryDissatisfiedIcon from '@mui/icons-material/SentimentVeryDissatisfied';
 import notFoundImage from '../images/404.jpg';
 
-export const NotFoundPage = () => {
+ const NotFoundPage = () => {
   return (
     <section>
       <HiddenTitle>Not found</HiddenTitle>
@@ -18,3 +18,5 @@ export const NotFoundPage = () => {
     </section>
   );
 };
+
+export default NotFoundPage;
