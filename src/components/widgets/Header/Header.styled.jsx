@@ -13,15 +13,13 @@ export const SelectLanguege = styled(Select)`
 
 export const HeaderContainer = styled.header`
   margin: 0 auto;
-  //background-color: #202020;
   width: 100vw;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
   background-image: url(${back});
-  background-size:contain ;
-  background-repeat: round;
+  background-size:cover ;
 `;
 
 export const ContactsSection = styled.span`

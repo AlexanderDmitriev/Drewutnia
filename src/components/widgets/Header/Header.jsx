@@ -34,14 +34,6 @@ const Header = () => {
           </div>
         </div>
       </HeaderBlocks>
-      {/* <div>
-          <Profile />
-          <ThemeButton
-            isDarkTheme={isDarkTheme}
-            handleChangeTheme={handleChangeTheme}
-          />
-          {isTab && <LanguegeButton />}
-      </div> */}
       {isTab ? (
         <Navigation />
       ) : (

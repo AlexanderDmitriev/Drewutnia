@@ -17,6 +17,7 @@ export const Gallery = ({ pictures }: any) => {
         onErrorImageURL={onErrorImageURLMessage}
         slideInterval={slideInterval}
         thumbnailPosition={thumbnailPosition}
+        lazyLoad={true}
         
       />
     </GalleryContainer>

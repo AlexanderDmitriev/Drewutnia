@@ -9,6 +9,7 @@ export const imagesFormatter = (pictires: IGalleryType[]):ReactImageGalleryItem[
         thumbnail: `${String(picture)}`,
         loading: "lazy",
         originalHeight: 780,
+        originalAlt:"imageNotFound"
       })
     );
     return array;
