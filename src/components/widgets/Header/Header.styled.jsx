@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import Select from 'react-select';
 import locationLogo from '../../../images/location2.svg';
-import back from '../../../images/background.jpg'
+import back from '../../../images/background.jpg';
 
 export const SelectLanguege = styled(Select)`
   width: 100px;
@@ -19,7 +19,7 @@ export const HeaderContainer = styled.header`
   left: 0;
   z-index: 1000;
   background-image: url(${back});
-  background-size:cover ;
+  background-size: cover;
 `;
 
 export const ContactsSection = styled.span`
@@ -27,6 +27,7 @@ export const ContactsSection = styled.span`
 `;
 
 export const Adress = styled.address`
+  font-family: 'Arial', sans-serif;
   display: none;
   text-align: center;
   color: rgb(91 56 36);

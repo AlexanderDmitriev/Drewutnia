@@ -14,7 +14,7 @@ export const Instagram = () => {
       rel="noreferrer noopener"
     >
       <span>
-        <Link src={String(instagram)} alt="instagram" />
+        <Link src={String(instagram)} alt="instagram" loading="lazy"/>
       </span>
     </a>
   );

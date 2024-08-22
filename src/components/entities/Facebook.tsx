@@ -22,7 +22,7 @@ export const Facebook = () => {
             height="32"
           ></use>
         </SocialsLinkSVG> */}
-        <Link src={String(facebook)} alt="facebook" />
+        <Link src={String(facebook)} alt="facebook" loading="lazy"/>
       </span>
     </a>
   );
