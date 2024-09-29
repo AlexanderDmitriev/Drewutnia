@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { NavLink, useMatch } from 'react-router-dom';
 
-const NavLabel = styled(NavLink)`
+export const NavLabel = styled(NavLink)`
   font-family: 'Abril Fatface', cursive;
   text-transform: uppercase;
   font-size: 38px;
@@ -32,7 +32,7 @@ const NavLabel = styled(NavLink)`
   transition-timing-function: linear;
   :hover,
   :focus {
-    color: #ff8400;
+    color: #0fb9b1;
     box-shadow: 1px 1px 5px var(--company-color);
   }
   /* &.active {

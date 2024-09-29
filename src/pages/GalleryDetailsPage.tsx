@@ -2,6 +2,7 @@ import { Gallery } from '../components/entities';
 import { ILastGallery } from '../components/Interfaces/IGalleryType';
 import  NotFoundPage  from './NotFoundPage';
 import { HiddenTitle } from '../components/shared';
+import { NavLabel } from '../components/shared/NavigationLabel';
 
 const GalleryDetailsPage = ({ lastGallery }: ILastGallery) => {
   //const { galleryId } = useParams();
@@ -11,6 +12,7 @@ const GalleryDetailsPage = ({ lastGallery }: ILastGallery) => {
       {lastGallery ? (
         <section>
           <HiddenTitle>{lastGallery.title}</HiddenTitle>
+          <NavLabel to="/gallery">Do galerii</NavLabel>
           <Gallery pictures={lastGallery.gallery} />
         </section>
       ) : (
