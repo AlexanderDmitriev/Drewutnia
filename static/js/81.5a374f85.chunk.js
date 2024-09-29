@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_homework_template=self.webpackChunkreact_homework_template||[]).push([[81],{6081:function(e,n,a){a.r(n);var r=a(4789),s=a(184);n.default=function(){return(0,s.jsxs)("section",{children:[(0,s.jsx)(r.Tv,{children:"Events"}),(0,s.jsx)(r.lU,{children:(0,s.jsx)(r.S$,{children:"Obserwuj nasz profil na Facebooku lun w Instagramie, aby by\u0107 zawsze na bie\u017c\u0105co."})})]})}}}]);
-//# sourceMappingURL=81.5a374f85.chunk.js.map
