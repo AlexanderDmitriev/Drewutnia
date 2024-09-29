@@ -1,6 +1,6 @@
 import Paper from '@mui/material/Paper';
 import Grid from '@mui/material/Grid';
-//import Typography from '@mui/material/Typography';
+import Typography from '@mui/material/Typography';
 import styled from '@emotion/styled';
 import { IGalleryType } from '../Interfaces/IGalleryType';
 
@@ -24,13 +24,14 @@ const Picture = styled.img`
   padding-bottom: 10px;
   overflow-y: hidden;
 `;
+const InnerFolder=styled(Grid)`display:block`;
 
 const pictureHeight=(document.documentElement.scrollWidth * 0.3*0.58);
 
 export const GalleryFolder = ({ title, message, gallery }: IGalleryType) => {
   return (
     <Folder>
-      <Grid container wrap="nowrap" spacing={2}>
+      <InnerFolder  container wrap="nowrap" spacing={2}>
         <Grid item>
           <Picture
             src={gallery[0]}
@@ -39,11 +40,11 @@ export const GalleryFolder = ({ title, message, gallery }: IGalleryType) => {
             height={pictureHeight}
           />
         </Grid>
-        {/* <Grid item xs zeroMinWidth>
+        <Grid item xs zeroMinWidth>
           <Typography noWrap>{title}</Typography>
-          <Typography noWrap>{message}</Typography>
-        </Grid> */}
-      </Grid>
+          {/* <Typography noWrap>{message}</Typography> */}
+        </Grid>
+      </InnerFolder>
     </Folder>
   );
 };

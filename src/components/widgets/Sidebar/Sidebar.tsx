@@ -1,4 +1,4 @@
-import { SidebarContainer,SearchInput } from '../../shared';
+import { SidebarContainer } from '../../shared';
 import { SidebarList } from '../../entities';
 import {SidebarTitle,SidebarText} from './Sidebar.styled'
 
@@ -7,13 +7,13 @@ const Sidebar = () => {
   return (
     <SidebarContainer>
       <SidebarTitle>Aktualnośći</SidebarTitle>
-      <SidebarText>
-        Obserwuj nasz profil na Facebooku lun w Instagramie, aby być zawsze na
+      <SidebarText to="/events">
+        Obserwuj nasz profil na Facebooku lub w Instagramie, aby być zawsze na
         bieżąco.
       </SidebarText>
-      <SidebarTitle>Historię</SidebarTitle>
+      <SidebarTitle>Zwykle w pubie</SidebarTitle>
       <SidebarList />
-      <SearchInput />
+      {/* <SearchInput /> */}
     </SidebarContainer>
   );
 };

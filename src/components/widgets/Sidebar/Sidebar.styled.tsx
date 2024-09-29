@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import { NavLink } from 'react-router-dom';
 
 export const SidebarTitle = styled.h2`
   font-family: 'Abril Fatface', cursive;
@@ -10,7 +11,7 @@ export const SidebarTitle = styled.h2`
   padding: 5px;
 `;
 
-export const SidebarText = styled.p`
+export const SidebarText = styled(NavLink)`
   text-align: left;
   color: #f0e7e7;
   font-size: 14px;

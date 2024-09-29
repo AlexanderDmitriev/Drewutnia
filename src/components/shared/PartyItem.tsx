@@ -5,6 +5,7 @@ import BrunchDiningOutlinedIcon from '@mui/icons-material/BrunchDiningOutlined';
 import MusicNoteOutlinedIcon from '@mui/icons-material/MusicNoteOutlined';
 import LocalGroceryStoreOutlinedIcon from '@mui/icons-material/LocalGroceryStoreOutlined';
 import ErrorOutlineOutlinedIcon from '@mui/icons-material/ErrorOutlineOutlined';
+import FlatwareIcon from '@mui/icons-material/Flatware';
 import styled from '@emotion/styled';
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
@@ -36,6 +37,9 @@ const makeAvatar = (partyType: string) => {
       break;
     case 'market':
       result = <LocalGroceryStoreOutlinedIcon />;
+      break;
+    case 'eating':
+      result = <FlatwareIcon />;
       break;
     default:
       result = <ErrorOutlineOutlinedIcon />;

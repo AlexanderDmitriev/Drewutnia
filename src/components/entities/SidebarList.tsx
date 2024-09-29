@@ -14,29 +14,14 @@ export const SidebarList = () => {
   return (
     <CustomList>
       <PartyItem
-        partyType="beer"
-        nameParty="Wieczór Piwny"
-        dateParty="27-02-2014"
-      />
-      <PartyItem
-        partyType="beer"
-        nameParty="Wesołe godzinki !"
-        dateParty="26-02-2014"
-      />
-      <PartyItem
-        partyType="love"
-        nameParty="Walentynkowa niespodzianka"
-        dateParty="14-02-2014"
-      />
-      <PartyItem
-        partyType="holiday"
-        nameParty="Sylwester"
-        dateParty="01-01-2014"
+        partyType="eating"
+        nameParty="Grille copiątka i soboty"
+        dateParty="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus dolor. Quos cum velit impedit atque dignissimos in deleniti error?"
       />
       <PartyItem
         partyType="music"
-        nameParty="Taneczny piątek"
-        dateParty="18-10-2013"
+        nameParty="Taneczna sobota"
+        dateParty="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus dolor. Quos cum velit impedit atque dignissimos in deleniti error?"
       />
     </CustomList>
   );
