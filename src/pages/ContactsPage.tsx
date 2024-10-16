@@ -4,7 +4,7 @@ import {
   HiddenTitle,
   TextContainer,
 } from '../components/shared';
-import { GoogleMaps } from '../components/widgets';
+import { GoogleMaps,LeafletMaps } from '../components/widgets';
 import front from '../images/front.jpg';
 
 const ContactsPage = () => {
@@ -24,6 +24,7 @@ const ContactsPage = () => {
       </TextContainer>
       <Picture src={front} alt="" />
       <GoogleMaps />
+      <LeafletMaps/>
     </section>
   );
 };

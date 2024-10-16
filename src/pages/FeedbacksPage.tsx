@@ -2,6 +2,7 @@ import styled from '@emotion/styled';
 import { feedbacks } from '../components/testData/feedbacks';
 import {FeedbackItem} from '../components/shared/FeedbackItem';
 import {HiddenTitle} from '../components/shared';
+//import { GoogleMapsReviews } from '../components/widgets/GoogleMaps/GoogleMapsReviewsApi';
 
 const Item = styled.ul`
   display: block;
@@ -27,6 +28,7 @@ const FeedbacksPage = () => {
       ))}
       {/* <FeedbackItem loading /> */}
     </Item>
+    {/* <GoogleMapsReviews/> */}
     </section>
     
   );
