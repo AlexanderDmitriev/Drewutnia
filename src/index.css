@@ -63,3 +63,8 @@ button:hover {
 a {
   text-decoration: none;
 }
+.leaflet-container{
+  margin: 10px auto;
+  width: calc(100vw*0.55);
+  height: calc(100vw*0.55);
+}
