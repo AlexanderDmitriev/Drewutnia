@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.36ef0378.css",
-    "main.js": "/Drewutnia/static/js/main.47cffc51.js",
+    "main.js": "/Drewutnia/static/js/main.06c3708a.js",
     "static/js/477.a4d00c11.chunk.js": "/Drewutnia/static/js/477.a4d00c11.chunk.js",
-    "static/js/543.4f81f87e.chunk.js": "/Drewutnia/static/js/543.4f81f87e.chunk.js",
+    "static/js/543.04b60ba7.chunk.js": "/Drewutnia/static/js/543.04b60ba7.chunk.js",
     "static/js/81.df46af41.chunk.js": "/Drewutnia/static/js/81.df46af41.chunk.js",
-    "static/js/784.bae0ef78.chunk.js": "/Drewutnia/static/js/784.bae0ef78.chunk.js",
-    "static/js/450.7da2d4e3.chunk.js": "/Drewutnia/static/js/450.7da2d4e3.chunk.js",
+    "static/js/784.050c3d56.chunk.js": "/Drewutnia/static/js/784.050c3d56.chunk.js",
+    "static/js/450.5f6179a9.chunk.js": "/Drewutnia/static/js/450.5f6179a9.chunk.js",
     "static/js/526.88621ff9.chunk.js": "/Drewutnia/static/js/526.88621ff9.chunk.js",
     "static/js/176.c3ce7d5b.chunk.js": "/Drewutnia/static/js/176.c3ce7d5b.chunk.js",
     "static/js/621.ee50f59f.chunk.js": "/Drewutnia/static/js/621.ee50f59f.chunk.js",
@@ -80,7 +80,6 @@
     "static/media/404.jpg": "/Drewutnia/static/media/404.2b6b49546edad371475a.jpg",
     "static/media/tarczyn.jpg": "/Drewutnia/static/media/tarczyn.1ba53ead99396512acdf.jpg",
     "static/media/IMG_4338.jpg": "/Drewutnia/static/media/IMG_4338.5d7236809dd7d54abe88.jpg",
-    "static/media/reserve2.jpg": "/Drewutnia/static/media/reserve2.aeced47456a3b4b8eb74.jpg",
     "static/media/PICT2552.jpg": "/Drewutnia/static/media/PICT2552.ea3e1b7cd1e862ebb0a4.jpg",
     "static/media/IMG_4322.jpg": "/Drewutnia/static/media/IMG_4322.a0a8f15f97f6f925d24f.jpg",
     "static/media/warkaStrong.jpg": "/Drewutnia/static/media/warkaStrong.d7924116b61b975a3167.jpg",
@@ -95,10 +94,11 @@
     "static/media/PICT1019.jpg": "/Drewutnia/static/media/PICT1019.b6f8a2edaee83f56f40e.jpg",
     "static/media/cappy.jpg": "/Drewutnia/static/media/cappy.5c246d25a11819eb504c.jpg",
     "static/media/felix-orzeszki-ziemne-smazone-i-solone-140-g.jpg": "/Drewutnia/static/media/felix-orzeszki-ziemne-smazone-i-solone-140-g.4d8a28e1d69ed8a2fd14.jpg",
-    "static/media/reserve1.jpg": "/Drewutnia/static/media/reserve1.931acdf309a90c5434ed.jpg",
     "static/media/desperados.jpg": "/Drewutnia/static/media/desperados.5080e5677b9734796fc2.jpg",
+    "static/media/rezerwacje2.jpg": "/Drewutnia/static/media/rezerwacje2.876163bb28556b2bab6a.jpg",
     "static/media/heineken.png": "/Drewutnia/static/media/heineken.d2ef815c036d2803e0cc.png",
     "static/media/Holba.jpg": "/Drewutnia/static/media/Holba.a43dedd7adabe638e140.jpg",
+    "static/media/rezerwacje.jpg": "/Drewutnia/static/media/rezerwacje.70c1a84879ab98f6ecdb.jpg",
     "static/media/kozel.png": "/Drewutnia/static/media/kozel.c19ccf3dd994d5fa2567.png",
     "static/media/instagram2.svg": "/Drewutnia/static/media/instagram2.c3b3979eb694c5fc907c8d2031df8212.svg",
     "index.html": "/Drewutnia/index.html",
@@ -106,12 +106,12 @@
     "static/media/getFetch.cjs": "/Drewutnia/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.36ef0378.css.map": "/Drewutnia/static/css/main.36ef0378.css.map",
-    "main.47cffc51.js.map": "/Drewutnia/static/js/main.47cffc51.js.map",
+    "main.06c3708a.js.map": "/Drewutnia/static/js/main.06c3708a.js.map",
     "477.a4d00c11.chunk.js.map": "/Drewutnia/static/js/477.a4d00c11.chunk.js.map",
-    "543.4f81f87e.chunk.js.map": "/Drewutnia/static/js/543.4f81f87e.chunk.js.map",
+    "543.04b60ba7.chunk.js.map": "/Drewutnia/static/js/543.04b60ba7.chunk.js.map",
     "81.df46af41.chunk.js.map": "/Drewutnia/static/js/81.df46af41.chunk.js.map",
-    "784.bae0ef78.chunk.js.map": "/Drewutnia/static/js/784.bae0ef78.chunk.js.map",
-    "450.7da2d4e3.chunk.js.map": "/Drewutnia/static/js/450.7da2d4e3.chunk.js.map",
+    "784.050c3d56.chunk.js.map": "/Drewutnia/static/js/784.050c3d56.chunk.js.map",
+    "450.5f6179a9.chunk.js.map": "/Drewutnia/static/js/450.5f6179a9.chunk.js.map",
     "526.88621ff9.chunk.js.map": "/Drewutnia/static/js/526.88621ff9.chunk.js.map",
     "176.c3ce7d5b.chunk.js.map": "/Drewutnia/static/js/176.c3ce7d5b.chunk.js.map",
     "621.ee50f59f.chunk.js.map": "/Drewutnia/static/js/621.ee50f59f.chunk.js.map",
@@ -119,6 +119,6 @@
   },
   "entrypoints": [
     "static/css/main.36ef0378.css",
-    "static/js/main.47cffc51.js"
+    "static/js/main.06c3708a.js"
   ]
 }
