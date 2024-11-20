@@ -5,8 +5,14 @@ import styled from '@emotion/styled';
 import { IGalleryType } from '../Interfaces/IGalleryType';
 import { LabelSmall } from './LabelSmall';
 
-const maxWidth = `${document.documentElement.scrollWidth * 0.25}px`;
-const maxHeight = `${document.documentElement.scrollWidth * 0.25 * 0.75}px`;
+const displayWidth = document.documentElement.scrollWidth;
+
+const maxWidth =
+  displayWidth > 680 ? `${displayWidth * 0.25}px` : `${displayWidth * 0.5}px`;
+const maxHeight =
+  displayWidth > 680
+    ? `${displayWidth * 0.25 * 0.75}px`
+    : `${displayWidth * 0.45 * 0.75}px`;
 
 const Folder = styled(Paper)`
   background-color: #f0e7e7;
@@ -33,7 +39,8 @@ const Description = styled.div`
   text-align: center;
 `;
 
-const pictureHeight = document.documentElement.scrollWidth * 0.3 * 0.5;
+const pictureHeight =
+  displayWidth > 680 ? displayWidth * 0.3 * 0.5 : displayWidth * 0.6 * 0.5;
 
 export const GalleryFolder = ({ title, message, gallery }: IGalleryType) => {
   return (
@@ -43,11 +50,13 @@ export const GalleryFolder = ({ title, message, gallery }: IGalleryType) => {
           <Picture
             src={gallery[0]}
             alt={title}
-            width={document.documentElement.scrollWidth * 0.5}
+            width={
+              displayWidth > 680 ? displayWidth * 0.5 : displayWidth * 0.75
+            }
             height={pictureHeight}
           />
         </Grid>
-        <Description >
+        <Description>
           <LabelSmall>{title}</LabelSmall>
           {/* <Typography noWrap>{message}</Typography> */}
         </Description>

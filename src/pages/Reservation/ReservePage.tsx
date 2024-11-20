@@ -1,6 +1,8 @@
 import { LabelSmall, LabelLarge, TextContainer } from '../../components/shared';
-import reserve1 from '../../images/reserve1.jpg';
-import reserve2 from '../../images/reserve2.jpg';
+//import reserve1 from '../../images/reserve1.jpg';
+//import reserve2 from '../../images/reserve2.jpg';
+import reserve1 from '../../images/rezerwacje2.jpg';
+import reserve2 from '../../images/rezerwacje.jpg';
 import { FlexContainer, Images } from './ReservePage.styled';
 
 const ReservePage = () => {

@@ -198,6 +198,6 @@ export const napoje = [
         name: 'Kawa parzona',
         about:
           'Najpopularniejszy używek z wyjątkowym aromatem oraz smakiem. Również jest źródłem kofeiny dla człowieka. Kawa posiada właściwości pobudzające i orzeźwiające, poprawiając koncentrację. ',
-        price: 'zł',
+        price: '10zł (12 zł z mlekiem)',
       },
   ];

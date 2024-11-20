@@ -3,9 +3,9 @@ import styled from '@emotion/styled';
 const TempContainer = styled.div`
   width: 100%;
   margin: 0 auto;
-  min-height: 90vh;
-  padding: 15px 0;
+  padding: 0 15px;
   margin-top: 75px;
+  min-height: 90vh;
   //margin-left: 10px;
   /* position: relative;
   top: 180px; */

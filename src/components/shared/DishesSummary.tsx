@@ -16,7 +16,7 @@ const MenuList = styled(Accordion)`
     margin-top: 210px;
   }
   @media screen and (min-width: 1400px) {
-    margin-top: 260px;
+    margin-top: 235px;
   }
 `;
 

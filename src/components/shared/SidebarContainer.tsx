@@ -5,6 +5,7 @@ export const SidebarContainer = styled.aside`
   width: 30%;
   //height: 100vh;
   margin-top: 160px;
+  margin-bottom: 15px;
   background-image: url(${sidebarBackground});
   background-color: #f0e7e7;
   background-size: contain;

@@ -5,7 +5,7 @@ import { IGalleryType } from '../Interfaces/IGalleryType';
 import { LabelSmall } from './LabelSmall';
 
 const maxWidth = `${document.documentElement.scrollWidth * 0.2}px`;
-const maxHeight = `${document.documentElement.scrollWidth * 0.3 * 0.75}px`;
+const maxHeight = `${document.documentElement.scrollWidth * 0.25 * 0.75}px`;
 
 const Folder = styled(Paper)`
   background-color: #f0e7e7;
