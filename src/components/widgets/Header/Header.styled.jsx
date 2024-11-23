@@ -26,7 +26,8 @@ export const ContactsSection = styled.span`
   display: block;
 `;
 
-export const Adress = styled.address`
+export const Adress = styled.a`
+cursor: pointer;
   font-family: 'Arial', sans-serif;
   display: none;
   text-align: center;

@@ -24,7 +24,7 @@ const Header = () => {
         <div>
           <Logo />
           <ContactsSection>
-            <Adress>ul. Władysława Łokietka 43 Kraków</Adress>
+            <Adress href='/Drewutnia/contacts'>ul. Władysława Łokietka 43 Kraków</Adress>
             <HeaderLabel href="tel:+48603956037">(+48) 603-956-037</HeaderLabel>
           </ContactsSection>
           <div>

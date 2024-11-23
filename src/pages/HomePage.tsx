@@ -2,7 +2,7 @@ import { LabelLarge, HiddenTitle, TextContainer } from '../components/shared';
 import { Gallery } from '../components/entities';
 import { homeImagesArray } from '../images/homePageImages/home';
 
- const HomePage = () => {
+const HomePage = () => {
   return (
     <section>
       <HiddenTitle>Home</HiddenTitle>
@@ -26,15 +26,17 @@ import { homeImagesArray } from '../images/homePageImages/home';
           w chłodniejsze dni.
         </LabelLarge>
         <LabelLarge>
-          Słyniemy ze znakomitej kuchni – sprawdź nasze specjały.
+          Pub Drewutnia to miejsce z wielką historią (pub istnieć od 30 lat),
+          które pamięta szalone lata 90., wesołe czasy kibiców Cracovii i Wisły.
+          U nas na pewno znajdziesz coś ciekawego dla siebie. Drewutnia to część
+          wsi w sercu Krakowa.
         </LabelLarge>
         <LabelLarge>
-          Ponadto oferujemy piłkarzyki oraz darta. Przed lokalem znajduje się
-          duży bezpłatny parking do dyspozycji dla naszych Gości. Każdego dnia
+          Ponadto oferujemy piłkarzyki. Przed lokalem znajduje się duży
+          bezpłatny parking do dyspozycji dla naszych Gości. Każdego dnia
           czekają na Ciebie ciekawe promocje! U nas na pewno znajdziesz coś dla
           siebie. Zapoznaj się także z naszą ofertą rezerwacji lokalu.
         </LabelLarge>
-        <LabelLarge>Pub istnieć od 30 lat.</LabelLarge>
         <LabelLarge>Zapraszamy codziennie od 15:00 do 23:00.</LabelLarge>
       </TextContainer>
     </section>

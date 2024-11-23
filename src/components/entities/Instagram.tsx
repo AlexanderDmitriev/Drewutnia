@@ -9,7 +9,7 @@ const Link = styled(SocialsLink)`
 export const Instagram = () => {
   return (
     <a
-      href="https://www.instagram.com/explore/locations/747190841/pub-drewutnia/"
+      href="https://www.instagram.com/pub_drewutnia_krakow/#"
       target="_blank"
       rel="noreferrer noopener"
     >
