@@ -3,11 +3,66 @@ import { v4 as uuidv4 } from 'uuid';
 export const feedbacks = [
   {
     id: uuidv4(),
-    name: 'Małgorzata Folwarska',
-    date: 'maja 2024',
+    name: 'Kazimierz Borzędowski',
+    date: 'listopada 2024',
     about:
-      'Najlepsze miejsce na świecie. Nie no serio - właściciel - Pan Marek jest super cool, muzyka jest najlepsza, a piwko schłodzone 😂 Klimat 10 na 10, obsługa klienta 10 na 10 😎❤️',
+      'Przejeżdżałem tu wiele razy, ale w końcu zdecydowałem się odwiedzić i nie żałuję, chyba że tego, że nie zrobiłem tego wcześniej.',
     rating: 5,
+  },
+  {
+    id: uuidv4(),
+    name: 'JareksonCZ',
+    date: 'listopada 2024',
+    about:
+      'Obsluha milá, ale za jedno pivo (kozel) si vzala 15 PLN , přitom měl stát pouze 7 PLN, takže si dávejte pozor.',
+    rating: 1,
+  },
+  {
+    id: uuidv4(),
+    name: 'Oleksii Zh',
+    date: 'października 2024',
+    about:
+      'Great concept of an open grill in the garden where you can fry sausages on a burning. Super friendly bartender with a great taste for music. Good beer selection. Been there only once, but definitely would be back.',
+    rating: 5,
+  },
+  {
+    id: uuidv4(),
+    name: 'Łukasz Sarota',
+    date: 'października 2024',
+    about:
+      'Rewelacyjne miejsce na weekendowy odpoczynek, odreagowanie, świetny klimat i atmosfera. Polecam, bywałem wielokrotnie.',
+    rating: 5,
+  },
+  {
+    id: uuidv4(),
+    name: 'Szczurzyna',
+    date: 'wrzesień 2024',
+    about:
+      'Nie rozumiem pretensji o panią za barem, bardzo miła , można pożartować. Ceny w miarę ok. Fajna muzyka.',
+    rating: 5,
+  },
+  {
+    id: uuidv4(),
+    name: 'Adam Grabiec',
+    date: 'lipca 2024',
+    about:
+      'Wspaniały Pub z rusztem samoobsługowym, przyjazny psom. Na długo zapamiętam miłą atmosferę. Dziękuję!!!',
+    rating: 5,
+  },
+  {
+    id: uuidv4(),
+    name: 'Kasia Z',
+    date: 'lipca 2024',
+    about:
+      'Wszystko by było super gdyby nie opryskliwa, arogancka, pretensjonalna i wiecznie obrażona Pani za barem...',
+    rating: 4,
+  },
+  {
+    id: uuidv4(),
+    name: 'Ryszard Wadyrio',
+    date: 'maja 2024',
+    about: 'Pub jako taki funkcjonuje',
+    rating: 3,
   },
   {
     id: uuidv4(),

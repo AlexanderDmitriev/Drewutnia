@@ -15,8 +15,8 @@ export const SidebarList = () => {
     <CustomList>
       <PartyItem
         partyType="eating"
-        nameParty="Grille copiątka i soboty"
-        dateParty="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus dolor. Quos cum velit impedit atque dignissimos in deleniti error?"
+        nameParty="Grille w każdy piątek i sobotę"
+        dateParty="Jeśli szukasz miejsca w Krakowie, gdzie można zrobić grilla, to dobrze trafiłeś. W każdy piątek i sobotę zapraszamy na pyszne kiełbaski przygotowywane na ognisku na waszych oczach. Idealnie pasują do piwa! Dodatkowo zawsze można tu spędzić wieczór w przyjemnym towarzystwie."
       />
       <PartyItem
         partyType="music"
