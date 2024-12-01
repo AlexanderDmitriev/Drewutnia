@@ -1,4 +1,4 @@
-/* import dish from '../../images/dish.png'; */
+import dish from '../../images/dish.png';
 import burn from '../../images/menu/napoje/BURN_ENERGY_DRINK-logo-6A5EB18610-seeklogo.com.png';
 import cappy from '../../images/menu/napoje/cappy.jpg';
 import caJack from '../../images/menu/napoje/captain-jack.png';
@@ -19,8 +19,8 @@ import warka from '../../images/menu/napoje/warkaStrong.jpg';
 import zywiec from '../../images/menu/napoje/zywiec_nowelogo_655.png';
 import hardmade from '../../images/menu/napoje/hardmade.jpg';
 import kawaFreeze from '../../images/menu/dania/kawaFreeze.jpg';
-import coffee from '../../images/menu/dania/coffee.jpg';
-import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
+//import coffee from '../../images/menu/dania/coffee.jpg';
+//import kawaParzona from '../../images/menu/dania/kawaParzona.jpg';
 import { v4 as uuidv4 } from 'uuid';
 
 export const napoje = [
@@ -186,15 +186,15 @@ export const napoje = [
       },
       {
         id: uuidv4(),
-        image: `${coffee}`,
+        image: `${dish}`,
         name: 'Kawa (late, capucino lub espresso)',
         about:
-          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rutrum tellus nulla, et auctor tortor iaculis et. Nam sed sem nulla. Quisque sit amet ex nec nulla scelerisque commodo. Nulla egestas in tortor ac mattis. Curabitur vel porttitor dui, at rutrum sapien. Suspendisse interdum quam euismod justo bibendum fringilla. ',
+          'Filiżanka pachnącej, świeżej kawy dla prawdziwych miłośników kawy. ',
         price: '10zł',
       },
       {
         id: uuidv4(),
-        image: `${kawaParzona}`,
+        image: `${dish}`,
         name: 'Kawa parzona',
         about:
           'Najpopularniejszy używek z wyjątkowym aromatem oraz smakiem. Również jest źródłem kofeiny dla człowieka. Kawa posiada właściwości pobudzające i orzeźwiające, poprawiając koncentrację. ',

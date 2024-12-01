@@ -21,7 +21,7 @@ export const SidebarList = () => {
       <PartyItem
         partyType="music"
         nameParty="Taneczna sobota"
-        dateParty="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, possimus dolor. Quos cum velit impedit atque dignissimos in deleniti error?"
+        dateParty="U nas nie tylko możesz napić się zimnego piwa, ale także zatańczyć. Tańczymy w każdą sobotę przy najlepszych polskich i światowych hitach."
       />
     </CustomList>
   );

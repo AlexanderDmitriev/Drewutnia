@@ -1,7 +1,7 @@
-//import dish from '../../images/dish.png';
+import dish from '../../images/dish.png';
 import kielbasa from '../../images/menu/dania/kielbasa.jpg';
 import kaszanka from '../../images/menu/dania/kaszanka.jpg'
-import pierogi from '../../images/menu/dania/pierogi.jpg';
+//import pierogi from '../../images/menu/dania/pierogi.jpg';
 import zapiekanka from '../../images/menu/dania/zapiekanka.jpg';
 import sledz from '../../images/menu/dania/Śledz z cebulką.jpg';
 import smalec from '../../images/menu/dania/smalec.jpg';
@@ -36,7 +36,7 @@ import { v4 as uuidv4 } from 'uuid';
     },
     {
       id: uuidv4(),
-      image: `${pierogi}`,
+      image: `${dish}`,
       name: 'Pierogi (mięso, ziemniaki lub kapusta)',
       about:
         'Jedno z najbardziej popularnych polskich dań.Trudno znaleźć kogoś, kto by ich nie lubił. Zrobione z cienkiego, elastycznego i dobrze zlepiającego się ciasta. Oferujemy pierogi z mięsem, ziemniakami lub z kapustą. Przy serwie dodajemy trochę smalca i tajnego składnika dla pyszności i waszej przyjemności.',

@@ -24,13 +24,14 @@ const GalleryList = styled.ul`
   align-items: center;
   position: fixed;
   top: 85px;
+  left: 0;
   width: 100%;
-  padding-left: 10px;
   padding-top: 10px;
   z-index: 1000;
   background-color: #fff;
   @media screen and (min-width: 468px) {
     top: 90px;
+    
   }
   @media screen and (min-width: 768px) {
     width: 66.6%;
@@ -38,6 +39,8 @@ const GalleryList = styled.ul`
   }
   @media screen and (min-width: 1200px) {
     top: 150px;
+    left: 10px;
+    padding-left: 10px;
   }
   @media screen and (min-width: 1400px) {
     top: 135px;
