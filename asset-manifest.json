@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/Drewutnia/static/css/main.36ef0378.css",
-    "main.js": "/Drewutnia/static/js/main.a754d37d.js",
+    "main.js": "/Drewutnia/static/js/main.50c1a506.js",
     "static/js/477.a2a8863b.chunk.js": "/Drewutnia/static/js/477.a2a8863b.chunk.js",
-    "static/js/543.04b60ba7.chunk.js": "/Drewutnia/static/js/543.04b60ba7.chunk.js",
+    "static/js/543.e3b6fb51.chunk.js": "/Drewutnia/static/js/543.e3b6fb51.chunk.js",
     "static/js/81.df46af41.chunk.js": "/Drewutnia/static/js/81.df46af41.chunk.js",
     "static/js/784.050c3d56.chunk.js": "/Drewutnia/static/js/784.050c3d56.chunk.js",
     "static/js/450.5f6179a9.chunk.js": "/Drewutnia/static/js/450.5f6179a9.chunk.js",
@@ -11,13 +11,10 @@
     "static/js/176.c3ce7d5b.chunk.js": "/Drewutnia/static/js/176.c3ce7d5b.chunk.js",
     "static/js/621.71bb3b17.chunk.js": "/Drewutnia/static/js/621.71bb3b17.chunk.js",
     "static/js/720.e557ab39.chunk.js": "/Drewutnia/static/js/720.e557ab39.chunk.js",
-    "static/media/coffee.jpg": "/Drewutnia/static/media/coffee.8a2e0e22f94d077fc185.jpg",
     "static/media/DSCN0089.jpg": "/Drewutnia/static/media/DSCN0089.6055ad2cf3441080fb74.jpg",
     "static/media/background.jpg": "/Drewutnia/static/media/background.1064508e155b35b8a191.jpg",
     "static/media/DSCN0140.jpg": "/Drewutnia/static/media/DSCN0140.c565a03e608991012fce.jpg",
-    "static/media/kawaParzona.jpg": "/Drewutnia/static/media/kawaParzona.664ca9b83ccbd3122aef.jpg",
     "static/media/PICT0435.jpg": "/Drewutnia/static/media/PICT0435.0a9103bfaa20970849d4.jpg",
-    "static/media/pierogi.jpg": "/Drewutnia/static/media/pierogi.f311582b8542dfb27e4c.jpg",
     "static/media/336658058_773366264436668__n.jpg": "/Drewutnia/static/media/336658058_773366264436668_6009059773660962482_n.02a3b4f280f86e1b8b23.jpg",
     "static/media/354594962_753309316493913__n.jpg": "/Drewutnia/static/media/354594962_753309316493913_9032373034302796243_n.9f23bf69158de6803259.jpg",
     "static/media/336485365___n.jpg": "/Drewutnia/static/media/336485365_1207824093187586_2439858067704043689_n.e984e54df26b31e4ab04.jpg",
@@ -97,6 +94,7 @@
     "static/media/desperados.jpg": "/Drewutnia/static/media/desperados.5080e5677b9734796fc2.jpg",
     "static/media/rezerwacje2.jpg": "/Drewutnia/static/media/rezerwacje2.876163bb28556b2bab6a.jpg",
     "static/media/heineken.png": "/Drewutnia/static/media/heineken.d2ef815c036d2803e0cc.png",
+    "static/media/dish.png": "/Drewutnia/static/media/dish.27e671dfaa3ad80f7966.png",
     "static/media/Holba.jpg": "/Drewutnia/static/media/Holba.a43dedd7adabe638e140.jpg",
     "static/media/rezerwacje.jpg": "/Drewutnia/static/media/rezerwacje.70c1a84879ab98f6ecdb.jpg",
     "static/media/kozel.png": "/Drewutnia/static/media/kozel.c19ccf3dd994d5fa2567.png",
@@ -106,9 +104,9 @@
     "static/media/getFetch.cjs": "/Drewutnia/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
     "static/media/facebook2.svg": "/Drewutnia/static/media/facebook2.9f0f27d7a1cb2e8184d0b6b6c7b9b68e.svg",
     "main.36ef0378.css.map": "/Drewutnia/static/css/main.36ef0378.css.map",
-    "main.a754d37d.js.map": "/Drewutnia/static/js/main.a754d37d.js.map",
+    "main.50c1a506.js.map": "/Drewutnia/static/js/main.50c1a506.js.map",
     "477.a2a8863b.chunk.js.map": "/Drewutnia/static/js/477.a2a8863b.chunk.js.map",
-    "543.04b60ba7.chunk.js.map": "/Drewutnia/static/js/543.04b60ba7.chunk.js.map",
+    "543.e3b6fb51.chunk.js.map": "/Drewutnia/static/js/543.e3b6fb51.chunk.js.map",
     "81.df46af41.chunk.js.map": "/Drewutnia/static/js/81.df46af41.chunk.js.map",
     "784.050c3d56.chunk.js.map": "/Drewutnia/static/js/784.050c3d56.chunk.js.map",
     "450.5f6179a9.chunk.js.map": "/Drewutnia/static/js/450.5f6179a9.chunk.js.map",
@@ -119,6 +117,6 @@
   },
   "entrypoints": [
     "static/css/main.36ef0378.css",
-    "static/js/main.a754d37d.js"
+    "static/js/main.50c1a506.js"
   ]
 }
