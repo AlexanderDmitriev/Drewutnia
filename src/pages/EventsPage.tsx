@@ -1,4 +1,6 @@
 import { LabelSmall, HiddenTitle, TextContainer } from '../components/shared';
+import { Event } from '../components/entities';
+import { events } from '../components/testData/events';
 
 const EventsPage = () => {
   return (
@@ -24,6 +26,17 @@ const EventsPage = () => {
           </a>{' '}
           aby być zawsze na bieżąco.
         </LabelSmall>
+        <ul>
+          {events.map(event => (
+            <Event
+              key={event.id}
+              image={event.image}
+              name={event.name}
+              date={event.date}
+              about={event.about}
+            />
+          ))}
+        </ul>
       </TextContainer>
     </section>
   );
