@@ -4,4 +4,4 @@ export {Navigation} from './NavigationSection';
 export {Instagram} from './Instagram';
 export {Facebook} from './Facebook';
 export {SidebarList} from './SidebarList';
-export {Event} from './Event';
+export {Event} from './Event/Event';
